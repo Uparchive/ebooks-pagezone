@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eBooks Pagezoon</title>
+    <link rel="stylesheet" href="matrixstyle.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Menu de Navegação -->
+    <nav class="main-nav">
+        <ul class="nav-list">
+            <li><a href="#new-books" class="nav-link">Novos Livros</a></li>
+            <li><a href="#library" class="nav-link">Minha Biblioteca</a></li>
+            <li><a href="#contact" class="nav-link">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header com o nome do site -->
+    <header class="site-header">
+        <h1 class="site-title">eBooks Pagezoon</h1>
+        <p class="site-subtitle">Explore, leia e inspire-se</p>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Pesquise por obras..." aria-label="Pesquise por obras">
+            <button class="search-btn" onclick="searchBooks()">🔍</button>
+        </div>
+    </header>
+
+    <!-- Seção Novos Livros -->
+    <section id="new-books" class="library-container">
+        <h2 class="library-title">Novos Livros</h2>
+        <p class="library-subtitle">Confira as últimas obras adicionadas</p>
+        <div class="library-grid">
+            <!-- Novo Livro 1 -->
+            <div class="book" data-book-id="novo-livro-1">
+                <a href="https://uparchive.github.io/365-dias-diversos/" target="_blank">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/armazene-acd30.appspot.com/o/uploads%2Fz0wQUWxFhKRBeMLIHIjOHd1dpHn2%2F365%20Dias%20Diversos.png?alt=media&token=a00968f4-7285-479f-a202-0e4928f0e835" 
+                    alt="Capa do Livro 365 Dias Diversos" class="book-cover">
+                    <h2 class="book-title">365 Dias Diversos</h2>
+                    <p class="book-description">Uma jornada diversa e reflexiva, explorando temas do dia a dia.</p>
+                </a>
+                <a href="https://uparchive.github.io/365-dias-diversos/" target="_blank">
+                    <button class="action-btn">Saiba Mais</button>
+                </a>
+            </div>
+            <!-- Novo Livro 2 -->
+            <div class="book" data-book-id="novo-livro-2">
+                <a href="https://uparchive.github.io/diariodeomega/" target="_blank">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/armazene-acd30.appspot.com/o/uploads%2Fz0wQUWxFhKRBeMLIHIjOHd1dpHn2%2FDi%C3%A1rio%20de%20%C3%94mega%20Poster.png?alt=media&token=8842addd-70c2-4720-8deb-4d2131ec916a" 
+                    alt="Capa do Livro Diário de Ômega" class="book-cover">
+                    <h2 class="book-title">Diário de Ômega</h2>
+                    <p class="book-description">Reflexões de fé e espiritualidade sobre o tempo presente e os sinais do futuro.</p>
+                </a>
+                <a href="https://uparchive.github.io/diariodeomega/" target="_blank">
+                    <button class="action-btn">Saiba Mais</button>
+                </a>
+            </div>
+            <!-- Novo Livro 3 -->
+            <div class="book" data-book-id="novo-livro-3">
+                <a href="https://uparchive.github.io/echoes-of-eternity/" target="_blank">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/armazene-acd30.appspot.com/o/uploads%2Fz0wQUWxFhKRBeMLIHIjOHd1dpHn2%2FDALL%C2%B7E%202024-11-14%2021.26.36%20-%20A%20captivating%20book%20cover%20designed%20as%20a%20mobile%20phone%20wallpaper.%20The%20scene%20depicts%20a%20futuristic%20city%20skyline%20at%20dusk%2C%20bathed%20in%20hues%20of%20gold%20and%20purple.webp?alt=media&token=da46f09c-af57-4374-90b9-222705e6b8e9" 
+                    alt="Capa do Livro Echoes of Eternity" class="book-cover">
+                    <h2 class="book-title">Echoes Of Eternity</h2>
+                    <p class="book-description">Uma odisseia pelo tempo, equilibrando escolhas e sacrifícios no fluxo da eternidade.</p>
+                </a>
+                <a href="https://uparchive.github.io/echoes-of-eternity/" target="_blank">
+                    <button class="action-btn">Saiba Mais</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Minha Biblioteca -->
+    <section id="library" class="library-container">
+        <h2 class="library-title">Minha Biblioteca</h2>
+        <p class="library-subtitle">Explore sua coleção pessoal de livros</p>
+        <div class="library-grid">
+            <!-- Livro 1 -->
+            <div class="book" data-book-id="livro-1">
+                <a href="https://uparchive.github.io/365-dias-diversos/" target="_blank">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/armazene-acd30.appspot.com/o/uploads%2Fz0wQUWxFhKRBeMLIHIjOHd1dpHn2%2F365%20Dias%20Diversos.png?alt=media&token=a00968f4-7285-479f-a202-0e4928f0e835" 
+                    alt="Capa do Livro 365 Dias Diversos" class="book-cover">
+                    <h2 class="book-title">365 Dias Diversos</h2>
+                    <p class="book-description">Uma jornada diversa e reflexiva, explorando temas do dia a dia.</p>
+                </a>
+                <a href="https://uparchive.github.io/365-dias-diversos/" target="_blank">
+                    <button class="action-btn">Ler Agora</button>
+                </a>
+            </div>
+            <!-- Livro 2 -->
+            <div class="book" data-book-id="livro-2">
+                <a href="https://uparchive.github.io/diariodeomega/" target="_blank">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/armazene-acd30.appspot.com/o/uploads%2Fz0wQUWxFhKRBeMLIHIjOHd1dpHn2%2FDi%C3%A1rio%20de%20%C3%94mega%20Poster.png?alt=media&token=8842addd-70c2-4720-8deb-4d2131ec916a" 
+                    alt="Capa do Livro Diário de Ômega" class="book-cover">
+                    <h2 class="book-title">Diário de Ômega</h2>
+                    <p class="book-description">Reflexões de fé e espiritualidade sobre o tempo presente e os sinais do futuro.</p>
+                </a>
+                <a href="https://uparchive.github.io/diariodeomega/" target="_blank">
+                    <button class="action-btn">Ler Agora</button>
+                </a>
+            </div>
+            <!-- Livro 3 -->
+            <div class="book" data-book-id="livro-3">
+                <a href="https://uparchive.github.io/echoes-of-eternity/" target="_blank">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/armazene-acd30.appspot.com/o/uploads%2Fz0wQUWxFhKRBeMLIHIjOHd1dpHn2%2FDALL%C2%B7E%202024-11-14%2021.26.36%20-%20A%20captivating%20book%20cover%20designed%20as%20a%20mobile%20phone%20wallpaper.%20The%20scene%20depicts%20a%20futuristic%20city%20skyline%20at%20dusk%2C%20bathed%20in%20hues%20of%20gold%20and%20purple.webp?alt=media&token=da46f09c-af57-4374-90b9-222705e6b8e9" 
+                    alt="Capa do Livro Echoes of Eternity" class="book-cover">
+                    <h2 class="book-title">Echoes Of Eternity</h2>
+                    <p class="book-description">Uma odisseia pelo tempo, equilibrando escolhas e sacrifícios no fluxo da eternidade.</p>
+                </a>
+                <a href="https://uparchive.github.io/echoes-of-eternity/" target="_blank">
+                    <button class="action-btn">Ler Agora</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer id="contact" class="site-footer">
+        <p>Conecte-se conosco:</p>
+        <ul class="social-links">
+            <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+            <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+            <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+            <li><a href="mailto:contato@ebooks.com">E-mail</a></li>
+        </ul>
+        <p>© 2024 eBooks Page. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
