@@ -280,19 +280,31 @@ button {
 /* ------------------------------
    Media Queries para responsividade
 ------------------------------ */
-@media (max-width: 1024px) {
-    .book {
-        width: 280px;
-    }
-}
-
 @media (max-width: 768px) {
+    .nav-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 1em;
+    }
+
     .book {
         width: 260px;
     }
 }
 
 @media (max-width: 480px) {
+    .nav-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 0.5em;
+    }
+
+    .nav-link {
+        font-size: 0.9em;
+    }
+
     .book {
         width: 240px;
     }
