@@ -127,10 +127,9 @@ button {
 }
 
 /* Barra de busca estilizada */
-.search-bar {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 2em;
+.search-bar input[type="text"]:focus {
+    border-color: #ff7e5f;
+    box-shadow: 0 0 10px rgba(255, 126, 95, 0.5);
 }
 
 .search-bar input[type="text"] {
@@ -341,4 +340,243 @@ button {
 
 .social-links a:hover {
     color: #ff7e5f;
+}
+.book {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.book-cover {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.book-title-overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 0.5em;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/* Efeito de flutuação */
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.book {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.book:hover {
+    transform: scale(1.05); /* Ampliação ao passar o mouse */
+}
+
+.book-cover {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    animation: float 3s ease-in-out infinite; /* Aplica o efeito de flutuação */
+}
+
+.book-title-overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 0.5em;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.book:hover .book-cover {
+    animation: float 1.5s ease-in-out infinite; /* Torna o flutuar mais rápido no hover */
+    transform: scale(1.05); /* Aumenta ligeiramente o tamanho */
+}
+/* Container do livro */
+.book {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+/* Animação flutuante */
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-8px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.book-cover {
+    width: 100%;
+    display: block;
+    border-radius: 15px;
+    animation: float 3s ease-in-out infinite;
+}
+
+/* Título do livro sobreposto */
+.book-title-overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 0.5em;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+/* Descrição deslizante */
+.book-description-slide {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1));
+    color: #fff;
+    text-align: left;
+    padding: 1em;
+    font-size: 1em;
+    line-height: 1.5;
+    border-radius: 0 0 15px 15px;
+    transition: bottom 0.4s ease;
+    z-index: 2;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    max-height: 200px; /* Limita a altura em dispositivos móveis */
+    box-sizing: border-box;
+}
+
+/* Mostrar descrição no hover */
+.book:hover .book-description-slide,
+.book:focus-within .book-description-slide {
+    bottom: 0;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .book-description-slide {
+        font-size: 0.9em;
+        padding: 0.8em;
+    }
+
+    .book-title-overlay {
+        font-size: 1em;
+        padding: 0.4em;
+    }
+}
+/* Estilo para a descrição */
+.book-description-hidden {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 1));
+    color: #fff;
+    padding: 1em;
+    font-size: 1em;
+    line-height: 1.5;
+    border-radius: 0 0 15px 15px;
+    transition: bottom 0.4s ease;
+    z-index: 2;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+/* Estilo para "Descrição" e "Gênero" */
+.book-description-hidden strong {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
+    color: #ffdf00; /* Cor de destaque */
+}
+
+.book-description-hidden br {
+    line-height: 2; /* Espaçamento maior entre as linhas */
+}
+/* Ajuste da estilização para exibir a descrição no hover */
+.book {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.book:hover {
+    transform: translateY(-5px);
+}
+
+.book-cover {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.book-title-overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 0.5em;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+/* Descrição oculta inicialmente */
+.book-description-hidden {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 1));
+    color: #fff;
+    padding: 1em;
+    font-size: 0.9em;
+    line-height: 1.4;
+    border-radius: 0 0 10px 10px;
+    transition: bottom 0.4s ease;
+    z-index: 2;
+}
+
+/* Mostrar descrição ao passar o mouse */
+.book:hover .book-description-hidden {
+    bottom: 0;
 }
