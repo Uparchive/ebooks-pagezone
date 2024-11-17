@@ -580,3 +580,103 @@ button {
 .book:hover .book-description-hidden {
     bottom: 0;
 }
+/* Grid da biblioteca */
+.library-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas para PC */
+    gap: 2em;
+    padding-bottom: 1em;
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+    .library-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 colunas para celular */
+    }
+}
+
+/* Estilos para o livro */
+.book {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0; /* Remove bordas arredondadas */
+    transition: transform 0.3s ease;
+    background: none; /* Remove o fundo branco */
+    box-shadow: none; /* Remove a sombra */
+    width: 100%;
+}
+
+.book:hover {
+    transform: translateY(-5px);
+}
+
+/* Ajustar a imagem para mostrar todo o conteúdo */
+.book-cover {
+    width: 100%;
+    height: 400px; /* Altura consistente para todas as imagens */
+    object-fit: contain; /* Mostra toda a imagem dentro do contêiner */
+    display: block;
+    background-color: #f0f0f0; /* Cor de fundo para espaços vazios */
+}
+
+/* Título sobreposto */
+.book-title-overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 0.5em;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+/* Descrição oculta inicialmente */
+.book-description-hidden {
+    position: absolute;
+    bottom: -100%; /* Esconde a descrição */
+    left: 0;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 1));
+    color: #fff;
+    padding: 1em;
+    font-size: 1em;
+    line-height: 1.5;
+    border-radius: 0; /* Ajuste conforme preferir */
+    transition: bottom 0.4s ease;
+    z-index: 2;
+    box-sizing: border-box;
+}
+
+/* Mostrar descrição ao passar o mouse */
+.book:hover .book-description-hidden {
+    bottom: 0;
+}
+
+/* Estilo para "Descrição" e "Gênero" */
+.book-description-hidden strong {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
+    color: #ffdf00; /* Cor de destaque */
+}
+
+.book-description-hidden br {
+    line-height: 2; /* Espaçamento entre linhas */
+}
+
+/* Responsividade para texto */
+@media (max-width: 768px) {
+    .book-description-hidden {
+        font-size: 0.9em;
+        padding: 0.8em;
+    }
+
+    .book-title-overlay {
+        font-size: 1em;
+        padding: 0.4em;
+    }
+}
