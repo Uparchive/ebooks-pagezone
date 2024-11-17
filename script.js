@@ -54,36 +54,6 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
-    // Lógica para dispositivos móveis: clique para mostrar descrição
-    books.forEach((book) => {
-        const link = book.querySelector("a");
-        const description = book.querySelector(".book-description-hidden");
-
-        if (link && description) {
-            link.addEventListener("click", function (event) {
-                if (window.innerWidth <= 768) {
-                    const clicked = link.getAttribute("data-clicked") === "true";
-
-                    if (!clicked) {
-                        event.preventDefault(); // Impede o redirecionamento no primeiro clique
-                        description.style.bottom = "0";
-                        link.setAttribute("data-clicked", "true");
-                    } else {
-                        link.setAttribute("data-clicked", "false");
-                    }
-                }
-            });
-
-            // Fechar descrição ao clicar fora (somente em dispositivos móveis)
-            document.addEventListener("click", function (event) {
-                if (!book.contains(event.target) && window.innerWidth <= 768) {
-                    description.style.bottom = "-100%";
-                    link.setAttribute("data-clicked", "false");
-                }
-            });
-        }
-    });
-
     // Restabelecer o último livro visitado ao recarregar a página
     const lastVisitedBookId = localStorage.getItem("lastVisitedBook");
     if (lastVisitedBookId) {
