@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>eBooks Pagezone</title>
     <link rel="stylesheet" href="matrixstyle.css">
-    <script src="script.js" defer></script>
 </head>
 <body>
     <!-- Menu de Navegação -->
@@ -23,7 +22,9 @@
         <p class="site-subtitle">Explore, leia e inspire-se</p>
         <div class="search-bar">
             <input type="text" id="search-input" placeholder="Pesquise por título ou gênero..." aria-label="Pesquise por título ou gênero">
-            <button class="search-btn" onclick="searchBooks()">🔍</button>
+            <div class="search-icon">
+                📚 🔍
+            </div>
         </div>
     </header>
 
@@ -32,7 +33,6 @@
         <h2 class="library-title">Novos Livros</h2>
         <p class="library-subtitle">Confira as últimas obras adicionadas</p>
         <div class="library-grid">
-
             <!-- Livro Twilight Shadows -->
             <div class="book" data-title="Twilight Shadows" data-genre="Fantasia, Romance">
                 <a href="https://uparchive.github.io/Twilight-Shadows/" target="_blank">
@@ -42,7 +42,7 @@
                     <div class="book-description-hidden">
                         <strong>Descrição:</strong>
                         <p>Nesta aventura épica, você encontrará coragem, sacrifício, amor e a descoberta de que, mesmo nas sombras mais profundas, 
-            uma faísca de luz pode transformar tudo.</p>
+                        uma faísca de luz pode transformar tudo.</p>
                         <strong>Gênero:</strong>
                         <p>Épico, Aventura, Fantasia, Romance.</p>
                     </div>
@@ -96,12 +96,11 @@
         </div>
     </section>
 
-                <!-- Seção Biblioteca -->
-    <section id="Biblioteca" class="library-container">
+    <!-- Seção Biblioteca -->
+    <section id="library" class="library-container">
         <h2 class="library-title">Biblioteca</h2>
         <p class="library-subtitle">Explore um universo ilimitado</p>
         <div id="library-grid" class="library-grid">
-
             <!-- Livro Twilight Shadows -->
             <div class="book" data-title="Twilight Shadows" data-genre="Fantasia, Romance">
                 <a href="https://uparchive.github.io/Twilight-Shadows/" target="_blank">
@@ -111,7 +110,7 @@
                     <div class="book-description-hidden">
                         <strong>Descrição:</strong>
                         <p>Nesta aventura épica, você encontrará coragem, sacrifício, amor e a descoberta de que, mesmo nas sombras mais profundas, 
-            uma faísca de luz pode transformar tudo.</p>
+                        uma faísca de luz pode transformar tudo.</p>
                         <strong>Gênero:</strong>
                         <p>Épico, Aventura, Fantasia, Romance.</p>
                     </div>
@@ -162,9 +161,6 @@
                     </div>
                 </a>
             </div>
-        
-
-            <!-- Repita os outros livros conforme necessário -->
         </div>
     </section>
 
@@ -179,5 +175,10 @@
         </ul>
         <p>© 2024 eBooks Pagezone. Todos os direitos reservados.</p>
     </footer>
+
+    <!-- Botão Voltar ao Topo -->
+    <button id="back-to-top" title="Voltar ao topo" style="position: fixed; bottom: 20px; right: 20px; display: none; z-index: 1000;">⬆️</button>
+
+    <script src="script.js"></script>
 </body>
 </html>
