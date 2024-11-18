@@ -34,7 +34,7 @@
         <p class="library-subtitle">Confira as 4 últimas obras adicionadas!</p>
         <div id="library-grid" class="library-grid">
             <!-- Livro O Guardião da Promessa -->
-            <div class="book" data-title="O Guardião da Promessa" data-genre="Ficção Científica">
+            <div class="book" data-title="O Guardião da Promessa" data-genre="Ficção Cristã, Fantasia, Aventura, Alegoria Espiritual, Drama">
                 <a href="https://uparchive.github.io/o-guardiao-da-promessa/" target="_blank">
                     <img src="https://firebasestorage.googleapis.com/v0/b/armazene-acd30.appspot.com/o/uploads%2Fz0wQUWxFhKRBeMLIHIjOHd1dpHn2%2FO%20Guardi%C3%A3o%20Da%20Promessa.png?alt=media&token=ec945e7d-f20e-4542-973d-6801f6234439" 
                     alt="Capa do Livro O Guardião da Promessa" class="book-cover">
@@ -99,13 +99,24 @@
         </div>
     </section>
 
-    <!-- Seção Biblioteca -->
-    <section id="library" class="library-container">
+<!-- Seção Biblioteca -->
+<section id="library" class="library-container">
+    <div class="library-header">
         <h2 class="library-title">Biblioteca</h2>
-        <p class="library-subtitle">Explore um universo ilimitado</p>
+        
+        <!-- Filtro de Gêneros -->
+        <div class="filtro-genero">
+            <label for="genero-dropdown">Filtrar por Gênero:</label>
+            <select id="genero-dropdown" onchange="filtrarLivros()">
+                <option value="">Todos</option>
+            </select>
+        </div>
+    </div>
+
+    <p class="library-subtitle">Explore um universo ilimitado</p>
         <div id="library-grid" class="library-grid">
             <!-- Livro O Guardião da Promessa -->
-            <div class="book" data-title="O Guardião da Promessa" data-genre="Ficção Científica">
+            <div class="book" data-title="O Guardião da Promessa" data-genre="Ficção Cristã, Fantasia, Aventura, Alegoria Espiritual, Drama">
                 <a href="https://uparchive.github.io/o-guardiao-da-promessa/" target="_blank">
                     <img src="https://firebasestorage.googleapis.com/v0/b/armazene-acd30.appspot.com/o/uploads%2Fz0wQUWxFhKRBeMLIHIjOHd1dpHn2%2FO%20Guardi%C3%A3o%20Da%20Promessa.png?alt=media&token=ec945e7d-f20e-4542-973d-6801f6234439" 
                     alt="Capa do Livro O Guardião da Promessa" class="book-cover">
@@ -121,6 +132,7 @@
                     </div>
                 </a>
             </div>
+        
 
             <!-- Livro Twilight Shadows -->
             <div class="book" data-title="Twilight Shadows" data-genre="Fantasia, Romance">

@@ -28,6 +28,56 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
+    // Preenchimento do dropdown de gêneros automaticamente
+    const dropdown = document.getElementById('genero-dropdown');
+    const generosSet = new Set();
+
+    // Verifica se encontrou livros na página
+    if (books.length === 0) {
+        console.warn("Nenhum livro encontrado na biblioteca.");
+    }
+
+    // Coleta todos os gêneros disponíveis nos livros e os adiciona ao Set (para evitar duplicatas)
+    books.forEach((book) => {
+        const generos = book.getAttribute('data-genre');
+
+        if (generos) {
+            generos.split(',').map(g => g.trim().toLowerCase()).forEach((genero) => {
+                generosSet.add(genero);
+            });
+        } else {
+            console.warn(`Livro com título "${book.getAttribute('data-title')}" não possui gêneros definidos.`);
+        }
+    });
+
+    // Preenche o dropdown com os gêneros únicos
+    if (generosSet.size > 0) {
+        generosSet.forEach((genero) => {
+            const option = document.createElement('option');
+            option.value = genero;
+            option.textContent = genero.charAt(0).toUpperCase() + genero.slice(1).replace('-', ' ');
+            dropdown.appendChild(option);
+        });
+    } else {
+        console.warn("Nenhum gênero encontrado nos livros.");
+    }
+
+    // Função de filtragem de livros por gênero
+    function filtrarLivros() {
+        const generoSelecionado = dropdown.value.toLowerCase();
+        books.forEach((book) => {
+            const generos = book.getAttribute("data-genre").toLowerCase();
+            if (generoSelecionado === "" || generos.includes(generoSelecionado)) {
+                book.style.display = "block";
+            } else {
+                book.style.display = "none";
+            }
+        });
+    }
+
+    // Vincular a função de filtragem ao dropdown
+    dropdown.addEventListener("change", filtrarLivros);
+
     // Vincular a função de pesquisa ao evento de input e ao botão
     if (searchInput) {
         searchInput.addEventListener("input", searchBooks);
@@ -102,17 +152,5 @@ document.addEventListener("DOMContentLoaded", function () {
         backToTopButton.addEventListener("mouseleave", function () {
             backToTopButton.style.transform = "scale(1) rotate(0deg)";
         });
-    }
-});
-
-/* Mostrar botão de voltar ao topo ao rolar */
-window.addEventListener('scroll', function() {
-    const backToTopButton = document.getElementById('back-to-top');
-    if (backToTopButton) {
-        if (window.scrollY > 300) {
-            backToTopButton.style.display = 'flex';
-        } else {
-            backToTopButton.style.display = 'none';
-        }
     }
 });
