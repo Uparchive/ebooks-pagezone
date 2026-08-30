@@ -1,44 +1,67 @@
-# PageZone V2 — documentação operacional
+# Documentação operacional — PageZone V3
 
-## Papel de cada repositório
+## Arquitetura
 
-A PageZone é a biblioteca e o agregador editorial. Cada obra permanece no seu próprio repositório GitHub, com GitHub Pages, capa, capítulos, leitor e progresso de leitura independentes. Nunca copie capítulos para este repositório nem altere o `localStorage` de uma obra a partir da PageZone.
+A PageZone V3 é um monorepo editorial. A plataforma continua estática e compatível com GitHub Pages, mas a unidade de trabalho passou a ser o módulo da obra, não uma aplicação HTML duplicada.
 
-## Fonte do catálogo
+```
+livros/<id>/
+  book.json          manifesto e metadados
+  capa.*             capa local
+  chapters.json      texto publicado estruturado
+  memoria.md         memória narrativa interna
+  planejamento.md    planejamento interno
+  continuidade.json  estado editorial interno
+```
 
-`books.json` é a única fonte de metadados exibida no site. A interface em `script.js` busca, valida e renderiza o catálogo. Para publicar uma obra nova, em geral basta criar o repositório/Pages da obra e adicionar um objeto ao array `books`.
+A biblioteca pública consome somente `data/books.json`. O leitor público consome somente `book.json`, `chapters.json` e a capa. Documentos de memória e planejamento nunca são referenciados pela interface.
 
-Campos usados:
+## Fonte da verdade e catálogo
 
-- `id`: identificador estável e único; não o altere após publicar.
-- `title`, `description`, `genres`: dados públicos usados em busca e descoberta.
-- `cover`: URL pública da capa no repositório da obra.
-- `url`: URL pública do leitor da obra.
+`book.json` é a fonte de verdade de metadados por obra. `scripts/build-catalog.js` gera `data/books.json` e a cópia de compatibilidade `books.json`. Nunca edite esses dois arquivos manualmente: altere o manifesto e execute `npm run build`.
+
+Campos essenciais do manifesto:
+
+- `id`: permanente e único.
 - `status`: `DEVELOPMENT`, `REVIEW`, `COMPLETED`, `PAUSED` ou `ARCHIVED`.
-- `currentChapter`: último capítulo disponível, somente quando confirmado.
-- `estimatedChapters`: opcional; se informado junto de `currentChapter`, a biblioteca calcula o progresso.
-- `updatedAt`: opcional, no formato ISO `AAAA-MM-DD`; só é exibido quando existe.
-- `featured`: apenas uma obra deve ficar marcada como destaque.
-- `order`: controla a ordem editorial.
+- `active`: exatamente uma obra ativa em todo o catálogo.
+- `cover.path`: arquivo local da capa.
+- `chapters.path`, `firstPublished`, `currentPublished`: referência e intervalo publicado.
+- `legacy`: repositório e URL histórica, preservados para auditoria e reversão.
+- `assets.formats`: possibilidades editoriais futuras; não ativa monetização.
 
-Não invente capítulos, datas, estimativas ou progresso. Se a informação não estiver confirmada, omita o campo.
+## Capítulos e leitor
 
-## Fluxo para continuar uma obra em desenvolvimento
+`chapters.json` contém uma lista ordenada de capítulos. Cada registro guarda número, rótulo de exibição, título e `bodyHtml` literário. Não contém layout, scripts, navegação ou CSS. A conversão V3 removeu a aplicação repetida dos antigos arquivos `capituloN.html`, preservando o conteúdo publicado.
 
-1. Atualize e publique os capítulos no repositório individual da obra, preservando as chaves de `localStorage` daquela obra.
-2. Verifique o leitor no GitHub Pages da própria obra.
-3. Atualize `currentChapter` e, se houver, `updatedAt` em `books.json`.
-4. Quando a obra for encerrada, troque `status` para `COMPLETED` e remova estimativas provisórias que não representem a edição final.
-5. A PageZone a moverá automaticamente de “Em desenvolvimento” para “Concluídos”.
+O motor único está em `reader.html`, `app/reader.js` e `app/reader.css`. A URL é estável: `reader.html?book=<id>&chapter=<numero>`. Sem capítulo informado, o leitor retoma o último capítulo local; sem progresso local, abre o primeiro disponível.
 
-## Prateleiras, busca e filtros
+O progresso usa `pagezone:progress:<id>`. Um livro novo não exige mudar JavaScript. Uma futura conta pode substituir ou complementar essa camada sem alterar capítulos.
 
-As prateleiras são derivadas do catálogo; nenhuma lista de cards é mantida manualmente no HTML. “Em desenvolvimento” mostra `DEVELOPMENT`, “Concluídos” mostra `COMPLETED`, e “Biblioteca” exibe todas as obras públicas. Busca consulta título, descrição, gêneros e série (quando existir). Filtros por estado e gênero funcionam junto com a busca.
+Para obra `DEVELOPMENT`, o último capítulo mostra “Continua…”. Quando um capítulo for anexado a `chapters.json` e `currentPublished` for atualizado, o motor reconhece automaticamente a nova posição.
 
-## Destaque e capas
+## Fluxo de publicação autônoma
 
-Defina `featured: true` para destacar uma obra. As capas devem usar preferencialmente proporção editorial vertical; a PageZone usa `object-fit: cover` e carregamento preguiçoso fora do destaque. A capa continua hospedada no repositório da obra.
+1. Ler `editorial-state.json` e confirmar a única obra ativa.
+2. Ler o manifesto, memória, planejamento, continuidade e capítulos relevantes.
+3. Atualizar a memória factual antes de escrever.
+4. Criar o novo registro em `chapters.json`, com número maior que o anterior.
+5. Atualizar `currentPublished`, continuidade, memória, planejamento e `lastExecution` no estado editorial.
+6. Executar `npm run check`.
+7. Publicar o commit. A PageZone reflete o catálogo e o novo capítulo sem alteração no frontend.
 
-## Preparação para automação
+A fila editorial prioriza as obras legadas em `DEVELOPMENT`. Não criar uma obra nova enquanto a fila existir. Ao terminar uma obra: mudar para `REVIEW`, revisar continuidade e capítulos, executar validação e somente então mudar para `COMPLETED`. As prateleiras são derivadas automaticamente do status.
 
-Um futuro agente escritor deve editar primeiro a obra ativa e depois alterar somente os campos necessários em `books.json`. O catálogo é deliberadamente simples para permitir atualização por automação, revisão por pull request ou API. Autoria, pagamento, contas e sincronização de progresso não fazem parte da PageZone V2.
+## Memória narrativa
+
+Para obras em desenvolvimento, `memoria.md`, `planejamento.md` e `continuidade.json` são obrigatórios. A migração criou um estado inicial factual e deliberadamente não inventou trama, revelações ou finais. Antes de retomar a autoria, o agente deve transformar os capítulos existentes em dossiês confirmados de personagens, cronologia, conflitos, pistas, objetos, relações e pontas abertas.
+
+## Migração e legado
+
+O inventário completo está em `editorial/migration-inventory.json`. As nove obras, 215 capítulos e nove capas foram centralizados. Os repositórios e URLs antigos não foram apagados nem redirecionados; continuam como legado validável. Cada manifesto mantém o vínculo original. Só considere redirecionar um site histórico em missão futura, após validação pública do leitor V3.
+
+## Validação
+
+`npm run validate` verifica IDs, status, presença de capa, capítulos, ordem, último capítulo, uma única obra ativa e arquivos editoriais obrigatórios. `npm run build` recria o catálogo público. `npm run check` executa ambos.
+
+A plataforma não implementa login, pagamentos, assinatura, analytics ou paywall. O conteúdo editorial está separado dessas futuras camadas.
