@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#171b25">
+  <title>Leitor — PageZone</title>
+  <link rel="stylesheet" href="app/reader.css">
+  <script src="app/reader.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#chapter-content">Pular para o capítulo</a>
+  <header class="reader-header">
+    <a href="./" class="brand">← <span>PageZone</span></a>
+    <button id="index-toggle" type="button" aria-expanded="false" aria-controls="chapter-index">Índice</button>
+  </header>
+  <main>
+    <section id="reader-loading" class="loading" aria-live="polite">Abrindo obra…</section>
+    <article id="reader" hidden>
+      <header class="book-header">
+        <p id="book-status" class="status"></p>
+        <h1 id="book-title"></h1>
+        <p id="chapter-label" class="chapter-label"></p>
+        <h2 id="chapter-title"></h2>
+      </header>
+      <aside id="chapter-index" class="chapter-index" hidden aria-label="Índice da obra"></aside>
+      <div id="chapter-content" class="chapter-content" tabindex="-1"></div>
+      <nav class="chapter-nav" aria-label="Navegação entre capítulos">
+        <a id="previous-chapter" class="nav-button secondary" href="">Capítulo anterior</a>
+        <a href="./" class="nav-button secondary">Biblioteca</a>
+        <a id="next-chapter" class="nav-button" href="">Próximo capítulo</a>
+      </nav>
+      <section id="continues" class="continues" hidden>
+        <p class="eyebrow">História em desenvolvimento</p>
+        <h2>Continua…</h2>
+        <p>Você chegou ao último capítulo publicado. Esta história ainda está em desenvolvimento.</p>
+      </section>
+    </article>
+  </main>
+</body>
+</html>
