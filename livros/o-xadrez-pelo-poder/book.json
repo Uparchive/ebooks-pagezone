@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "o-xadrez-pelo-poder",
+  "slug": "o-xadrez-pelo-poder",
+  "title": "O Xadrez pelo Poder: Um Jogo Mortal pela Democracia",
+  "description": "Um thriller político sobre conspirações, manipulação digital e a corrida para defender a verdade em meio à polarização e à crise.",
+  "genres": [
+    "Thriller político",
+    "Suspense",
+    "Drama",
+    "Tecnologia",
+    "Cyberpunk leve",
+    "Ficção política",
+    "Ação",
+    "Investigativo",
+    "Crítica social"
+  ],
+  "status": "COMPLETED",
+  "featured": false,
+  "active": false,
+  "cover": {
+    "path": "capa.png",
+    "legacyUrl": "https://uparchive.github.io/o-xadrez-pelo-poder/OXPP-poster.png"
+  },
+  "chapters": {
+    "path": "chapters.json",
+    "firstPublished": 0,
+    "currentPublished": 45
+  },
+  "legacy": {
+    "repository": "Uparchive/o-xadrez-pelo-poder",
+    "url": "https://uparchive.github.io/oxpp-page/",
+    "readerPreserved": true
+  },
+  "assets": {
+    "formats": [
+      "ebook",
+      "print",
+      "audiobook",
+      "translation",
+      "licensing"
+    ]
+  }
+}
