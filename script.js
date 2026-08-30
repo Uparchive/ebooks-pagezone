@@ -88,7 +88,7 @@
     const dialog = byId("book-dialog"), content = byId("dialog-content");
     content.innerHTML = '<article class="dialog-book"><img src="' + escapeHTML(book.cover) + '" alt="Capa de ' + escapeHTML(book.title) + '">' +
       '<div><span class="status-badge" data-status="' + escapeHTML(book.status) + '">' + escapeHTML(labels[book.status] || book.status) + "</span>" +
-      '<h2 id="dialog-title">' + escapeHTML(book.title) + "</h2><div class="meta">" + genres(book) + "</div>" +
+      '<h2 id="dialog-title">' + escapeHTML(book.title) + '</h2><div class="meta">' + genres(book) + "</div>" +
       '<p>' + escapeHTML(book.description) + "</p>" +
       (chapterNote(book) ? '<p class="chapter-note">' + escapeHTML(chapterNote(book)) + "</p>" : "") +
       '<a class="button" href="' + escapeHTML(book.url) + '" target="_blank" rel="noopener">Ler agora</a></div></article>';
