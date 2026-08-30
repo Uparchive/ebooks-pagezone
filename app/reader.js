@@ -17,6 +17,8 @@ async function init(){
   const chapter=chapters.find(c=>c.number===requested)||chapters.find(c=>c.number===saved)||chapters[0];
   if(!chapter)throw new Error("Esta obra ainda não possui capítulos publicados.");
   document.title=book.title+" — PageZone";
+  $("book-cover").src="livros/"+encodeURIComponent(book.id)+"/"+book.cover.path;
+  $("book-cover").alt="Capa de "+book.title;
   $("book-title").textContent=book.title;
   $("book-status").textContent=({DEVELOPMENT:"Em desenvolvimento",REVIEW:"Em revisão",COMPLETED:"Concluído"})[book.status]||book.status;
   $("chapter-label").textContent=chapter.displayNumber||("Capítulo "+chapter.number);
