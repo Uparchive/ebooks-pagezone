@@ -1,348 +1,92 @@
-<!DOCTYPE html>
-<html lang="pt">
+<!doctype html>
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>eBooks Pagezone</title>
-    <link rel="stylesheet" href="matrixstyle.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171b25">
+  <meta name="description" content="PageZone, uma biblioteca digital de histórias para descobrir e continuar lendo.">
+  <title>PageZone — Biblioteca digital</title>
+  <link rel="stylesheet" href="matrixstyle.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-    <!-- Menu de Navegação -->
-    <nav class="main-nav">
-        <ul class="nav-list">
-            <li><a href="#new-books" class="nav-link">Novidades</a></li>
-            <li><a href="#library" class="nav-link">Biblioteca</a></li>
-            <li><a href="#contact" class="nav-link">Contato</a></li>
-        </ul>
+  <a class="skip-link" href="#conteudo">Pular para o catálogo</a>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="PageZone, início">
+      <span class="brand-mark" aria-hidden="true">PZ</span>
+      <span>PageZone</span>
+    </a>
+    <nav aria-label="Navegação principal">
+      <a href="#destaque">Novos livros</a>
+      <a href="#biblioteca">Minha biblioteca</a>
+      <a href="#contato">Contato</a>
     </nav>
+  </header>
 
-    <!-- Header com o nome do site -->
-    <header class="site-header">
-        <h1 class="site-title">eBooks Pagezone</h1>
-        <p class="site-subtitle">Explore, leia e inspire-se</p>
-        <div class="search-bar">
-            <input type="text" id="search-input" placeholder="Pesquise por título ou gênero..." aria-label="Pesquise por título ou gênero">
-            <div class="search-icon">
-                📚 🔍
-            </div>
-        </div>
-    </header>
-
-    <!-- Seção Novos Livros -->
-    <section id="new-books" class="library-container">
-        <h2 class="library-title">Novos Livros</h2>
-        <p class="library-subtitle">Confira as 4 últimas obras adicionadas!</p>
-        <div id="library-grid" class="library-grid">
-
-<!-- Livro Urbans Family - Os Reis do Crime -->
-<div class="book" data-title="Urbans Family" data-genre="Crime, Ação, Drama, Thriller">
-    <a href="https://uparchive.github.io/urbans-family/" target="_blank">
-        <img src="https://uparchive.github.io/urbans-family/UFORDC-poster.png" 
-        alt="Capa do Livro Urbans Family" class="book-cover">
-        <div class="book-title-overlay">Urbans Family</div>
-        <div class="book-description-hidden">
-            <strong>Descrição:</strong>
-            <p><strong>"Urbans Family"</strong> é uma história que narra a ascensão de João Carvalho, um homem comum, ao mundo do crime. Empurrado pelas dificuldades da vida e pela necessidade de cuidar de sua família, João entra em um universo perigoso e implacável. Entre dilemas morais e batalhas contra gangues rivais, ele se vê preso em uma luta por sobrevivência e poder. Uma trama envolvente que explora o impacto das escolhas e o preço da ambição.</p>
-            <strong>Gênero:</strong>
-            <p>Crime, Ação, Drama, Thriller.</p>                        
-        </div>
-    </a>
-</div>
-
-
-            <!-- Livro O Batuque No Quarto Ao Lado -->
-            <div class="book" data-title="O Batuque No Quarto Ao Lado" data-genre="Suspense Psicológico, Thriller, Mistério, Drama, Terror">
-                <a href="https://uparchive.github.io/o-batuque-no-quarto-ao-lado/" target="_blank">
-                    <img src="https://uparchive.github.io/o-batuque-no-quarto-ao-lado/OBNQAL-poster.png" 
-                    alt="Capa do Livro O Batuque No Quarto Ao Lado" class="book-cover">
-                    <div class="book-title-overlay">O Batuque No Quarto Ao Lado</div>
-                    <div class="book-description-hidden">
-                        <strong>Descrição:</strong>
-                        <p><strong>"O Batuque No Quarto Ao Lado"</strong> é uma história de suspense psicológico que mergulha nos segredos obscuros de um pequeno prédio. A trama segue Marcus, um marceneiro atraente e aparentemente inofensivo, que esconde um lado perturbador e mortal, enquanto sua nova vizinha Elisa tenta escapar de uma rotina exaustiva, sem imaginar que está entrando em um jogo perigoso. É uma narrativa que explora os limites entre normalidade e insanidade, levando o leitor a questionar o que realmente sabemos sobre aqueles ao nosso redor.</p>
-                        <strong>Gênero:</strong>
-                        <p>Suspense Psicológico, Thriller, Mistério, Drama, Terror.</p>                        
-                    </div>
-                </a>
-            </div>
-
-            <!-- Livro O Xadrez Pelo Poder -->
-            <div class="book" data-title="O Xadrez Pelo Poder" data-genre="Thriller Político, Suspense, Drama,Tecnologia, Cyberpunk Leve, Ficção Política, Ação, Investigativo, Crítica Social">
-                <a href="https://uparchive.github.io/oxpp-page/" target="_blank">
-                    <img src="https://uparchive.github.io/o-xadrez-pelo-poder/OXPP-poster.png" 
-                    alt="Capa do Livro O Xadrez Pelo Poder" class="book-cover">
-                    <div class="book-title-overlay">O Xadrez Pelo Poder: Um Jogo Mortal pela Democracia</div>
-                    <div class="book-description-hidden">
-                        <strong>Descrição:</strong>
-                        <p>"O Xadrez Pelo Poder: Um Jogo Mortal pela Democracia" é um thriller político eletrizante que explora conspirações sombrias, manipulação digital e a luta pela verdade em um cenário de polarização e crise. Enquanto um grupo secreto ameaça desestabilizar o governo, uma jornalista corajosa e seus aliados enfrentam uma corrida contra o tempo para expor os planos que colocam a democracia em xeque. Cada movimento no tabuleiro político pode decidir o destino de uma nação inteira.</p>
-                        <strong>Gênero:</strong>
-                        <p>Thriller Político, Suspense, Drama,Tecnologia, Cyberpunk Leve, Ficção Política, Ação, Investigativo, Crítica Social</p>
-                    </div>
-                </a>
-            </div>
-
-        <!-- Livro Amazônico: O Protetor da Floresta -->
-        <div class="book" data-title="Amazônico: O Protetor da Floresta" data-genre="Aventura, Fantasia, Natureza">
-         <a href="https://uparchive.github.io/amazonico-o-protetor-da-floresta/" target="_blank">
-        <img src="https://uparchive.github.io/amazonico-o-protetor-da-floresta/amaz%C3%B4nico-poster.png" 
-        alt="Amazônico: O Protetor da Floresta" class="book-cover">
-        <div class="book-title-overlay">Amazônico: O Protetor da Floresta</div>
-        <div class="book-description-hidden">
-            <strong>Descrição:</strong>
-            <p>Em meio à exuberância da Amazônia, um jovem é escolhido para ser o Protetor da Floresta. Entre desafios, sacrifícios e batalhas épicas, 
-            ele precisa lutar pelo equilíbrio de toda a vida contra forças que ameaçam destruir a essência do mundo natural.</p>
-            <strong>Gênero:</strong>
-            <p>Aventura, Fantasia, Natureza, Heróis.</p>
-        </div>
-        </a>
-        </div>
-        </div>
+  <main id="conteudo">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Biblioteca digital</p>
+        <h1 id="hero-title">Histórias para entrar e <em>continuar</em>.</h1>
+        <p class="hero-text">Uma estante viva de mundos, ideias e narrativas em movimento.</p>
+        <label class="search" for="search-input">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H11v17H6.5A2.5 2.5 0 0 0 4 22V5.5ZM20 5.5A2.5 2.5 0 0 0 17.5 3H13v17h4.5A2.5 2.5 0 0 1 20 22V5.5Z"/></svg>
+          <input id="search-input" type="search" placeholder="Pesquise por obras..." autocomplete="off">
+          <svg class="search-lens" aria-hidden="true" viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.3"/><path d="m16 16 4.3 4.3"/></svg>
+        </label>
+      </div>
+      <div class="hero-art" aria-hidden="true"><span></span><span></span><span></span></div>
     </section>
 
-        <!-- Seção Desenvolvimento -->
-        <section id="desenvolvimento-books" class="library-container">
-            <h2 class="library-title">Desenvolvimento</h2>
-            <p class="library-subtitle">Confira as 4 obras que estão em desenvolvimento</p>
-            <div id="library-grid" class="library-grid">
-
-<!-- Livro Urbans Family - Os Reis do Crime -->
-<div class="book" data-title="Urbans Family" data-genre="Crime, Ação, Drama, Thriller">
-    <a href="https://uparchive.github.io/urbans-family/" target="_blank">
-        <img src="https://uparchive.github.io/urbans-family/UFORDC-poster.png" 
-        alt="Capa do Livro Urbans Family" class="book-cover">
-        <div class="book-title-overlay">Urbans Family</div>
-        <div class="book-description-hidden">
-            <strong>Descrição:</strong>
-            <p><strong>"Urbans Family"</strong> é uma história que narra a ascensão de João Carvalho, um homem comum, ao mundo do crime. Empurrado pelas dificuldades da vida e pela necessidade de cuidar de sua família, João entra em um universo perigoso e implacável. Entre dilemas morais e batalhas contra gangues rivais, ele se vê preso em uma luta por sobrevivência e poder. Uma trama envolvente que explora o impacto das escolhas e o preço da ambição.</p>
-            <strong>Gênero:</strong>
-            <p>Crime, Ação, Drama, Thriller.</p>                        
-        </div>
-    </a>
-</div>
-
-
-            <!-- Livro O Batuque No Quarto Ao Lado -->
-            <div class="book" data-title="O Batuque No Quarto Ao Lado" data-genre="Suspense Psicológico, Thriller, Mistério, Drama, Terror">
-                <a href="https://uparchive.github.io/o-batuque-no-quarto-ao-lado/" target="_blank">
-                    <img src="https://uparchive.github.io/o-batuque-no-quarto-ao-lado/OBNQAL-poster.png" 
-                    alt="Capa do Livro O Batuque No Quarto Ao Lado" class="book-cover">
-                    <div class="book-title-overlay">O Batuque No Quarto Ao Lado</div>
-                    <div class="book-description-hidden">
-                        <strong>Descrição:</strong>
-                        <p><strong>"O Batuque No Quarto Ao Lado"</strong> é uma história de suspense psicológico que mergulha nos segredos obscuros de um pequeno prédio. A trama segue Marcus, um marceneiro atraente e aparentemente inofensivo, que esconde um lado perturbador e mortal, enquanto sua nova vizinha Elisa tenta escapar de uma rotina exaustiva, sem imaginar que está entrando em um jogo perigoso. É uma narrativa que explora os limites entre normalidade e insanidade, levando o leitor a questionar o que realmente sabemos sobre aqueles ao nosso redor.</p>
-                        <strong>Gênero:</strong>
-                        <p>Suspense Psicológico, Thriller, Mistério, Drama, Terror.</p>                        
-                    </div>
-                </a>
-            </div>
-
-            <!-- Livro 365 Dias Diversos -->
-            <div class="book" data-title="365 Dias Diversos" data-genre="Reflexão">
-                <a href="https://uparchive.github.io/365-dias-diversos/" target="_blank">
-                    <img src="https://uparchive.github.io/365-dias-diversos/365-Dias-Diversos-poster.png" 
-                    alt="Capa do Livro 365 Dias Diversos" class="book-cover">
-                    <div class="book-title-overlay">365 Dias Diversos</div>
-                    <div class="book-description-hidden">
-                        <strong>Descrição:</strong>
-                        <p>Uma jornada diária explorando temas diversos e profundos.</p>
-                        <strong>Gênero:</strong>
-                        <p>Reflexão.</p>
-                    </div>
-                </a>
-            </div>
-
-            <!-- Livro Diário de Ômega -->
-            <div class="book" data-title="Diário de Ômega" data-genre="Cristianismo, Espiritualidade">
-                <a href="https://uparchive.github.io/diariodeomega/" target="_blank">
-                    <img src="https://uparchive.github.io/diariodeomega/DDO-poster.png" 
-                    alt="Capa do Livro Diário de Ômega" class="book-cover">
-                    <div class="book-title-overlay">Diário de Ômega</div>
-                    <div class="book-description-hidden">
-                        <strong>Descrição:</strong>
-                        <p>Reflexões de fé sobre o presente e o futuro.</p>
-                        <strong>Gênero:</strong>
-                        <p>Cristianismo, Espiritualidade.</p>
-                    </div>
-                </a>
-            </div>
+    <section class="section featured-section" id="destaque" aria-labelledby="featured-heading">
+      <p class="eyebrow">Destaque editorial</p>
+      <div id="featured-book" class="featured-book" aria-live="polite"></div>
     </section>
 
-<!-- Seção Biblioteca -->
-<section id="library" class="library-container">
-    <div class="library-header">
-        <h2 class="library-title">Biblioteca</h2>
-        
-        <!-- Filtro de Gêneros -->
-        <div class="filtro-genero">
-            <label for="genero-dropdown">Filtrar por Gênero:</label>
-            <select id="genero-dropdown" onchange="filtrarLivros()">
-                <option value="">Todos</option>
-            </select>
-        </div>
-    </div>
-
-    <p class="library-subtitle">Explore um universo ilimitado</p>
-        <div id="library-grid" class="library-grid">
-
-<!-- Livro Urbans Family - Os Reis do Crime -->
-<div class="book" data-title="Urbans Family" data-genre="Crime, Ação, Drama, Thriller">
-    <a href="https://uparchive.github.io/urbans-family/" target="_blank">
-        <img src="https://uparchive.github.io/urbans-family/UFORDC-poster.png" 
-        alt="Capa do Livro Urbans Family" class="book-cover">
-        <div class="book-title-overlay">Urbans Family</div>
-        <div class="book-description-hidden">
-            <strong>Descrição:</strong>
-            <p><strong>"Urbans Family"</strong> é uma história que narra a ascensão de João Carvalho, um homem comum, ao mundo do crime. Empurrado pelas dificuldades da vida e pela necessidade de cuidar de sua família, João entra em um universo perigoso e implacável. Entre dilemas morais e batalhas contra gangues rivais, ele se vê preso em uma luta por sobrevivência e poder. Uma trama envolvente que explora o impacto das escolhas e o preço da ambição.</p>
-            <strong>Gênero:</strong>
-            <p>Crime, Ação, Drama, Thriller.</p>                        
-        </div>
-    </a>
-</div>
-
-
-            <!-- Livro O Batuque No Quarto Ao Lado -->
-            <div class="book" data-title="O Batuque No Quarto Ao Lado" data-genre="Suspense Psicológico, Thriller, Mistério, Drama, Terror">
-                <a href="https://uparchive.github.io/o-batuque-no-quarto-ao-lado/" target="_blank">
-                    <img src="https://uparchive.github.io/o-batuque-no-quarto-ao-lado/OBNQAL-poster.png" 
-                    alt="Capa do Livro O Batuque No Quarto Ao Lado" class="book-cover">
-                    <div class="book-title-overlay">O Batuque No Quarto Ao Lado</div>
-                    <div class="book-description-hidden">
-                        <strong>Descrição:</strong>
-                        <p><strong>"O Batuque No Quarto Ao Lado"</strong> é uma história de suspense psicológico que mergulha nos segredos obscuros de um pequeno prédio. A trama segue Marcus, um marceneiro atraente e aparentemente inofensivo, que esconde um lado perturbador e mortal, enquanto sua nova vizinha Elisa tenta escapar de uma rotina exaustiva, sem imaginar que está entrando em um jogo perigoso. É uma narrativa que explora os limites entre normalidade e insanidade, levando o leitor a questionar o que realmente sabemos sobre aqueles ao nosso redor.</p>
-                        <strong>Gênero:</strong>
-                        <p>Suspense Psicológico, Thriller, Mistério, Drama, Terror.</p>                        
-                    </div>
-                </a>
-            </div>
-
-            <!-- Livro O Xadrez Pelo Poder -->
-            <div class="book" data-title="O Xadrez Pelo Poder" data-genre="Thriller Político, Suspense, Drama,Tecnologia, Cyberpunk Leve, Ficção Política, Ação, Investigativo, Crítica Social">
-                <a href="https://uparchive.github.io/oxpp-page/" target="_blank">
-                    <img src="https://uparchive.github.io/o-xadrez-pelo-poder/OXPP-poster.png" 
-                    alt="Capa do Livro O Xadrez Pelo Poder" class="book-cover">
-                    <div class="book-title-overlay">O Xadrez Pelo Poder: Um Jogo Mortal pela Democracia</div>
-                    <div class="book-description-hidden">
-                        <strong>Descrição:</strong>
-                        <p>"O Xadrez Pelo Poder: Um Jogo Mortal pela Democracia" é um thriller político eletrizante que explora conspirações sombrias, manipulação digital e a luta pela verdade em um cenário de polarização e crise. Enquanto um grupo secreto ameaça desestabilizar o governo, uma jornalista corajosa e seus aliados enfrentam uma corrida contra o tempo para expor os planos que colocam a democracia em xeque. Cada movimento no tabuleiro político pode decidir o destino de uma nação inteira.</p>
-                        <strong>Gênero:</strong>
-                        <p>Thriller Político, Suspense, Drama,Tecnologia, Cyberpunk Leve, Ficção Política, Ação, Investigativo, Crítica Social</p>
-                    </div>
-                </a>
-            </div>
-
-<!-- Livro Amazônico: O Protetor da Floresta -->
-<div class="book" data-title="Amazônico: O Protetor da Floresta" data-genre="Aventura, Fantasia, Natureza, Heróis">
-    <a href="https://uparchive.github.io/amazonico-o-protetor-da-floresta/" target="_blank">
-        <img src="https://uparchive.github.io/amazonico-o-protetor-da-floresta/amaz%C3%B4nico-poster.png" 
-        alt="Amazônico: O Protetor da Floresta" class="book-cover">
-        <div class="book-title-overlay">Amazônico: O Protetor da Floresta</div>
-        <div class="book-description-hidden">
-            <strong>Descrição:</strong>
-            <p>Em meio à exuberância da Amazônia, um jovem é escolhido para ser o Protetor da Floresta. Entre desafios, sacrifícios e batalhas épicas, 
-            ele precisa lutar pelo equilíbrio de toda a vida contra forças que ameaçam destruir a essência do mundo natural.</p>
-            <strong>Gênero:</strong>
-            <p>Aventura, Fantasia, Natureza, Heróis.</p>
-        </div>
-    </a>
-</div>
-
-
-            <!-- Livro O Guardião da Promessa -->
-            <div class="book" data-title="O Guardião da Promessa" data-genre="Ficção Cristã, Fantasia, Aventura, Alegoria Espiritual, Drama">
-                <a href="https://uparchive.github.io/o-guardiao-da-promessa/" target="_blank">
-                    <img src="https://uparchive.github.io/o-guardiao-da-promessa/OGDP-poster.png" 
-                    alt="Capa do Livro O Guardião da Promessa" class="book-cover">
-                    <div class="book-title-overlay">O Guardião da Promessa</div>
-                    <div class="book-description-hidden">
-                        <strong>Descrição:</strong>
-                        <p><strong>"O Guardião da Promessa"</strong> é mais do que uma jornada; é um reflexo da luta espiritual que todos enfrentamos.
-                            Acompanhamos João, um homem comum que foi escolhido para uma missão extraordinária, enfrentando desafios que testam sua fé,
-                            resiliência e propósito. Cada passo revela não apenas a magnitude de sua tarefa, mas também a presença constante de um Deus
-                            que guia, ensina e fortalece.</p>
-                        <strong>Gênero:</strong>
-                        <p>Ficção Cristã, Fantasia, Aventura, Alegoria Espiritual, Drama.</p>
-                    </div>
-                </a>
-            </div>
-        
-
-            <!-- Livro Twilight Shadows -->
-            <div class="book" data-title="Twilight Shadows" data-genre="Fantasia, Romance">
-                <a href="https://uparchive.github.io/Twilight-Shadows/" target="_blank">
-                    <img src="https://uparchive.github.io/Twilight-Shadows/TSposter1.png" 
-                    alt="Twilight Shadows" class="book-cover">
-                    <div class="book-title-overlay">Twilight Shadows</div>
-                    <div class="book-description-hidden">
-                        <strong>Descrição:</strong>
-                        <p>Nesta aventura épica, você encontrará coragem, sacrifício, amor e a descoberta de que, mesmo nas sombras mais profundas, 
-                        uma faísca de luz pode transformar tudo.</p>
-                        <strong>Gênero:</strong>
-                        <p>Épico, Aventura, Fantasia, Romance.</p>
-                    </div>
-                </a>
-            </div>
-
-            <!-- Livro 365 Dias Diversos -->
-            <div class="book" data-title="365 Dias Diversos" data-genre="Reflexão">
-                <a href="https://uparchive.github.io/365-dias-diversos/" target="_blank">
-                    <img src="https://uparchive.github.io/365-dias-diversos/365-Dias-Diversos-poster.png" 
-                    alt="Capa do Livro 365 Dias Diversos" class="book-cover">
-                    <div class="book-title-overlay">365 Dias Diversos</div>
-                    <div class="book-description-hidden">
-                        <strong>Descrição:</strong>
-                        <p>Uma jornada diária explorando temas diversos e profundos.</p>
-                        <strong>Gênero:</strong>
-                        <p>Reflexão.</p>
-                    </div>
-                </a>
-            </div>
-
-            <!-- Livro Diário de Ômega -->
-            <div class="book" data-title="Diário de Ômega" data-genre="Cristianismo, Espiritualidade">
-                <a href="https://uparchive.github.io/diariodeomega/" target="_blank">
-                    <img src="https://uparchive.github.io/diariodeomega/DDO-poster.png" 
-                    alt="Capa do Livro Diário de Ômega" class="book-cover">
-                    <div class="book-title-overlay">Diário de Ômega</div>
-                    <div class="book-description-hidden">
-                        <strong>Descrição:</strong>
-                        <p>Reflexões de fé sobre o presente e o futuro.</p>
-                        <strong>Gênero:</strong>
-                        <p>Cristianismo, Espiritualidade.</p>
-                    </div>
-                </a>
-            </div>
-
-            <!-- Livro Echoes of Eternity -->
-            <div class="book" data-title="Echoes of Eternity" data-genre="Ficção Científica">
-                <a href="https://uparchive.github.io/echoes-of-eternity/" target="_blank">
-                    <img src="https://uparchive.github.io/echoes-of-eternity/EOE-poster.webp" 
-                    alt="Capa do Livro Echoes of Eternity" class="book-cover">
-                    <div class="book-title-overlay">Echoes of Eternity</div>
-                    <div class="book-description-hidden">
-                        <strong>Descrição:</strong>
-                        <p>Uma odisseia pelo tempo e escolhas eternas.</p>
-                        <strong>Gênero:</strong>
-                        <p>Ficção Científica.</p>
-                    </div>
-                </a>
-            </div>
-        </div>
+    <section class="section shelf-section" id="em-desenvolvimento" aria-labelledby="development-heading">
+      <div class="section-heading">
+        <div><p class="eyebrow">Histórias vivas</p><h2 id="development-heading">Em desenvolvimento</h2></div>
+        <p>Obras que ainda estão ganhando novos capítulos.</p>
+      </div>
+      <div id="development-shelf" class="book-shelf" aria-live="polite"></div>
     </section>
 
-    <!-- Rodapé -->
-    <footer id="contact" class="site-footer">
-        <p>Conecte-se conosco:</p>
-        <ul class="social-links">
-            <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
-            <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
-            <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
-            <li><a href="mailto:contato@ebooks.com">E-mail</a></li>
-        </ul>
-        <p>© 2024 eBooks Pagezone. Todos os direitos reservados.</p>
-    </footer>
+    <section class="section catalog-section" id="biblioteca" aria-labelledby="catalog-heading">
+      <div class="section-heading">
+        <div><p class="eyebrow">Catálogo completo</p><h2 id="catalog-heading">Minha biblioteca</h2></div>
+        <p id="catalog-count" aria-live="polite"></p>
+      </div>
+      <div class="filters" aria-label="Filtros do catálogo">
+        <div id="status-filters" class="filter-group" role="group" aria-label="Filtrar por status"></div>
+        <label class="genre-filter" for="genre-filter">Gênero <select id="genre-filter"><option value="">Todos os gêneros</option></select></label>
+      </div>
+      <div id="catalog-grid" class="catalog-grid" aria-live="polite"></div>
+      <div id="empty-state" class="empty-state" hidden>
+        <span aria-hidden="true">⌁</span>
+        <h3>Nenhum livro encontrado</h3>
+        <p>Tente outro título, gênero ou filtro.</p>
+        <button id="clear-filters" type="button">Limpar filtros</button>
+      </div>
+    </section>
 
-    <!-- Botão Voltar ao Topo -->
-    <button id="back-to-top" title="Voltar ao topo" style="position: fixed; bottom: 20px; right: 20px; display: none; z-index: 1000;">⬆️</button>
+    <section class="section shelf-section completed-section" id="concluidos" aria-labelledby="completed-heading">
+      <div class="section-heading">
+        <div><p class="eyebrow">Histórias completas</p><h2 id="completed-heading">Concluídos</h2></div>
+        <p>Obras para ler do começo ao fim.</p>
+      </div>
+      <div id="completed-shelf" class="book-shelf" aria-live="polite"></div>
+    </section>
+  </main>
 
-    <script src="script.js"></script>
+  <footer id="contato">
+    <a class="brand" href="#inicio"><span class="brand-mark" aria-hidden="true">PZ</span><span>PageZone</span></a>
+    <p>Uma biblioteca digital em crescimento.</p>
+    <a href="mailto:uparchive@gmail.com">Contato editorial</a>
+  </footer>
+
+  <dialog id="book-dialog" aria-labelledby="dialog-title">
+    <button class="dialog-close" type="button" aria-label="Fechar detalhes">×</button>
+    <div id="dialog-content"></div>
+  </dialog>
 </body>
 </html>
