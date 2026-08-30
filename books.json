@@ -1,12 +1,7 @@
 {
-  "schemaVersion": 1,
-  "statuses": {
-    "DEVELOPMENT": "Em desenvolvimento",
-    "REVIEW": "Em revisão",
-    "COMPLETED": "Concluído",
-    "PAUSED": "Em pausa",
-    "ARCHIVED": "Arquivado"
-  },
+  "schemaVersion": 3,
+  "generated": true,
+  "source": "livros/*/book.json",
   "books": [
     {
       "id": "urbans-family",
@@ -19,12 +14,14 @@
         "Drama",
         "Thriller"
       ],
-      "cover": "https://uparchive.github.io/urbans-family/UFORDC-poster.png",
-      "url": "https://uparchive.github.io/urbans-family/",
       "status": "DEVELOPMENT",
-      "currentChapter": 18,
       "featured": true,
-      "order": 1
+      "order": 1,
+      "currentChapter": 18,
+      "chapterCount": 19,
+      "cover": "livros/urbans-family/capa.png",
+      "url": "reader.html?book=urbans-family",
+      "legacyUrl": "https://uparchive.github.io/urbans-family/"
     },
     {
       "id": "o-batuque-no-quarto-ao-lado",
@@ -38,11 +35,14 @@
         "Drama",
         "Terror"
       ],
-      "cover": "https://uparchive.github.io/o-batuque-no-quarto-ao-lado/OBNQAL-poster.png",
-      "url": "https://uparchive.github.io/o-batuque-no-quarto-ao-lado/",
       "status": "DEVELOPMENT",
+      "featured": false,
+      "order": 2,
       "currentChapter": 9,
-      "order": 2
+      "chapterCount": 10,
+      "cover": "livros/o-batuque-no-quarto-ao-lado/capa.png",
+      "url": "reader.html?book=o-batuque-no-quarto-ao-lado",
+      "legacyUrl": "https://uparchive.github.io/o-batuque-no-quarto-ao-lado/"
     },
     {
       "id": "365-dias-diversos",
@@ -52,11 +52,14 @@
       "genres": [
         "Reflexão"
       ],
-      "cover": "https://uparchive.github.io/365-dias-diversos/365-Dias-Diversos-poster.png",
-      "url": "https://uparchive.github.io/365-dias-diversos/",
       "status": "DEVELOPMENT",
+      "featured": false,
+      "order": 3,
       "currentChapter": 18,
-      "order": 3
+      "chapterCount": 18,
+      "cover": "livros/365-dias-diversos/capa.png",
+      "url": "reader.html?book=365-dias-diversos",
+      "legacyUrl": "https://uparchive.github.io/365-dias-diversos/"
     },
     {
       "id": "diario-de-omega",
@@ -67,10 +70,14 @@
         "Cristianismo",
         "Espiritualidade"
       ],
-      "cover": "https://uparchive.github.io/diariodeomega/DDO-poster.png",
-      "url": "https://uparchive.github.io/diariodeomega/",
       "status": "DEVELOPMENT",
-      "order": 4
+      "featured": false,
+      "order": 4,
+      "currentChapter": 4,
+      "chapterCount": 4,
+      "cover": "livros/diario-de-omega/capa.png",
+      "url": "reader.html?book=diario-de-omega",
+      "legacyUrl": "https://uparchive.github.io/diariodeomega/"
     },
     {
       "id": "o-xadrez-pelo-poder",
@@ -88,10 +95,14 @@
         "Investigativo",
         "Crítica social"
       ],
-      "cover": "https://uparchive.github.io/o-xadrez-pelo-poder/OXPP-poster.png",
-      "url": "https://uparchive.github.io/oxpp-page/",
       "status": "COMPLETED",
-      "order": 5
+      "featured": false,
+      "order": 5,
+      "currentChapter": 45,
+      "chapterCount": 46,
+      "cover": "livros/o-xadrez-pelo-poder/capa.png",
+      "url": "reader.html?book=o-xadrez-pelo-poder",
+      "legacyUrl": "https://uparchive.github.io/oxpp-page/"
     },
     {
       "id": "amazonico-o-protetor-da-floresta",
@@ -104,10 +115,14 @@
         "Natureza",
         "Heróis"
       ],
-      "cover": "https://uparchive.github.io/amazonico-o-protetor-da-floresta/amaz%C3%B4nico-poster.png",
-      "url": "https://uparchive.github.io/amazonico-o-protetor-da-floresta/",
       "status": "COMPLETED",
-      "order": 6
+      "featured": false,
+      "order": 6,
+      "currentChapter": 25,
+      "chapterCount": 26,
+      "cover": "livros/amazonico-o-protetor-da-floresta/capa.png",
+      "url": "reader.html?book=amazonico-o-protetor-da-floresta",
+      "legacyUrl": "https://uparchive.github.io/amazonico-o-protetor-da-floresta/"
     },
     {
       "id": "o-guardiao-da-promessa",
@@ -121,10 +136,14 @@
         "Alegoria espiritual",
         "Drama"
       ],
-      "cover": "https://uparchive.github.io/o-guardiao-da-promessa/OGDP-poster.png",
-      "url": "https://uparchive.github.io/o-guardiao-da-promessa/",
       "status": "COMPLETED",
-      "order": 7
+      "featured": false,
+      "order": 7,
+      "currentChapter": 30,
+      "chapterCount": 31,
+      "cover": "livros/o-guardiao-da-promessa/capa.png",
+      "url": "reader.html?book=o-guardiao-da-promessa",
+      "legacyUrl": "https://uparchive.github.io/o-guardiao-da-promessa/"
     },
     {
       "id": "twilight-shadows",
@@ -137,10 +156,14 @@
         "Fantasia",
         "Romance"
       ],
-      "cover": "https://uparchive.github.io/Twilight-Shadows/TSposter1.png",
-      "url": "https://uparchive.github.io/Twilight-Shadows/",
       "status": "COMPLETED",
-      "order": 8
+      "featured": false,
+      "order": 8,
+      "currentChapter": 50,
+      "chapterCount": 51,
+      "cover": "livros/twilight-shadows/capa.png",
+      "url": "reader.html?book=twilight-shadows",
+      "legacyUrl": "https://uparchive.github.io/Twilight-Shadows/"
     },
     {
       "id": "echoes-of-eternity",
@@ -150,10 +173,14 @@
       "genres": [
         "Ficção científica"
       ],
-      "cover": "https://uparchive.github.io/echoes-of-eternity/EOE-poster.webp",
-      "url": "https://uparchive.github.io/echoes-of-eternity/",
       "status": "COMPLETED",
-      "order": 9
+      "featured": false,
+      "order": 9,
+      "currentChapter": 10,
+      "chapterCount": 10,
+      "cover": "livros/echoes-of-eternity/capa.webp",
+      "url": "reader.html?book=echoes-of-eternity",
+      "legacyUrl": "https://uparchive.github.io/echoes-of-eternity/"
     }
   ]
 }
