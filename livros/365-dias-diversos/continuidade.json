@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "bookId": "365-dias-diversos",
+  "editorialState": "MIGRATED_NEEDS_NARRATIVE_AUDIT",
+  "publishedRange": {
+    "first": 1,
+    "last": 18
+  },
+  "nextAction": "Auditar continuidade dos capítulos publicados antes de planejar escrita nova.",
+  "chapterLedgerSource": "chapters.json",
+  "openThreads": [],
+  "characterLedger": [],
+  "chronology": [],
+  "spoilersInternal": true
+}
