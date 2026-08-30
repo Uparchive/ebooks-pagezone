@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "o-batuque-no-quarto-ao-lado",
+  "slug": "o-batuque-no-quarto-ao-lado",
+  "title": "O Batuque no Quarto ao Lado",
+  "description": "Um suspense psicológico sobre segredos obscuros, normalidade e insanidade: a nova vizinha Elisa entra em um jogo perigoso sem imaginar o que Marcus esconde.",
+  "genres": [
+    "Suspense psicológico",
+    "Thriller",
+    "Mistério",
+    "Drama",
+    "Terror"
+  ],
+  "status": "DEVELOPMENT",
+  "featured": false,
+  "active": false,
+  "cover": {
+    "path": "capa.png",
+    "legacyUrl": "https://uparchive.github.io/o-batuque-no-quarto-ao-lado/OBNQAL-poster.png"
+  },
+  "chapters": {
+    "path": "chapters.json",
+    "firstPublished": 0,
+    "currentPublished": 9
+  },
+  "legacy": {
+    "repository": "Uparchive/o-batuque-no-quarto-ao-lado",
+    "url": "https://uparchive.github.io/o-batuque-no-quarto-ao-lado/",
+    "readerPreserved": true
+  },
+  "assets": {
+    "formats": [
+      "ebook",
+      "print",
+      "audiobook",
+      "translation",
+      "licensing"
+    ]
+  }
+}
