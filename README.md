@@ -1,14 +1,26 @@
-# PageZone
+# PageZone V3
 
-Biblioteca digital da Uparchive. A PageZone reúne e apresenta as obras; cada livro preserva o seu repositório, GitHub Pages, leitor, capítulos, capa e progresso de leitura.
+A PageZone é uma plataforma editorial estática hospedada no GitHub Pages. Obras, capítulos, capas e estado editorial vivem neste repositório; a interface pública usa um catálogo gerado e um único motor de leitura.
 
-## V2
+## Comandos
 
-- Catálogo único e estruturado em [books.json](books.json)
-- Estantes automáticas para obras em desenvolvimento e concluídas
-- Busca por título, descrição, gênero e série
-- Filtros combináveis por status e gênero
-- Experiência editorial responsiva, acessível e sem dependências pesadas
-- Documentação de publicação e evolução em [DOCUMENTACAO.md](DOCUMENTACAO.md)
+```bash
+npm run build
+npm run validate
+npm run check
+```
 
-Para adicionar ou atualizar uma obra, edite os metadados em `books.json`; não copie o conteúdo do livro para este repositório.
+Não há framework nem dependência de produção. O build lê os manifestos internos e gera o catálogo público em `data/books.json`.
+
+## Estrutura
+
+- `livros/<id>/book.json` — manifesto de uma obra.
+- `livros/<id>/chapters.json` — conteúdo publicado, separado da interface.
+- `livros/<id>/capa.*` — capa local da obra.
+- `livros/<id>/memoria.md`, `planejamento.md`, `continuidade.json` — documentos internos das obras em desenvolvimento.
+- `reader.html` + `app/reader.*` — leitor universal.
+- `editorial-state.json` — obra ativa e fila editorial.
+- `scripts/` — geração e validação.
+- `data/books.json` — catálogo público gerado; não editar manualmente.
+
+Leia [DOCUMENTACAO.md](DOCUMENTACAO.md) antes de publicar ou alterar uma obra.
