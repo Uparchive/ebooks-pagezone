@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "amazonico-o-protetor-da-floresta",
+  "slug": "amazonico-o-protetor-da-floresta",
+  "title": "Amazônico: O Protetor da Floresta",
+  "description": "Em meio à exuberância da Amazônia, um jovem é escolhido para proteger a floresta contra forças que ameaçam o equilíbrio de toda a vida.",
+  "genres": [
+    "Aventura",
+    "Fantasia",
+    "Natureza",
+    "Heróis"
+  ],
+  "status": "COMPLETED",
+  "featured": false,
+  "active": false,
+  "cover": {
+    "path": "capa.png",
+    "legacyUrl": "https://uparchive.github.io/amazonico-o-protetor-da-floresta/amaz%C3%B4nico-poster.png"
+  },
+  "chapters": {
+    "path": "chapters.json",
+    "firstPublished": 0,
+    "currentPublished": 25
+  },
+  "legacy": {
+    "repository": "Uparchive/amazonico-o-protetor-da-floresta",
+    "url": "https://uparchive.github.io/amazonico-o-protetor-da-floresta/",
+    "readerPreserved": true
+  },
+  "assets": {
+    "formats": [
+      "ebook",
+      "print",
+      "audiobook",
+      "translation",
+      "licensing"
+    ]
+  }
+}
