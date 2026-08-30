@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "echoes-of-eternity",
+  "slug": "echoes-of-eternity",
+  "title": "Echoes of Eternity",
+  "description": "Uma odisseia pelo tempo e escolhas eternas.",
+  "genres": [
+    "Ficção científica"
+  ],
+  "status": "COMPLETED",
+  "featured": false,
+  "active": false,
+  "cover": {
+    "path": "capa.webp",
+    "legacyUrl": "https://uparchive.github.io/echoes-of-eternity/EOE-poster.webp"
+  },
+  "chapters": {
+    "path": "chapters.json",
+    "firstPublished": 1,
+    "currentPublished": 10
+  },
+  "legacy": {
+    "repository": "Uparchive/echoes-of-eternity",
+    "url": "https://uparchive.github.io/echoes-of-eternity/",
+    "readerPreserved": true
+  },
+  "assets": {
+    "formats": [
+      "ebook",
+      "print",
+      "audiobook",
+      "translation",
+      "licensing"
+    ]
+  }
+}
