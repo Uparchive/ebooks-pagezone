@@ -97,7 +97,7 @@
 
   async function init() {
     try {
-      const response = await fetch("books.json", { cache: "no-cache" });
+      const response = await fetch("data/books.json", { cache: "no-cache" });
       if (!response.ok) throw new Error("Não foi possível carregar o catálogo.");
       const payload = await response.json();
       const books = (payload.books || []).filter((book) => book.id && book.title && book.cover && book.url)
