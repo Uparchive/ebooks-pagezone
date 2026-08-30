@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "urbans-family",
+  "slug": "urbans-family",
+  "title": "Urbans Family",
+  "description": "Urbans Family narra a ascensão de João Carvalho, um homem comum, ao mundo do crime. Entre dilemas morais e gangues rivais, ele entra em uma luta por sobrevivência, família e poder.",
+  "genres": [
+    "Crime",
+    "Ação",
+    "Drama",
+    "Thriller"
+  ],
+  "status": "DEVELOPMENT",
+  "featured": true,
+  "active": true,
+  "cover": {
+    "path": "capa.png",
+    "legacyUrl": "https://uparchive.github.io/urbans-family/UFORDC-poster.png"
+  },
+  "chapters": {
+    "path": "chapters.json",
+    "firstPublished": 0,
+    "currentPublished": 18
+  },
+  "legacy": {
+    "repository": "Uparchive/urbans-family",
+    "url": "https://uparchive.github.io/urbans-family/",
+    "readerPreserved": true
+  },
+  "assets": {
+    "formats": [
+      "ebook",
+      "print",
+      "audiobook",
+      "translation",
+      "licensing"
+    ]
+  }
+}
