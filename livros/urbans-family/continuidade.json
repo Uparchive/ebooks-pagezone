@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "bookId": "urbans-family",
+  "editorialState": "MIGRATED_NEEDS_NARRATIVE_AUDIT",
+  "publishedRange": {
+    "first": 0,
+    "last": 18
+  },
+  "nextAction": "Auditar continuidade dos capítulos publicados antes de planejar escrita nova.",
+  "chapterLedgerSource": "chapters.json",
+  "openThreads": [],
+  "characterLedger": [],
+  "chronology": [],
+  "spoilersInternal": true
+}
