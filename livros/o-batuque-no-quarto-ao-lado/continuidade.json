@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "bookId": "o-batuque-no-quarto-ao-lado",
+  "editorialState": "MIGRATED_NEEDS_NARRATIVE_AUDIT",
+  "publishedRange": {
+    "first": 0,
+    "last": 9
+  },
+  "nextAction": "Auditar continuidade dos capítulos publicados antes de planejar escrita nova.",
+  "chapterLedgerSource": "chapters.json",
+  "openThreads": [],
+  "characterLedger": [],
+  "chronology": [],
+  "spoilersInternal": true
+}
