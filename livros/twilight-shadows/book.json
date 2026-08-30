@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "twilight-shadows",
+  "slug": "Twilight-Shadows",
+  "title": "Twilight Shadows",
+  "description": "Uma aventura épica de coragem, sacrifício e amor, em que uma faísca de luz pode transformar até as sombras mais profundas.",
+  "genres": [
+    "Épico",
+    "Aventura",
+    "Fantasia",
+    "Romance"
+  ],
+  "status": "COMPLETED",
+  "featured": false,
+  "active": false,
+  "cover": {
+    "path": "capa.png",
+    "legacyUrl": "https://uparchive.github.io/Twilight-Shadows/TSposter1.png"
+  },
+  "chapters": {
+    "path": "chapters.json",
+    "firstPublished": 0,
+    "currentPublished": 50
+  },
+  "legacy": {
+    "repository": "Uparchive/Twilight-Shadows",
+    "url": "https://uparchive.github.io/Twilight-Shadows/",
+    "readerPreserved": true
+  },
+  "assets": {
+    "formats": [
+      "ebook",
+      "print",
+      "audiobook",
+      "translation",
+      "licensing"
+    ]
+  }
+}
