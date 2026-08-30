@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "generatedFrom": "legacy repositories",
+  "books": [
+    {
+      "id": "urbans-family",
+      "sourceRepository": "Uparchive/urbans-family",
+      "legacyUrl": "https://uparchive.github.io/urbans-family/",
+      "chapterRange": "0-18",
+      "chapterCount": 19,
+      "cover": "https://uparchive.github.io/urbans-family/UFORDC-poster.png",
+      "status": "DEVELOPMENT",
+      "migration": "CONTENT_MIGRATED",
+      "legacyPreserved": true
+    },
+    {
+      "id": "o-batuque-no-quarto-ao-lado",
+      "sourceRepository": "Uparchive/o-batuque-no-quarto-ao-lado",
+      "legacyUrl": "https://uparchive.github.io/o-batuque-no-quarto-ao-lado/",
+      "chapterRange": "0-9",
+      "chapterCount": 10,
+      "cover": "https://uparchive.github.io/o-batuque-no-quarto-ao-lado/OBNQAL-poster.png",
+      "status": "DEVELOPMENT",
+      "migration": "CONTENT_MIGRATED",
+      "legacyPreserved": true
+    },
+    {
+      "id": "365-dias-diversos",
+      "sourceRepository": "Uparchive/365-dias-diversos",
+      "legacyUrl": "https://uparchive.github.io/365-dias-diversos/",
+      "chapterRange": "1-18",
+      "chapterCount": 18,
+      "cover": "https://uparchive.github.io/365-dias-diversos/365-Dias-Diversos-poster.png",
+      "status": "DEVELOPMENT",
+      "migration": "CONTENT_MIGRATED",
+      "legacyPreserved": true
+    },
+    {
+      "id": "diario-de-omega",
+      "sourceRepository": "Uparchive/diariodeomega",
+      "legacyUrl": "https://uparchive.github.io/diariodeomega/",
+      "chapterRange": "1-4",
+      "chapterCount": 4,
+      "cover": "https://uparchive.github.io/diariodeomega/DDO-poster.png",
+      "status": "DEVELOPMENT",
+      "migration": "CONTENT_MIGRATED",
+      "legacyPreserved": true
+    },
+    {
+      "id": "o-xadrez-pelo-poder",
+      "sourceRepository": "Uparchive/o-xadrez-pelo-poder",
+      "legacyUrl": "https://uparchive.github.io/oxpp-page/",
+      "chapterRange": "0-45",
+      "chapterCount": 46,
+      "cover": "https://uparchive.github.io/o-xadrez-pelo-poder/OXPP-poster.png",
+      "status": "COMPLETED",
+      "migration": "CONTENT_MIGRATED",
+      "legacyPreserved": true
+    },
+    {
+      "id": "amazonico-o-protetor-da-floresta",
+      "sourceRepository": "Uparchive/amazonico-o-protetor-da-floresta",
+      "legacyUrl": "https://uparchive.github.io/amazonico-o-protetor-da-floresta/",
+      "chapterRange": "0-25",
+      "chapterCount": 26,
+      "cover": "https://uparchive.github.io/amazonico-o-protetor-da-floresta/amaz%C3%B4nico-poster.png",
+      "status": "COMPLETED",
+      "migration": "CONTENT_MIGRATED",
+      "legacyPreserved": true
+    },
+    {
+      "id": "o-guardiao-da-promessa",
+      "sourceRepository": "Uparchive/o-guardiao-da-promessa",
+      "legacyUrl": "https://uparchive.github.io/o-guardiao-da-promessa/",
+      "chapterRange": "0-30",
+      "chapterCount": 31,
+      "cover": "https://uparchive.github.io/o-guardiao-da-promessa/OGDP-poster.png",
+      "status": "COMPLETED",
+      "migration": "CONTENT_MIGRATED",
+      "legacyPreserved": true
+    },
+    {
+      "id": "twilight-shadows",
+      "sourceRepository": "Uparchive/Twilight-Shadows",
+      "legacyUrl": "https://uparchive.github.io/Twilight-Shadows/",
+      "chapterRange": "0-50",
+      "chapterCount": 51,
+      "cover": "https://uparchive.github.io/Twilight-Shadows/TSposter1.png",
+      "status": "COMPLETED",
+      "migration": "CONTENT_MIGRATED",
+      "legacyPreserved": true
+    },
+    {
+      "id": "echoes-of-eternity",
+      "sourceRepository": "Uparchive/echoes-of-eternity",
+      "legacyUrl": "https://uparchive.github.io/echoes-of-eternity/",
+      "chapterRange": "1-10",
+      "chapterCount": 10,
+      "cover": "https://uparchive.github.io/echoes-of-eternity/EOE-poster.webp",
+      "status": "COMPLETED",
+      "migration": "CONTENT_MIGRATED",
+      "legacyPreserved": true
+    }
+  ]
+}
