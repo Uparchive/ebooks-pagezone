@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "o-guardiao-da-promessa",
+  "slug": "o-guardiao-da-promessa",
+  "title": "O Guardião da Promessa",
+  "description": "João, um homem comum, é escolhido para uma missão extraordinária que testa sua fé, resiliência e propósito.",
+  "genres": [
+    "Ficção cristã",
+    "Fantasia",
+    "Aventura",
+    "Alegoria espiritual",
+    "Drama"
+  ],
+  "status": "COMPLETED",
+  "featured": false,
+  "active": false,
+  "cover": {
+    "path": "capa.png",
+    "legacyUrl": "https://uparchive.github.io/o-guardiao-da-promessa/OGDP-poster.png"
+  },
+  "chapters": {
+    "path": "chapters.json",
+    "firstPublished": 0,
+    "currentPublished": 30
+  },
+  "legacy": {
+    "repository": "Uparchive/o-guardiao-da-promessa",
+    "url": "https://uparchive.github.io/o-guardiao-da-promessa/",
+    "readerPreserved": true
+  },
+  "assets": {
+    "formats": [
+      "ebook",
+      "print",
+      "audiobook",
+      "translation",
+      "licensing"
+    ]
+  }
+}
