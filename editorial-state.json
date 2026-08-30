@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "activeBookId": "urbans-family",
+  "stage": "CONTINUITY_AUDIT",
+  "lastExecution": null,
+  "nextObjective": "Construir dossiê narrativo fiel de Urbans Family a partir dos capítulos já publicados antes de escrever conteúdo novo.",
+  "legacyQueue": [
+    "urbans-family",
+    "o-batuque-no-quarto-ao-lado",
+    "365-dias-diversos",
+    "diario-de-omega"
+  ],
+  "rules": {
+    "oneActiveBook": true,
+    "completeLegacyBeforeNew": true,
+    "publicContentOnly": true
+  }
+}
