@@ -1,0 +1,10 @@
+{
+  "name": "ebooks-pagezone",
+  "private": true,
+  "version": "3.0.0",
+  "scripts": {
+    "build": "node scripts/build-catalog.js",
+    "validate": "node scripts/validate-books.js",
+    "check": "npm run build && npm run validate"
+  }
+}
