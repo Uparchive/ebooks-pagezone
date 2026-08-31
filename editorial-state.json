@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "activeBookId": "urbans-family",
-  "stage": "CONTINUITY_AUDIT",
-  "lastExecution": null,
-  "nextObjective": "Construir dossiê narrativo fiel de Urbans Family a partir dos capítulos já publicados antes de escrever conteúdo novo.",
+  "stage": "WRITING",
+  "lastExecution": "2026-08-31",
+  "nextObjective": "Escrever a continuação direta do capítulo 18, colocando em execução o plano contra a movimentação de Andrade e atualizando memória, continuidade e handoff após a publicação.",
   "legacyQueue": [
     "urbans-family",
     "o-batuque-no-quarto-ao-lado",
