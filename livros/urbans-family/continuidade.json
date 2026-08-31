@@ -1,15 +1,78 @@
 {
   "schemaVersion": 1,
   "bookId": "urbans-family",
-  "editorialState": "MIGRATED_NEEDS_NARRATIVE_AUDIT",
+  "editorialState": "AUDITED_READY_TO_WRITE",
   "publishedRange": {
     "first": 0,
     "last": 18
   },
-  "nextAction": "Auditar continuidade dos capítulos publicados antes de planejar escrita nova.",
+  "lastChapter": {
+    "number": 18,
+    "title": "Estratégia nas Sombras"
+  },
+  "characterLedger": [
+    {
+      "name": "João Carvalho",
+      "status": "preso; consolidando alianças e planejando atacar a operação de Andrade",
+      "location": "prisão"
+    },
+    {
+      "name": "Ana",
+      "status": "separada de João; exige segurança e verdade",
+      "location": "fora da prisão"
+    },
+    {
+      "name": "Clara",
+      "status": "filha de João e Ana; principal motivação de João",
+      "location": "com Ana"
+    },
+    {
+      "name": "Carlos",
+      "status": "aliado externo sob pressão de Andrade; protege Ana e Clara",
+      "location": "fora da prisão"
+    },
+    {
+      "name": "Torres",
+      "status": "aliado operacional de João",
+      "location": "prisão"
+    },
+    {
+      "name": "Andrade",
+      "status": "ameaça central; influencia prisão e operações externas",
+      "location": "não confirmada"
+    },
+    {
+      "name": "Mendes",
+      "status": "guarda corrupto ligado a Andrade; começou a fornecer informação a João",
+      "location": "prisão"
+    },
+    {
+      "name": "Diego Santos",
+      "status": "baleado pela polícia no capítulo 13; morte não confirmada pelo texto",
+      "location": "não confirmada"
+    }
+  ],
+  "openThreads": [
+    "João e Torres precisam transformar a informação de Mendes em ação contra a movimentação de drogas de Andrade.",
+    "A confiabilidade de Mendes ainda não foi provada.",
+    "Andrade pressiona Carlos e pode atingir Ana e Clara.",
+    "A aliança entre João e Torres ainda precisa ser testada sob risco real.",
+    "O custo moral e prático da ascensão de João dentro da prisão permanece aberto.",
+    "O estado definitivo de Diego após o confronto policial não foi confirmado."
+  ],
+  "chronology": [
+    "João entra no crime após perder o emprego e precisar sustentar a família.",
+    "Diego o integra gradualmente a operações violentas.",
+    "Ana deixa a casa com Clara; João tenta sair do grupo.",
+    "João foge com ajuda de Carlos e confronta Diego.",
+    "Diego é baleado pela polícia e João se entrega.",
+    "Na prisão, Ana pede divórcio e João começa a construir influência.",
+    "João descobre a ligação de Carlos com Andrade.",
+    "João se alia a Torres e investiga a rede de Andrade.",
+    "Mendes revela uma grande movimentação de drogas de Andrade.",
+    "João e Torres iniciam preparação de uma emboscada."
+  ],
+  "nextAction": "Planejar e escrever a continuação direta do capítulo 18, usando a informação de Mendes para colocar o plano contra Andrade em movimento sem contradizer os fatos publicados.",
   "chapterLedgerSource": "chapters.json",
-  "openThreads": [],
-  "characterLedger": [],
-  "chronology": [],
   "spoilersInternal": true
 }
