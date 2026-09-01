@@ -1,29 +1,32 @@
 # Próxima jornada — Urbans Family
 
 ## Onde a história parou
-Capítulo 18: João e Torres descobriram, por meio do guarda Mendes, que Andrade prepara uma grande movimentação de drogas. Eles começaram a reunir apoio dentro da prisão e desenhar uma emboscada para enfraquecer a operação.
+Capítulo 19: João executou o primeiro golpe contra a movimentação de Andrade. Parte da operação foi interrompida, mas Andrade havia previsto a reação e usou a movimentação como isca para identificar aliados de João. Nando foi agredido, Carlos transmitiu uma ameaça e João recebeu um bilhete dizendo que Andrade agora sabe quem está com ele.
 
 ## Objetivo da próxima jornada
-Fazer o plano sair da preparação e entrar em execução, com consequência narrativa concreta.
+Transformar o revés em investigação ativa: João precisa manter a aliança unida, testar Mendes e descobrir uma pista concreta sobre por onde Andrade acompanha seus movimentos.
 
 ## Tensão a manter
-- Mendes pode estar ajudando João, manipulando-o ou tentando sobreviver entre dois lados.
-- Andrade já suspeita que João está tramando algo.
-- Carlos continua sob pressão de Andrade, o que mantém Ana e Clara vulneráveis.
-- João está conquistando influência, mas cada novo aliado aumenta sua exposição e responsabilidade.
+- Os homens que seguiram João agora sabem que podem sofrer retaliação.
+- Mendes deu informação verdadeira, mas pode ter participado da armadilha ou ter sido usado sem saber.
+- Andrade continua alcançando Carlos e, por extensão, Ana e Clara.
+- João precisa demonstrar liderança assumindo o custo de suas decisões, não apenas exigindo lealdade.
 
 ## Personagens em foco
-João, Torres e Mendes. Carlos/Ana/Clara devem permanecer como pressão externa quando necessário, sem desviar o núcleo do movimento atual.
+João, Torres, Mendes e Nando. Carlos pode reaparecer como pressão externa se houver avanço real sobre Andrade ou sobre a família.
 
 ## Continuidade que não pode ser esquecida
 - João está preso.
+- Capítulo 19 é o último publicado.
+- Nando foi agredido após apoiar João.
+- Andrade identificou pelo menos parte da nova aliança.
+- Mendes forneceu o horário alterado da movimentação; a informação era real, mas sua lealdade não foi provada.
 - Diego foi baleado pela polícia, mas sua morte não foi confirmada.
 - Ana pediu divórcio.
-- Carlos fez acordo com Andrade para escapar e proteger a família.
-- Mendes é guarda corrupto ligado a Andrade e acabou de começar a fornecer informações.
+- Carlos segue preso ao acordo com Andrade.
 
 ## Risco editorial
-Não repetir mais um capítulo inteiro de planejamento. A narrativa agora precisa produzir ação, teste de lealdade ou consequência real a partir da informação do capítulo 18.
+Não transformar o próximo capítulo em uma sequência de conversas sobre quem é o traidor. A investigação precisa produzir evento, teste e descoberta concreta.
 
 ## Tarefa
-Planejar e escrever a continuação direta, publicar somente após verificar coerência com `memoria.md`, `continuidade.json`, `planejamento.md` e os capítulos 17–18.
+Escrever a continuação direta de `A Isca`, fazendo João reagir ao medo da aliança e criar um teste que revele uma pista sobre o canal de vigilância de Andrade. Atualizar capítulos, metadados, memória, continuidade e este handoff após a publicação.
