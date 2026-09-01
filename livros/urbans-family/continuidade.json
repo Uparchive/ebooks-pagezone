@@ -1,24 +1,24 @@
 {
   "schemaVersion": 1,
   "bookId": "urbans-family",
-  "editorialState": "AUDITED_READY_TO_WRITE",
+  "editorialState": "WRITING",
   "publishedRange": {
     "first": 0,
-    "last": 18
+    "last": 19
   },
   "lastChapter": {
-    "number": 18,
-    "title": "Estratégia nas Sombras"
+    "number": 19,
+    "title": "A Isca"
   },
   "characterLedger": [
     {
       "name": "João Carvalho",
-      "status": "preso; consolidando alianças e planejando atacar a operação de Andrade",
+      "status": "preso; liderando uma aliança nascente e tentando descobrir por onde Andrade monitora seus movimentos",
       "location": "prisão"
     },
     {
       "name": "Ana",
-      "status": "separada de João; exige segurança e verdade",
+      "status": "separada de João; continua potencialmente vulnerável à pressão de Andrade",
       "location": "fora da prisão"
     },
     {
@@ -28,22 +28,27 @@
     },
     {
       "name": "Carlos",
-      "status": "aliado externo sob pressão de Andrade; protege Ana e Clara",
+      "status": "aliado externo sob pressão de Andrade; foi usado para transmitir ameaça a João",
       "location": "fora da prisão"
     },
     {
       "name": "Torres",
-      "status": "aliado operacional de João",
+      "status": "aliado operacional de João; permaneceu ao lado dele após a emboscada parcial",
       "location": "prisão"
     },
     {
       "name": "Andrade",
-      "status": "ameaça central; influencia prisão e operações externas",
+      "status": "ameaça central; sacrificou ou expôs parte da movimentação para identificar aliados de João",
       "location": "não confirmada"
     },
     {
       "name": "Mendes",
-      "status": "guarda corrupto ligado a Andrade; começou a fornecer informação a João",
+      "status": "guarda corrupto ligado a Andrade; sua informação foi parcialmente verdadeira, mas sua lealdade segue duvidosa",
+      "location": "prisão"
+    },
+    {
+      "name": "Nando",
+      "status": "novo aliado de João; agredido após a operação, evidenciando que Andrade identificou parte da rede",
       "location": "prisão"
     },
     {
@@ -53,11 +58,11 @@
     }
   ],
   "openThreads": [
-    "João e Torres precisam transformar a informação de Mendes em ação contra a movimentação de drogas de Andrade.",
-    "A confiabilidade de Mendes ainda não foi provada.",
-    "Andrade pressiona Carlos e pode atingir Ana e Clara.",
-    "A aliança entre João e Torres ainda precisa ser testada sob risco real.",
-    "O custo moral e prático da ascensão de João dentro da prisão permanece aberto.",
+    "Descobrir por onde Andrade está monitorando João e quem vazou a composição da nova aliança.",
+    "Determinar se Mendes entregou João, foi manipulado por Andrade ou continua tentando jogar dos dois lados.",
+    "Proteger os aliados expostos após a emboscada e evitar que a liderança de João desmorone por medo.",
+    "Entender o que Andrade ainda exige de Carlos e até onde a ameaça contra Ana e Clara pode avançar.",
+    "Explorar o custo moral e prático da ascensão de João dentro da prisão.",
     "O estado definitivo de Diego após o confronto policial não foi confirmado."
   ],
   "chronology": [
@@ -70,9 +75,10 @@
     "João descobre a ligação de Carlos com Andrade.",
     "João se alia a Torres e investiga a rede de Andrade.",
     "Mendes revela uma grande movimentação de drogas de Andrade.",
-    "João e Torres iniciam preparação de uma emboscada."
+    "João coloca a emboscada em movimento e interrompe parte da operação.",
+    "Andrade demonstra ter usado a movimentação como isca para identificar aliados de João; Nando é agredido e João recebe um bilhete ameaçador."
   ],
-  "nextAction": "Planejar e escrever a continuação direta do capítulo 18, usando a informação de Mendes para colocar o plano contra Andrade em movimento sem contradizer os fatos publicados.",
+  "nextAction": "Investigar a origem do vazamento sem repetir um capítulo apenas investigativo: João precisa reagir ao medo entre os aliados, testar Mendes e obter uma pista concreta sobre o canal de vigilância de Andrade.",
   "chapterLedgerSource": "chapters.json",
   "spoilersInternal": true
 }
