@@ -1,32 +1,22 @@
 # Próxima jornada — Urbans Family
 
 ## Onde a história parou
-Capítulo 19: João executou o primeiro golpe contra a movimentação de Andrade. Parte da operação foi interrompida, mas Andrade havia previsto a reação e usou a movimentação como isca para identificar aliados de João. Nando foi agredido, Carlos transmitiu uma ameaça e João recebeu um bilhete dizendo que Andrade agora sabe quem está com ele.
+Capítulo 20, **O Eco**: João assumiu o custo da armadilha diante dos aliados, criou duas versões de uma falsa movimentação e descobriu que a versão registrada oficialmente por Mendes chegou aos homens de Andrade. O provável canal de vigilância são os registros internos de movimentação da prisão. Andrade sabe que João percebeu isso e enviou um bilhete: “Você encontrou a janela. Ainda não encontrou a mão.”
 
 ## Objetivo da próxima jornada
-Transformar o revés em investigação ativa: João precisa manter a aliança unida, testar Mendes e descobrir uma pista concreta sobre por onde Andrade acompanha seus movimentos.
+Usar a janela descoberta como contra-vigilância. João deve plantar uma informação controlada nos registros para obrigar o operador oculto a agir e deixar uma pista identificável.
 
 ## Tensão a manter
-- Os homens que seguiram João agora sabem que podem sofrer retaliação.
-- Mendes deu informação verdadeira, mas pode ter participado da armadilha ou ter sido usado sem saber.
-- Andrade continua alcançando Carlos e, por extensão, Ana e Clara.
-- João precisa demonstrar liderança assumindo o custo de suas decisões, não apenas exigindo lealdade.
+- Mendes continua suspeito, mas não foi visto transmitindo a informação diretamente.
+- Andrade ainda está um passo à frente e sabe que João está investigando o canal.
+- Nando permaneceu na aliança apesar da agressão.
+- Qualquer teste que envolva visitas ou contatos externos pode ameaçar Ana, Clara e Carlos.
 
 ## Personagens em foco
-João, Torres, Mendes e Nando. Carlos pode reaparecer como pressão externa se houver avanço real sobre Andrade ou sobre a família.
-
-## Continuidade que não pode ser esquecida
-- João está preso.
-- Capítulo 19 é o último publicado.
-- Nando foi agredido após apoiar João.
-- Andrade identificou pelo menos parte da nova aliança.
-- Mendes forneceu o horário alterado da movimentação; a informação era real, mas sua lealdade não foi provada.
-- Diego foi baleado pela polícia, mas sua morte não foi confirmada.
-- Ana pediu divórcio.
-- Carlos segue preso ao acordo com Andrade.
+João, Torres e Mendes. Nando pode aparecer como sinal da coesão da aliança. O operador oculto deve ganhar contorno sem ser totalmente resolvido.
 
 ## Risco editorial
-Não transformar o próximo capítulo em uma sequência de conversas sobre quem é o traidor. A investigação precisa produzir evento, teste e descoberta concreta.
+Não repetir o teste do capítulo 20 com nomes trocados. O próximo movimento precisa transformar a descoberta em contra-vigilância e produzir um novo nível de evidência.
 
 ## Tarefa
-Escrever a continuação direta de `A Isca`, fazendo João reagir ao medo da aliança e criar um teste que revele uma pista sobre o canal de vigilância de Andrade. Atualizar capítulos, metadados, memória, continuidade e este handoff após a publicação.
+Escrever a continuação direta de **O Eco**, usando os registros como isca controlada para aproximar João da pessoa que alimenta Andrade. Atualizar capítulos, metadados, memória, continuidade e este handoff após a publicação.
