@@ -4,21 +4,21 @@
   "editorialState": "WRITING",
   "publishedRange": {
     "first": 0,
-    "last": 19
+    "last": 20
   },
   "lastChapter": {
-    "number": 19,
-    "title": "A Isca"
+    "number": 20,
+    "title": "O Eco"
   },
   "characterLedger": [
     {
       "name": "João Carvalho",
-      "status": "preso; liderando uma aliança nascente e tentando descobrir por onde Andrade monitora seus movimentos",
+      "status": "preso; descobriu que a vigilância de Andrade passa pelos registros internos de movimentação",
       "location": "prisão"
     },
     {
       "name": "Ana",
-      "status": "separada de João; continua potencialmente vulnerável à pressão de Andrade",
+      "status": "separada de João; potencialmente vulnerável à pressão de Andrade",
       "location": "fora da prisão"
     },
     {
@@ -28,42 +28,42 @@
     },
     {
       "name": "Carlos",
-      "status": "aliado externo sob pressão de Andrade; foi usado para transmitir ameaça a João",
+      "status": "aliado externo sob pressão de Andrade",
       "location": "fora da prisão"
     },
     {
       "name": "Torres",
-      "status": "aliado operacional de João; permaneceu ao lado dele após a emboscada parcial",
+      "status": "principal aliado operacional; ajudou João a testar o canal de vigilância",
       "location": "prisão"
     },
     {
       "name": "Andrade",
-      "status": "ameaça central; sacrificou ou expôs parte da movimentação para identificar aliados de João",
+      "status": "ameaça central; recebe informação derivada das rotinas oficiais da prisão e sabe que João detectou o canal",
       "location": "não confirmada"
     },
     {
       "name": "Mendes",
-      "status": "guarda corrupto ligado a Andrade; sua informação foi parcialmente verdadeira, mas sua lealdade segue duvidosa",
+      "status": "registrou a falsa movimentação do teste; não foi visto transmitindo a informação diretamente; lealdade segue incerta",
       "location": "prisão"
     },
     {
       "name": "Nando",
-      "status": "novo aliado de João; agredido após a operação, evidenciando que Andrade identificou parte da rede",
+      "status": "agredido por seguir João; decidiu permanecer na aliança",
       "location": "prisão"
     },
     {
       "name": "Diego Santos",
-      "status": "baleado pela polícia no capítulo 13; morte não confirmada pelo texto",
+      "status": "baleado pela polícia no capítulo 13; morte não confirmada",
       "location": "não confirmada"
     }
   ],
   "openThreads": [
-    "Descobrir por onde Andrade está monitorando João e quem vazou a composição da nova aliança.",
-    "Determinar se Mendes entregou João, foi manipulado por Andrade ou continua tentando jogar dos dois lados.",
-    "Proteger os aliados expostos após a emboscada e evitar que a liderança de João desmorone por medo.",
-    "Entender o que Andrade ainda exige de Carlos e até onde a ameaça contra Ana e Clara pode avançar.",
-    "Explorar o custo moral e prático da ascensão de João dentro da prisão.",
-    "O estado definitivo de Diego após o confronto policial não foi confirmado."
+    "Identificar quem transforma registros internos de movimentação em informação para Andrade.",
+    "Determinar se Mendes participa conscientemente do vazamento ou é apenas parte do processo explorado.",
+    "Usar o canal descoberto para criar vantagem sem expor os aliados.",
+    "Entender até onde Andrade alcança visitas e contatos externos ligados a Ana, Clara e Carlos.",
+    "Explorar o custo moral e prático da ascensão de João.",
+    "O estado definitivo de Diego permanece não confirmado."
   ],
   "chronology": [
     "João entra no crime após perder o emprego e precisar sustentar a família.",
@@ -74,11 +74,11 @@
     "Na prisão, Ana pede divórcio e João começa a construir influência.",
     "João descobre a ligação de Carlos com Andrade.",
     "João se alia a Torres e investiga a rede de Andrade.",
-    "Mendes revela uma grande movimentação de drogas de Andrade.",
-    "João coloca a emboscada em movimento e interrompe parte da operação.",
-    "Andrade demonstra ter usado a movimentação como isca para identificar aliados de João; Nando é agredido e João recebe um bilhete ameaçador."
+    "Mendes revela uma movimentação de drogas; Andrade usa a reação como isca e identifica aliados de João.",
+    "Nando é agredido e João testa duas versões de uma movimentação.",
+    "A versão registrada oficialmente atrai homens de Andrade, revelando que o canal de vigilância passa pelos registros internos da prisão."
   ],
-  "nextAction": "Investigar a origem do vazamento sem repetir um capítulo apenas investigativo: João precisa reagir ao medo entre os aliados, testar Mendes e obter uma pista concreta sobre o canal de vigilância de Andrade.",
+  "nextAction": "Usar o canal de registros como contra-vigilância: plantar uma informação controlada que obrigue o operador oculto a se revelar, sem colocar a família ou aliados em risco.",
   "chapterLedgerSource": "chapters.json",
   "spoilersInternal": true
 }
