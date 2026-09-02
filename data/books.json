@@ -17,8 +17,8 @@
       "status": "DEVELOPMENT",
       "featured": true,
       "order": 1,
-      "currentChapter": 19,
-      "chapterCount": 20,
+      "currentChapter": 20,
+      "chapterCount": 21,
       "cover": "livros/urbans-family/capa.png",
       "url": "reader.html?book=urbans-family",
       "legacyUrl": "https://uparchive.github.io/urbans-family/"
