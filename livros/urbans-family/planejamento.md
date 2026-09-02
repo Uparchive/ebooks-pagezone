@@ -1,32 +1,28 @@
 # Planejamento editorial — Urbans Family
 
 ## Estado
-Capítulo 19 publicado. O arco saiu da preparação e entrou em confronto indireto real: João atingiu parcialmente uma operação de Andrade, mas o rival transformou a movimentação em isca e identificou parte da nova aliança.
+Capítulo 20 publicado. João reagiu à armadilha sem acusar um traidor às cegas e descobriu que a vigilância de Andrade passa pelos registros oficiais de movimentação da prisão.
 
 ## Arco atual
-João está preso e tenta converter sobrevivência em poder para proteger Ana e Clara. Andrade segue como ameaça central e demonstrou ter visão privilegiada do que acontece dentro da prisão. Torres continua como principal aliado interno. Mendes permanece útil, porém não confiável. A agressão contra Nando tornou concreto o custo de seguir João.
+João continua preso, tentando transformar sobrevivência em poder para proteger Ana e Clara. Torres permanece como principal aliado. Nando resistiu à intimidação. Mendes segue útil e suspeito, mas o teste mostrou que a informação pode estar vazando pelo sistema burocrático da prisão, não necessariamente por uma delação direta dele. Andrade sabe que João encontrou o canal.
 
 ## Movimento imediato
-O próximo avanço deve explorar a consequência do capítulo 19 sem cair em repetição investigativa.
+A próxima continuação deve converter a descoberta em contra-vigilância. João precisa plantar uma informação controlada nos registros e observar quem age a partir dela, estreitando o caminho até a “mão” mencionada por Andrade.
 
 A continuação deve:
-- mostrar a reação dos aliados após Nando ser atacado;
-- testar Mendes de forma narrativa e produzir evidência, não apenas suspeita;
-- fazer João descobrir uma pista concreta sobre por onde Andrade acompanha seus movimentos;
-- manter Carlos, Ana e Clara como pressão externa real;
-- mostrar João assumindo responsabilidade pelo risco imposto aos seus homens;
-- preservar Andrade como adversário inteligente e ainda superior em alcance;
-- evitar uma solução rápida para o conflito.
+- usar a descoberta do capítulo 20 como ação, não apenas conversa;
+- preservar a incerteza sobre Mendes;
+- fazer o operador oculto deixar um sinal identificável;
+- manter o risco sobre Ana, Clara e Carlos como limite para os testes de João;
+- mostrar a liderança de João se tornando mais estratégica e responsável;
+- manter Andrade perigoso e inteligente;
+- evitar resolver toda a rede em um único capítulo.
 
-## Direção de longo prazo já publicada
-A apresentação da obra estabelece que João caminha de homem comum a líder temido de uma poderosa gangue. Essa ascensão deve continuar por escolhas, perdas, alianças e responsabilidade crescente, não apenas por declarações de poder.
-
-## Pontos que não devem ser inventados retroativamente
-- Não declarar Diego morto enquanto os capítulos publicados não confirmarem isso.
+## Restrições de continuidade
+- Não declarar Diego morto.
 - Não declarar Marcos morto como fato confirmado.
-- Não transformar Mendes em aliado fiel sem teste narrativo.
-- Não assumir que Ana e Clara estão totalmente seguras.
-- Não revelar um traidor definitivo sem construir evidência no texto.
+- Não transformar Mendes em aliado fiel ou traidor definitivo sem evidência adicional.
+- Não assumir Ana e Clara totalmente seguras.
 
 ## Próximo marco editorial
-Produzir uma continuação em que João contenha o medo da própria aliança e teste o canal de informação de Andrade. O capítulo deve terminar com avanço concreto: uma pista confiável, uma inversão de vigilância ou uma nova ameaça que mude a posição de João.
+Fazer João usar a “janela” dos registros para forçar um movimento observável do operador de Andrade e terminar com uma identificação parcial, vínculo institucional ou nova ameaça que aproxime a investigação da pessoa responsável.
