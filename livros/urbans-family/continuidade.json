@@ -4,64 +4,29 @@
   "editorialState": "WRITING",
   "publishedRange": {
     "first": 0,
-    "last": 20
+    "last": 21
   },
   "lastChapter": {
-    "number": 20,
-    "title": "O Eco"
+    "number": 21,
+    "title": "A Mão"
   },
   "characterLedger": [
-    {
-      "name": "João Carvalho",
-      "status": "preso; descobriu que a vigilância de Andrade passa pelos registros internos de movimentação",
-      "location": "prisão"
-    },
-    {
-      "name": "Ana",
-      "status": "separada de João; potencialmente vulnerável à pressão de Andrade",
-      "location": "fora da prisão"
-    },
-    {
-      "name": "Clara",
-      "status": "filha de João e Ana; principal motivação de João",
-      "location": "com Ana"
-    },
-    {
-      "name": "Carlos",
-      "status": "aliado externo sob pressão de Andrade",
-      "location": "fora da prisão"
-    },
-    {
-      "name": "Torres",
-      "status": "principal aliado operacional; ajudou João a testar o canal de vigilância",
-      "location": "prisão"
-    },
-    {
-      "name": "Andrade",
-      "status": "ameaça central; recebe informação derivada das rotinas oficiais da prisão e sabe que João detectou o canal",
-      "location": "não confirmada"
-    },
-    {
-      "name": "Mendes",
-      "status": "registrou a falsa movimentação do teste; não foi visto transmitindo a informação diretamente; lealdade segue incerta",
-      "location": "prisão"
-    },
-    {
-      "name": "Nando",
-      "status": "agredido por seguir João; decidiu permanecer na aliança",
-      "location": "prisão"
-    },
-    {
-      "name": "Diego Santos",
-      "status": "baleado pela polícia no capítulo 13; morte não confirmada",
-      "location": "não confirmada"
-    }
+    {"name": "João Carvalho", "status": "preso; identificou Ribeiro como provável operador da rede de registros de Andrade", "location": "prisão"},
+    {"name": "Ana", "status": "separada de João; registros de visita podem ser explorados pela rede", "location": "fora da prisão"},
+    {"name": "Clara", "status": "filha de João e Ana; principal motivação de João", "location": "com Ana"},
+    {"name": "Carlos", "status": "aliado externo sob pressão de Andrade", "location": "fora da prisão"},
+    {"name": "Torres", "status": "principal aliado operacional; ajudou a observar a isca do capítulo 21", "location": "prisão"},
+    {"name": "Andrade", "status": "ameaça central; sabe que João chegou até Ribeiro e indica que a rede é maior", "location": "não confirmada"},
+    {"name": "Mendes", "status": "ajudou no teste e revelou a função de Ribeiro; lealdade segue incerta", "location": "prisão"},
+    {"name": "Ribeiro", "status": "agente do controle interno; copiou a movimentação-isca e entrou no arquivo; provável operador do vazamento", "location": "prisão"},
+    {"name": "Nando", "status": "aliado agredido; permaneceu na aliança e observou parte do teste sem confronto", "location": "prisão"},
+    {"name": "Diego Santos", "status": "baleado pela polícia no capítulo 13; morte não confirmada", "location": "não confirmada"}
   ],
   "openThreads": [
-    "Identificar quem transforma registros internos de movimentação em informação para Andrade.",
-    "Determinar se Mendes participa conscientemente do vazamento ou é apenas parte do processo explorado.",
-    "Usar o canal descoberto para criar vantagem sem expor os aliados.",
-    "Entender até onde Andrade alcança visitas e contatos externos ligados a Ana, Clara e Carlos.",
+    "Confirmar o papel real de Ribeiro e descobrir como a informação sai do arquivo administrativo.",
+    "Determinar se Ribeiro age conscientemente para Andrade ou integra uma cadeia maior.",
+    "Determinar se Mendes participa conscientemente do vazamento ou tenta sobreviver entre os lados.",
+    "Proteger registros de visitas e contatos ligados a Ana, Clara e Carlos.",
     "Explorar o custo moral e prático da ascensão de João.",
     "O estado definitivo de Diego permanece não confirmado."
   ],
@@ -75,10 +40,10 @@
     "João descobre a ligação de Carlos com Andrade.",
     "João se alia a Torres e investiga a rede de Andrade.",
     "Mendes revela uma movimentação de drogas; Andrade usa a reação como isca e identifica aliados de João.",
-    "Nando é agredido e João testa duas versões de uma movimentação.",
-    "A versão registrada oficialmente atrai homens de Andrade, revelando que o canal de vigilância passa pelos registros internos da prisão."
+    "Nando é agredido e João descobre que a vigilância passa pelos registros internos da prisão.",
+    "João planta uma movimentação controlada e identifica Ribeiro, do controle interno, como provável operador da rede de registros."
   ],
-  "nextAction": "Usar o canal de registros como contra-vigilância: plantar uma informação controlada que obrigue o operador oculto a se revelar, sem colocar a família ou aliados em risco.",
+  "nextAction": "Seguir a conexão de Ribeiro para descobrir como a informação sai do arquivo e chega à rede de Andrade, sem usar família ou aliados como isca.",
   "chapterLedgerSource": "chapters.json",
   "spoilersInternal": true
 }
