@@ -1,0 +1,46 @@
+name: Apply Editorial Command
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'editorial-commands/current.json'
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Apply editorial command
+        run: node scripts/apply-editorial-command.js
+
+      - name: Build
+        run: npm run build
+
+      - name: Validate
+        run: npm run validate
+
+      - name: Check
+        run: npm run check
+
+      - name: Commit generated editorial state
+        run: |
+          git config user.name "pagezone-editorial-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add livros editorial-state.json books.json
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit."
+            exit 0
+          fi
+          git commit -m "content: apply PageZone editorial journey"
+          git push
