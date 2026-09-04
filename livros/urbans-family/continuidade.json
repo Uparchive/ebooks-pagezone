@@ -4,29 +4,82 @@
   "editorialState": "WRITING",
   "publishedRange": {
     "first": 0,
-    "last": 21
+    "last": 22
   },
   "lastChapter": {
-    "number": 21,
-    "title": "A Mão"
+    "number": 22,
+    "title": "O Braço"
   },
   "characterLedger": [
-    {"name": "João Carvalho", "status": "preso; identificou Ribeiro como provável operador da rede de registros de Andrade", "location": "prisão"},
-    {"name": "Ana", "status": "separada de João; registros de visita podem ser explorados pela rede", "location": "fora da prisão"},
-    {"name": "Clara", "status": "filha de João e Ana; principal motivação de João", "location": "com Ana"},
-    {"name": "Carlos", "status": "aliado externo sob pressão de Andrade", "location": "fora da prisão"},
-    {"name": "Torres", "status": "principal aliado operacional; ajudou a observar a isca do capítulo 21", "location": "prisão"},
-    {"name": "Andrade", "status": "ameaça central; sabe que João chegou até Ribeiro e indica que a rede é maior", "location": "não confirmada"},
-    {"name": "Mendes", "status": "ajudou no teste e revelou a função de Ribeiro; lealdade segue incerta", "location": "prisão"},
-    {"name": "Ribeiro", "status": "agente do controle interno; copiou a movimentação-isca e entrou no arquivo; provável operador do vazamento", "location": "prisão"},
-    {"name": "Nando", "status": "aliado agredido; permaneceu na aliança e observou parte do teste sem confronto", "location": "prisão"},
-    {"name": "Diego Santos", "status": "baleado pela polícia no capítulo 13; morte não confirmada", "location": "não confirmada"}
+    {
+      "name": "João Carvalho",
+      "status": "preso; seguiu o fluxo do arquivo até o anexo e busca quem recebe a informação do outro lado",
+      "location": "prisão"
+    },
+    {
+      "name": "Ana",
+      "status": "separada de João; registros de visita continuam vulneráveis",
+      "location": "fora da prisão"
+    },
+    {
+      "name": "Clara",
+      "status": "filha de João e Ana; citada por Ribeiro em aviso/ameaça ambígua",
+      "location": "com Ana"
+    },
+    {
+      "name": "Carlos",
+      "status": "aliado externo sob pressão de Andrade; possível origem de 'Mudaram o endereço' não confirmada",
+      "location": "fora da prisão"
+    },
+    {
+      "name": "Torres",
+      "status": "principal aliado operacional; acompanha a investigação sem ações precipitadas",
+      "location": "prisão"
+    },
+    {
+      "name": "Andrade",
+      "status": "ameaça central; afirma que sua rede ultrapassa os muros",
+      "location": "não confirmada"
+    },
+    {
+      "name": "Mendes",
+      "status": "revelou o fluxo para o anexo e o nome de Sônia; útil e ainda suspeito",
+      "location": "prisão"
+    },
+    {
+      "name": "Ribeiro",
+      "status": "agente do controle interno; provável operador; demonstrou medo de Andrade e alertou João sobre Clara",
+      "location": "prisão"
+    },
+    {
+      "name": "Lemos",
+      "status": "apoio administrativo; transporta documentos e malotes ao anexo; cumplicidade não comprovada",
+      "location": "prisão/anexo administrativo"
+    },
+    {
+      "name": "Sônia",
+      "status": "servidora antiga do protocolo do anexo; possível testemunha, filtro ou elo ainda não investigado",
+      "location": "anexo administrativo"
+    },
+    {
+      "name": "Nando",
+      "status": "aliado agredido; permanece na aliança sem ser usado como isca",
+      "location": "prisão"
+    },
+    {
+      "name": "Diego Santos",
+      "status": "baleado pela polícia no capítulo 13; morte não confirmada",
+      "location": "não confirmada"
+    }
   ],
   "openThreads": [
-    "Confirmar o papel real de Ribeiro e descobrir como a informação sai do arquivo administrativo.",
-    "Determinar se Ribeiro age conscientemente para Andrade ou integra uma cadeia maior.",
-    "Determinar se Mendes participa conscientemente do vazamento ou tenta sobreviver entre os lados.",
-    "Proteger registros de visitas e contatos ligados a Ana, Clara e Carlos.",
+    "Descobrir quem recebe ou desvia informação no anexo administrativo.",
+    "Confirmar o papel de Ribeiro e se o aviso sobre Clara foi ameaça ou proteção.",
+    "Determinar se Lemos é apenas transportador ou participa conscientemente.",
+    "Investigar Sônia e o protocolo sem presumir culpa.",
+    "Esclarecer a origem e o significado do recado 'Mudaram o endereço'.",
+    "Determinar o papel real de Mendes.",
+    "Proteger registros e contatos ligados a Ana, Clara e Carlos.",
     "Explorar o custo moral e prático da ascensão de João.",
     "O estado definitivo de Diego permanece não confirmado."
   ],
@@ -41,9 +94,10 @@
     "João se alia a Torres e investiga a rede de Andrade.",
     "Mendes revela uma movimentação de drogas; Andrade usa a reação como isca e identifica aliados de João.",
     "Nando é agredido e João descobre que a vigilância passa pelos registros internos da prisão.",
-    "João planta uma movimentação controlada e identifica Ribeiro, do controle interno, como provável operador da rede de registros."
+    "João planta uma movimentação controlada e identifica Ribeiro, do controle interno, como provável operador da rede de registros.",
+    "João segue o fluxo físico dos documentos: Ribeiro entrega envelope ao carrinho de Lemos, que leva malotes ao anexo; Sônia surge como ponto de conferência do protocolo."
   ],
-  "nextAction": "Seguir a conexão de Ribeiro para descobrir como a informação sai do arquivo e chega à rede de Andrade, sem usar família ou aliados como isca.",
+  "nextAction": "Descobrir quem, no anexo ou depois dele, recebe a informação e a conecta à rede externa de Andrade, preservando a ambiguidade de Ribeiro, Lemos e Sônia.",
   "chapterLedgerSource": "chapters.json",
   "spoilersInternal": true
 }

@@ -21,7 +21,7 @@
       "chapters": {
         "path": "chapters.json",
         "firstPublished": 0,
-        "currentPublished": 21
+        "currentPublished": 22
       },
       "legacy": {
         "repository": "Uparchive/urbans-family",
@@ -40,8 +40,8 @@
       "order": 1,
       "url": "reader.html?book=urbans-family",
       "legacyUrl": "https://uparchive.github.io/urbans-family/",
-      "currentChapter": 21,
-      "chapterCount": 22
+      "currentChapter": 22,
+      "chapterCount": 23
     },
     {
       "schemaVersion": 1,

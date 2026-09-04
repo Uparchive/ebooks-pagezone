@@ -1,29 +1,31 @@
 # Planejamento editorial — Urbans Family
 
 ## Estado
-Capítulo 21 publicado. João transformou a descoberta dos registros em contra-vigilância e identificou **Ribeiro**, agente do controle interno, como provável operador da rede de Andrade.
+Capítulo 22 publicado. João deixou de perseguir Ribeiro como suspeito isolado e identificou um fluxo maior: **Ribeiro → documentos/malote → Lemos → anexo administrativo**. **Sônia**, do protocolo, surge como possível ponto de controle. Andrade confirma que “o braço não termina no muro”.
 
 ## Arco atual
-João continua preso, tentando transformar sobrevivência em poder para proteger Ana e Clara. Torres permanece como principal aliado. Nando continua na aliança. Mendes segue útil e suspeito. Ribeiro agora dá um rosto institucional ao vazamento: ele acessa movimentações e o arquivo administrativo, mas ainda não está provado como a informação sai dali nem se ele atua conscientemente para Andrade. Andrade sabe que João chegou até essa peça e indica que a rede é maior.
+João continua preso, tentando transformar sobrevivência em poder para proteger Ana e Clara. Torres permanece como principal aliado. Mendes segue útil e suspeito. Ribeiro demonstrou medo ao ouvir o nome de Andrade e alertou João sobre Clara, o que impede tratá-lo como vilão simples. Lemos transporta documentos, mas pode não saber o valor do que carrega. O conflito agora alcança o anexo administrativo e a possibilidade de uma conexão externa.
 
 ## Movimento imediato
-A próxima continuação deve seguir o caminho **depois do arquivo**. João precisa descobrir o elo entre Ribeiro e o exterior sem simplesmente repetir outra falsa movimentação. A investigação deve produzir evidência sobre o mecanismo de saída da informação ou sobre outro integrante da cadeia.
+A próxima continuação deve descobrir **quem espera do outro lado do fluxo**. O mecanismo não deve voltar a ser outra isca documental. João precisa obter uma consequência observável, um testemunho, uma falha no protocolo ou um vínculo externo que aproxime a rede de Andrade sem resolver tudo.
 
 A continuação deve:
-- fazer Ribeiro ganhar profundidade sem virar vilão resolvido instantaneamente;
+- investigar o anexo/protocolo e o papel de Sônia sem culpá-la antecipadamente;
+- manter Lemos como possível transportador inconsciente;
+- aprofundar a ambiguidade de Ribeiro depois do aviso sobre Clara;
+- esclarecer ou avançar o recado “Mudaram o endereço”;
 - preservar a incerteza sobre Mendes;
-- evitar usar Ana, Clara ou Carlos como isca;
-- mostrar João aprendendo a liderar sem sacrificar aliados;
-- revelar um novo nível da rede de Andrade;
-- manter Andrade perigoso e capaz de antecipar movimentos;
-- evitar resolver toda a rede em um único capítulo.
+- manter Ana, Clara, Carlos e os aliados fora de qualquer isca deliberada;
+- revelar um elo externo concreto da rede;
+- evitar encerrar Andrade ou toda a conspiração em um único capítulo.
 
 ## Restrições de continuidade
 - Não declarar Diego morto.
 - Não declarar Marcos morto como fato confirmado além do tiro ouvido no capítulo 8.
 - Não transformar Mendes em aliado fiel ou traidor definitivo sem evidência adicional.
-- Não declarar Ribeiro culpado definitivo antes de mostrar como a informação sai do arquivo.
+- Não declarar Ribeiro culpado definitivo.
+- Não declarar Lemos ou Sônia cúmplices sem evidência.
 - Não assumir Ana e Clara totalmente seguras.
 
 ## Próximo marco editorial
-Fazer João identificar **o mecanismo ou pessoa que recebe de Ribeiro/arquivo e leva a informação para fora**, aproximando o conflito de Andrade sem fechar a rede inteira.
+Fazer João identificar **uma pessoa, rota ou evidência verificável além do anexo administrativo** que conecte o fluxo documental à rede externa de Andrade.
