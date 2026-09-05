@@ -2,17 +2,8 @@
   "schemaVersion": 1,
   "activeBookId": "urbans-family",
   "stage": "WRITING",
-  "lastExecution": "2026-09-04",
-  "nextObjective": "Descobrir quem recebe ou desvia informação depois do anexo administrativo e revelar um elo externo concreto da rede de Andrade.",
-  "legacyQueue": [
-    "urbans-family",
-    "o-batuque-no-quarto-ao-lado",
-    "365-dias-diversos",
-    "diario-de-omega"
-  ],
-  "rules": {
-    "oneActiveBook": true,
-    "completeLegacyBeforeNew": true,
-    "publicContentOnly": true
-  }
+  "lastExecution": "2026-09-05",
+  "nextObjective": "Descobrir o que Valter Braga tentou retirar do anexo, quem autorizou a tentativa e se sua ligação atual com Andrade pode ser provada.",
+  "legacyQueue": ["urbans-family", "o-batuque-no-quarto-ao-lado", "365-dias-diversos", "diario-de-omega"],
+  "rules": { "oneActiveBook": true, "completeLegacyBeforeNew": true, "publicContentOnly": true }
 }

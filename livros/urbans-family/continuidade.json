@@ -2,102 +2,31 @@
   "schemaVersion": 1,
   "bookId": "urbans-family",
   "editorialState": "WRITING",
-  "publishedRange": {
-    "first": 0,
-    "last": 22
-  },
-  "lastChapter": {
-    "number": 22,
-    "title": "O Braço"
-  },
+  "publishedRange": { "first": 0, "last": 23 },
+  "lastChapter": { "number": 23, "title": "A Saída" },
   "characterLedger": [
-    {
-      "name": "João Carvalho",
-      "status": "preso; seguiu o fluxo do arquivo até o anexo e busca quem recebe a informação do outro lado",
-      "location": "prisão"
-    },
-    {
-      "name": "Ana",
-      "status": "separada de João; registros de visita continuam vulneráveis",
-      "location": "fora da prisão"
-    },
-    {
-      "name": "Clara",
-      "status": "filha de João e Ana; citada por Ribeiro em aviso/ameaça ambígua",
-      "location": "com Ana"
-    },
-    {
-      "name": "Carlos",
-      "status": "aliado externo sob pressão de Andrade; possível origem de 'Mudaram o endereço' não confirmada",
-      "location": "fora da prisão"
-    },
-    {
-      "name": "Torres",
-      "status": "principal aliado operacional; acompanha a investigação sem ações precipitadas",
-      "location": "prisão"
-    },
-    {
-      "name": "Andrade",
-      "status": "ameaça central; afirma que sua rede ultrapassa os muros",
-      "location": "não confirmada"
-    },
-    {
-      "name": "Mendes",
-      "status": "revelou o fluxo para o anexo e o nome de Sônia; útil e ainda suspeito",
-      "location": "prisão"
-    },
-    {
-      "name": "Ribeiro",
-      "status": "agente do controle interno; provável operador; demonstrou medo de Andrade e alertou João sobre Clara",
-      "location": "prisão"
-    },
-    {
-      "name": "Lemos",
-      "status": "apoio administrativo; transporta documentos e malotes ao anexo; cumplicidade não comprovada",
-      "location": "prisão/anexo administrativo"
-    },
-    {
-      "name": "Sônia",
-      "status": "servidora antiga do protocolo do anexo; possível testemunha, filtro ou elo ainda não investigado",
-      "location": "anexo administrativo"
-    },
-    {
-      "name": "Nando",
-      "status": "aliado agredido; permanece na aliança sem ser usado como isca",
-      "location": "prisão"
-    },
-    {
-      "name": "Diego Santos",
-      "status": "baleado pela polícia no capítulo 13; morte não confirmada",
-      "location": "não confirmada"
-    }
+    {"name":"João Carvalho","status":"preso; identificou Valter Braga como primeiro elo externo verificável","location":"prisão"},
+    {"name":"Carlos","status":"reconheceu Valter e mudou um endereço de apoio após notar vigilância","location":"fora da prisão"},
+    {"name":"Torres","status":"principal aliado operacional; cobra prova antes de sentença","location":"prisão"},
+    {"name":"Mendes","status":"reconheceu o nome de Valter e já ouviu Andrade no mesmo contexto; útil e suspeito","location":"prisão"},
+    {"name":"Ribeiro","status":"provável operador sob pressão; disse que a divergência não foi causada por João","location":"prisão"},
+    {"name":"Lemos","status":"transporta documentos e malotes; cumplicidade não comprovada","location":"prisão/anexo"},
+    {"name":"Sônia","status":"servidora do protocolo; pode ter barrado retirada irregular","location":"anexo"},
+    {"name":"Valter Braga","status":"motorista/prestador externo; reconhecido por Carlos como antigo ligado a pessoas de Andrade; vínculo atual não provado","location":"fora da prisão/anexo"},
+    {"name":"Ana","status":"separada de João; registros continuam vulneráveis","location":"fora da prisão"},
+    {"name":"Clara","status":"filha de João; permanece vulnerável","location":"com Ana"},
+    {"name":"Diego Santos","status":"baleado pela polícia no capítulo 13; morte não confirmada","location":"não confirmada"}
   ],
   "openThreads": [
-    "Descobrir quem recebe ou desvia informação no anexo administrativo.",
-    "Confirmar o papel de Ribeiro e se o aviso sobre Clara foi ameaça ou proteção.",
-    "Determinar se Lemos é apenas transportador ou participa conscientemente.",
-    "Investigar Sônia e o protocolo sem presumir culpa.",
-    "Esclarecer a origem e o significado do recado 'Mudaram o endereço'.",
+    "Descobrir o que Valter tentou retirar e por que o protocolo marcou divergência.",
+    "Confirmar a ligação atual de Valter Braga com Andrade.",
+    "Entender o significado de Ribeiro dizer não foi você.",
     "Determinar o papel real de Mendes.",
-    "Proteger registros e contatos ligados a Ana, Clara e Carlos.",
-    "Explorar o custo moral e prático da ascensão de João.",
+    "Confirmar se Sônia barrou a retirada irregular.",
+    "Proteger Ana, Clara e Carlos.",
     "O estado definitivo de Diego permanece não confirmado."
   ],
-  "chronology": [
-    "João entra no crime após perder o emprego e precisar sustentar a família.",
-    "Diego o integra gradualmente a operações violentas.",
-    "Ana deixa a casa com Clara; João tenta sair do grupo.",
-    "João foge com ajuda de Carlos e confronta Diego.",
-    "Diego é baleado pela polícia e João se entrega.",
-    "Na prisão, Ana pede divórcio e João começa a construir influência.",
-    "João descobre a ligação de Carlos com Andrade.",
-    "João se alia a Torres e investiga a rede de Andrade.",
-    "Mendes revela uma movimentação de drogas; Andrade usa a reação como isca e identifica aliados de João.",
-    "Nando é agredido e João descobre que a vigilância passa pelos registros internos da prisão.",
-    "João planta uma movimentação controlada e identifica Ribeiro, do controle interno, como provável operador da rede de registros.",
-    "João segue o fluxo físico dos documentos: Ribeiro entrega envelope ao carrinho de Lemos, que leva malotes ao anexo; Sônia surge como ponto de conferência do protocolo."
-  ],
-  "nextAction": "Descobrir quem, no anexo ou depois dele, recebe a informação e a conecta à rede externa de Andrade, preservando a ambiguidade de Ribeiro, Lemos e Sônia.",
+  "nextAction": "Descobrir o que Valter tentou retirar, quem autorizou e se ele atua atualmente para Andrade.",
   "chapterLedgerSource": "chapters.json",
   "spoilersInternal": true
 }

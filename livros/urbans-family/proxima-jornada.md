@@ -1,24 +1,13 @@
 # Próxima jornada — Urbans Family
 
 ## Onde a história parou
-Capítulo 22, **O Braço**: João deixou de perseguir Ribeiro e observou o fluxo normal do arquivo. Descobriu que **Lemos**, do apoio administrativo, transporta caixas e malotes ao anexo. Ribeiro colocou um envelope pardo sobre uma caixa fechada levada por Lemos; no mesmo dia chegou o recado externo “Mudaram o endereço”. Mendes revelou que o último malote passa pela sala de protocolo do anexo, conferida por **Sônia**. Ao ser confrontado, Ribeiro demonstrou medo do nome de Andrade e disse a João que, se gosta da filha, deveria parar de olhar para papel. Andrade encerrou o dia com: “O braço não termina no muro.”
+Capítulo 23, **A Saída**: Lemos retornou do anexo com **PROTOCOLO DIVERGENTE**. Ribeiro recebeu o documento e demonstrou preocupação. O recado “Mudaram o endereço” foi esclarecido: Carlos reconheceu **Valter Braga**, motorista do anexo e antigo conhecido de pessoas ligadas a Andrade, rondando um endereço de apoio. Mendes reconheceu o nome de Valter. Ribeiro disse “não foi você”, sugerindo tentativa de retirada irregular externa.
 
 ## Objetivo da próxima jornada
-Descobrir quem recebe ou desvia informação depois que o malote chega ao anexo e produzir um elo externo concreto da rede de Andrade.
+Descobrir o que Valter tentou retirar, quem autorizou a tentativa e se existe prova atual de ligação com Andrade.
 
 ## Tensão a manter
-- Ribeiro continua provável operador, mas seu medo e o aviso sobre Clara tornam sua motivação ambígua.
-- Lemos pode ser apenas transportador e não deve ser tratado como cúmplice sem prova.
-- Sônia é um ponto de controle, não uma culpada definida.
-- Mendes continua útil e suspeito.
-- “Mudaram o endereço” ainda precisa de origem/significado.
-- Andrade sabe que João está chegando perto de uma conexão externa.
-
-## Personagens em foco
-João, Torres, Ribeiro, Mendes, Lemos e Sônia. Carlos pode reaparecer apenas se a história esclarecer organicamente o recado externo, sem virar isca.
-
-## Risco editorial
-Não repetir observação passiva por um capítulo inteiro nem voltar ao mecanismo de duas informações falsas. A próxima jornada precisa converter o fluxo descoberto em evidência ou consequência concreta além do anexo.
+Valter é elo externo concreto, mas não culpado definitivo. Sônia pode ter barrado o desvio. Ribeiro continua ambíguo. Lemos pode ser apenas transportador. Mendes sabe mais do que admite. Ana, Clara e Carlos não devem ser usados como isca.
 
 ## Tarefa
-Escrever a continuação direta de **O Braço**, revelando um elo externo verificável da cadeia sem encerrar Andrade. Atualizar capítulos, metadados, memória, continuidade e este handoff após a publicação.
+Escrever a continuação direta de **A Saída**, fazendo a investigação chegar ao conteúdo da retirada divergente ou à pessoa que a autorizou.
