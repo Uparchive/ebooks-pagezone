@@ -2,7 +2,8 @@
   "use strict";
   const labels = { DEVELOPMENT: "Em desenvolvimento", REVIEW: "Em revisão", COMPLETED: "Concluído", PAUSED: "Em pausa", ARCHIVED: "Arquivado" };
   const stateLabels = { ALL: "Todos", DEVELOPMENT: "Em desenvolvimento", COMPLETED: "Concluídos" };
-  const state = { query: "", status: "ALL", genre: "" };
+  const P = window.PageZone, progress = window.PageZoneProgress;
+  const state = { query: new URLSearchParams(location.search).get("q") || "", status: "ALL", genre: "" };
   const byId = (id) => document.getElementById(id);
   const escapeHTML = (value) => String(value || "").replace(/[&<>"']/g, (char) => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#039;" })[char]);
   const plural = (count, noun) => count === 1 ? noun : noun + "s";
@@ -21,6 +22,12 @@
     return label;
   }
 
+  function readingLabel(book) {
+    const saved = progress.read(book.id);
+    const chapter = saved && P.selectChapter(book.chapterList || [], saved);
+    return chapter ? "Continuar lendo — Capítulo " + chapter.number : "Ler agora";
+  }
+
   function card(book) {
     const chapter = chapterNote(book);
     return '<article class="book-card">' +
@@ -30,7 +37,7 @@
       "</button><h3>" + escapeHTML(book.title) + "</h3>" +
       '<p class="card-subtitle">' + escapeHTML((book.genres || []).slice(0, 2).join(" · ")) + "</p>" +
       (chapter ? '<p class="chapter-note">' + escapeHTML(chapter) + "</p>" : "") +
-      "</article>";
+      '<a class="reading-link" href="' + escapeHTML(book.url) + '">' + escapeHTML(readingLabel(book)) + '<span class="sr-only">: ' + escapeHTML(book.title) + "</span></a></article>";
   }
 
   function renderShelf(element, books) {
@@ -47,7 +54,7 @@
       '<div><span class="book-type">Destaque</span><h2>' + escapeHTML(book.title) + "</h2>" +
       '<p class="book-copy">' + escapeHTML(book.description) + "</p>" +
       '<div class="meta"><span class="status-badge" data-status="' + escapeHTML(book.status) + '">' + escapeHTML(labels[book.status] || book.status) + "</span>" + genres(book) + "</div>" +
-      '<div class="button-row"><a class="button" href="' + escapeHTML(book.url) + '" target="_blank" rel="noopener">Ler agora <span class="sr-only">: ' + escapeHTML(book.title) + '</span></a>' +
+      '<div class="button-row"><a class="button" href="' + escapeHTML(book.url) + '" >' + escapeHTML(readingLabel(book)) + ' <span class="sr-only">: ' + escapeHTML(book.title) + '</span></a>' +
       '<button class="button secondary" type="button" data-book-id="' + escapeHTML(book.id) + '">Detalhes</button></div></div></article>';
   }
 
@@ -71,14 +78,16 @@
   }
 
   function matches(book) {
-    const haystack = [book.title, book.description, book.series, ...(book.genres || [])].filter(Boolean).join(" ").toLocaleLowerCase("pt-BR");
-    return (!state.query || haystack.includes(state.query)) &&
+    const haystack = [book.title, book.slug, book.id, book.author, book.description, book.series, ...(book.genres || [])].filter(Boolean).join(" ");
+    return (!state.query || P.normalize(haystack).includes(P.normalize(state.query))) &&
       (state.status === "ALL" || book.status === state.status) &&
       (!state.genre || (book.genres || []).includes(state.genre));
   }
 
   function renderCatalog(books) {
     const visible = books.filter(matches);
+    byId("catalog-heading").textContent = state.query ? 'Resultados para "' + state.query + '"' : "Minha biblioteca";
+    byId("empty-state").querySelector("h3").textContent = state.query ? 'Nenhum livro encontrado para "' + state.query + '"' : "Nenhum livro encontrado";
     byId("catalog-grid").innerHTML = visible.map(card).join("");
     byId("empty-state").hidden = visible.length !== 0;
     byId("catalog-count").textContent = visible.length + " " + plural(visible.length, "obra") + (visible.length === books.length ? "" : " encontrada" + (visible.length === 1 ? "" : "s"));
@@ -91,13 +100,13 @@
       '<h2 id="dialog-title">' + escapeHTML(book.title) + '</h2><div class="meta">' + genres(book) + "</div>" +
       '<p>' + escapeHTML(book.description) + "</p>" +
       (chapterNote(book) ? '<p class="chapter-note">' + escapeHTML(chapterNote(book)) + "</p>" : "") +
-      '<a class="button" href="' + escapeHTML(book.url) + '" target="_blank" rel="noopener">Ler agora</a></div></article>';
-    if (typeof dialog.showModal === "function") dialog.showModal(); else window.open(book.url, "_blank", "noopener");
+      '<a class="button" href="' + escapeHTML(book.url) + '" >' + escapeHTML(readingLabel(book)) + '</a></div></article>';
+    if (typeof dialog.showModal === "function") dialog.showModal(); else location.href = book.url;
   }
 
   async function init() {
     try {
-      const response = await fetch("data/books.json", { cache: "no-cache" });
+      const response = await fetch("books.json", { cache: "no-cache" });
       if (!response.ok) throw new Error("Não foi possível carregar o catálogo.");
       const payload = await response.json();
       const books = (payload.books || []).filter((book) => book.id && book.title && book.cover && book.url)
@@ -107,6 +116,9 @@
       renderShelf(byId("development-shelf"), books.filter((book) => book.status === "DEVELOPMENT"));
       renderShelf(byId("completed-shelf"), books.filter((book) => book.status === "COMPLETED"));
       populateGenres(books); populateStatuses(); renderCatalog(books);
+      byId("catalog-loading").hidden = true;
+      byId("search-input").value = state.query;
+      if (state.query) byId("catalog-heading").scrollIntoView();
 
       document.addEventListener("click", (event) => {
         const trigger = event.target.closest("[data-book-id]");
@@ -118,17 +130,46 @@
           renderCatalog(books);
         }
       });
-      byId("search-input").addEventListener("input", (event) => { state.query = event.target.value.trim().toLocaleLowerCase("pt-BR"); renderCatalog(books); });
+      function updateURL(replace = false) {
+        const url = new URL(location.href);
+        if (state.query) url.searchParams.set("q", state.query); else url.searchParams.delete("q");
+        history[replace ? "replaceState" : "pushState"](null, "", url);
+      }
+      byId("search-form").addEventListener("submit", event => {
+        event.preventDefault();
+        state.query = byId("search-input").value.trim();
+        updateURL(); renderCatalog(books);
+        byId("catalog-heading").focus();
+        byId("catalog-heading").scrollIntoView();
+      });
+      // Keep live filtering while submitting (Enter or button) opens the results.
+      byId("search-input").addEventListener("input", event => {
+        state.query = event.target.value.trim(); renderCatalog(books);
+      });
+      window.addEventListener("popstate", () => {
+        state.query = new URLSearchParams(location.search).get("q") || "";
+        byId("search-input").value = state.query; renderCatalog(books);
+      });
+      const refreshProgress = () => {
+        renderCatalog(books);
+        renderFeatured(books.find(book => book.featured) || books[0]);
+        renderShelf(byId("development-shelf"), books.filter(book => book.status === "DEVELOPMENT"));
+        renderShelf(byId("completed-shelf"), books.filter(book => book.status === "COMPLETED"));
+      };
+      window.addEventListener("pageshow", refreshProgress);
+      window.addEventListener("storage", refreshProgress);
       byId("genre-filter").addEventListener("change", (event) => { state.genre = event.target.value; renderCatalog(books); });
       byId("clear-filters").addEventListener("click", () => {
         state.query = ""; state.status = "ALL"; state.genre = "";
         byId("search-input").value = ""; byId("genre-filter").value = "";
         document.querySelectorAll(".filter-button").forEach((button) => button.setAttribute("aria-pressed", String(button.dataset.status === "ALL")));
-        renderCatalog(books);
+        updateURL(); renderCatalog(books);
+        byId("search-input").focus();
       });
       document.querySelector(".dialog-close").addEventListener("click", () => byId("book-dialog").close());
     } catch (error) {
-      byId("featured-book").innerHTML = '<p class="load-error">Não foi possível carregar a biblioteca agora.</p>';
+      byId("catalog-loading").innerHTML = 'Não foi possível carregar a biblioteca agora. <a href="">Tentar novamente</a>';
+      byId("featured-book").textContent = "Biblioteca indisponível temporariamente.";
       console.error(error);
     }
   }

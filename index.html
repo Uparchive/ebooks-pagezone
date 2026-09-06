@@ -7,6 +7,9 @@
   <meta name="description" content="PageZone, uma biblioteca digital de histórias para descobrir e continuar lendo.">
   <title>PageZone — Biblioteca digital</title>
   <link rel="stylesheet" href="matrixstyle.css">
+  <script src="app/library.js" defer></script>
+  <script src="app/progress.js" defer></script>
+  <script src="app/images.js" defer></script>
   <script src="script.js" defer></script>
 </head>
 <body>
@@ -29,16 +32,16 @@
         <p class="eyebrow">Biblioteca digital</p>
         <h1 id="hero-title">Histórias para entrar e <em>continuar</em>.</h1>
         <p class="hero-text">Uma estante viva de mundos, ideias e narrativas em movimento.</p>
-        <label class="search" for="search-input">
+        <form class="search" id="search-form" action="index.html" method="get" role="search">
           <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H11v17H6.5A2.5 2.5 0 0 0 4 22V5.5ZM20 5.5A2.5 2.5 0 0 0 17.5 3H13v17h4.5A2.5 2.5 0 0 1 20 22V5.5Z"/></svg>
-          <input id="search-input" type="search" placeholder="Pesquise por obras..." autocomplete="off">
-          <svg class="search-lens" aria-hidden="true" viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.3"/><path d="m16 16 4.3 4.3"/></svg>
-        </label>
+          <input id="search-input" name="q" aria-label="Pesquisar obras" type="search" placeholder="Pesquise por obras..." autocomplete="off">
+          <button type="submit" aria-label="Pesquisar"><svg class="search-lens" aria-hidden="true" viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.3"/><path d="m16 16 4.3 4.3"/></svg></button>
+        </form>
       </div>
       <div class="hero-art" aria-hidden="true"><span></span><span></span><span></span></div>
     </section>
 
-    <section class="section featured-section" id="destaque" aria-labelledby="featured-heading">
+    <section class="section featured-section" id="destaque" aria-label="Destaque editorial">
       <p class="eyebrow">Destaque editorial</p>
       <div id="featured-book" class="featured-book" aria-live="polite"></div>
     </section>
@@ -53,13 +56,14 @@
 
     <section class="section catalog-section" id="biblioteca" aria-labelledby="catalog-heading">
       <div class="section-heading">
-        <div><p class="eyebrow">Catálogo completo</p><h2 id="catalog-heading">Minha biblioteca</h2></div>
+        <div><p class="eyebrow">Catálogo completo</p><h2 id="catalog-heading" tabindex="-1">Minha biblioteca</h2></div>
         <p id="catalog-count" aria-live="polite"></p>
       </div>
       <div class="filters" aria-label="Filtros do catálogo">
         <div id="status-filters" class="filter-group" role="group" aria-label="Filtrar por status"></div>
         <label class="genre-filter" for="genre-filter">Gênero <select id="genre-filter"><option value="">Todos os gêneros</option></select></label>
       </div>
+      <p id="catalog-loading" role="status">Carregando biblioteca…</p>
       <div id="catalog-grid" class="catalog-grid" aria-live="polite"></div>
       <div id="empty-state" class="empty-state" hidden>
         <span aria-hidden="true">⌁</span>
