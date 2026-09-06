@@ -1,12 +1,12 @@
 {
   "schemaVersion": 3,
-  "generated": true,
-  "source": "livros/*/book.json",
+  "generatedAt": "2026-09-06T02:18:00.767Z",
   "books": [
     {
+      "schemaVersion": 1,
       "id": "urbans-family",
-      "title": "Urbans Family",
       "slug": "urbans-family",
+      "title": "Urbans Family",
       "description": "Urbans Family narra a ascensão de João Carvalho, um homem comum, ao mundo do crime. Entre dilemas morais e gangues rivais, ele entra em uma luta por sobrevivência, família e poder.",
       "genres": [
         "Crime",
@@ -16,17 +16,139 @@
       ],
       "status": "DEVELOPMENT",
       "featured": true,
-      "order": 1,
-      "currentChapter": 20,
-      "chapterCount": 21,
+      "active": true,
       "cover": "livros/urbans-family/capa.png",
+      "chapters": {
+        "path": "chapters.json",
+        "firstPublished": 0,
+        "currentPublished": 23
+      },
+      "legacy": {
+        "repository": "Uparchive/urbans-family",
+        "url": "https://uparchive.github.io/urbans-family/",
+        "readerPreserved": true
+      },
+      "assets": {
+        "formats": [
+          "ebook",
+          "print",
+          "audiobook",
+          "translation",
+          "licensing"
+        ]
+      },
+      "order": 1,
+      "bookId": "urbans-family",
+      "chapterList": [
+        {
+          "chapterId": "chapter-0",
+          "number": 0
+        },
+        {
+          "chapterId": "chapter-1",
+          "number": 1
+        },
+        {
+          "chapterId": "chapter-2",
+          "number": 2
+        },
+        {
+          "chapterId": "chapter-3",
+          "number": 3
+        },
+        {
+          "chapterId": "chapter-4",
+          "number": 4
+        },
+        {
+          "chapterId": "chapter-5",
+          "number": 5
+        },
+        {
+          "chapterId": "chapter-6",
+          "number": 6
+        },
+        {
+          "chapterId": "chapter-7",
+          "number": 7
+        },
+        {
+          "chapterId": "chapter-8",
+          "number": 8
+        },
+        {
+          "chapterId": "chapter-9",
+          "number": 9
+        },
+        {
+          "chapterId": "chapter-10",
+          "number": 10
+        },
+        {
+          "chapterId": "chapter-11",
+          "number": 11
+        },
+        {
+          "chapterId": "chapter-12",
+          "number": 12
+        },
+        {
+          "chapterId": "chapter-13",
+          "number": 13
+        },
+        {
+          "chapterId": "chapter-14",
+          "number": 14
+        },
+        {
+          "chapterId": "chapter-15",
+          "number": 15
+        },
+        {
+          "chapterId": "chapter-16",
+          "number": 16
+        },
+        {
+          "chapterId": "chapter-17",
+          "number": 17
+        },
+        {
+          "chapterId": "chapter-18",
+          "number": 18
+        },
+        {
+          "chapterId": "chapter-19",
+          "number": 19
+        },
+        {
+          "chapterId": "chapter-20",
+          "number": 20
+        },
+        {
+          "chapterId": "chapter-21",
+          "number": 21
+        },
+        {
+          "chapterId": "chapter-22",
+          "number": 22
+        },
+        {
+          "chapterId": "chapter-23",
+          "number": 23
+        }
+      ],
+      "chaptersUrl": "livros/urbans-family/chapters.json",
+      "coverLegacyUrl": "https://uparchive.github.io/urbans-family/UFORDC-poster.png",
       "url": "reader.html?book=urbans-family",
-      "legacyUrl": "https://uparchive.github.io/urbans-family/"
+      "legacyUrl": "https://uparchive.github.io/urbans-family/",
+      "currentChapter": 23,
+      "chapterCount": 24
     },
     {
+      "schemaVersion": 1,
       "id": "o-batuque-no-quarto-ao-lado",
-      "title": "O Batuque no Quarto ao Lado",
       "slug": "o-batuque-no-quarto-ao-lado",
+      "title": "O Batuque no Quarto ao Lado",
       "description": "Um suspense psicológico sobre segredos obscuros, normalidade e insanidade: a nova vizinha Elisa entra em um jogo perigoso sem imaginar o que Marcus esconde.",
       "genres": [
         "Suspense psicológico",
@@ -37,34 +159,198 @@
       ],
       "status": "DEVELOPMENT",
       "featured": false,
-      "order": 2,
-      "currentChapter": 9,
-      "chapterCount": 10,
+      "active": false,
       "cover": "livros/o-batuque-no-quarto-ao-lado/capa.png",
+      "chapters": {
+        "path": "chapters.json",
+        "firstPublished": 0,
+        "currentPublished": 9
+      },
+      "legacy": {
+        "repository": "Uparchive/o-batuque-no-quarto-ao-lado",
+        "url": "https://uparchive.github.io/o-batuque-no-quarto-ao-lado/",
+        "readerPreserved": true
+      },
+      "assets": {
+        "formats": [
+          "ebook",
+          "print",
+          "audiobook",
+          "translation",
+          "licensing"
+        ]
+      },
+      "order": 2,
+      "bookId": "o-batuque-no-quarto-ao-lado",
+      "chapterList": [
+        {
+          "chapterId": "chapter-0",
+          "number": 0
+        },
+        {
+          "chapterId": "chapter-1",
+          "number": 1
+        },
+        {
+          "chapterId": "chapter-2",
+          "number": 2
+        },
+        {
+          "chapterId": "chapter-3",
+          "number": 3
+        },
+        {
+          "chapterId": "chapter-4",
+          "number": 4
+        },
+        {
+          "chapterId": "chapter-5",
+          "number": 5
+        },
+        {
+          "chapterId": "chapter-6",
+          "number": 6
+        },
+        {
+          "chapterId": "chapter-7",
+          "number": 7
+        },
+        {
+          "chapterId": "chapter-8",
+          "number": 8
+        },
+        {
+          "chapterId": "chapter-9",
+          "number": 9
+        }
+      ],
+      "chaptersUrl": "livros/o-batuque-no-quarto-ao-lado/chapters.json",
+      "coverLegacyUrl": "https://uparchive.github.io/o-batuque-no-quarto-ao-lado/OBNQAL-poster.png",
       "url": "reader.html?book=o-batuque-no-quarto-ao-lado",
-      "legacyUrl": "https://uparchive.github.io/o-batuque-no-quarto-ao-lado/"
+      "legacyUrl": "https://uparchive.github.io/o-batuque-no-quarto-ao-lado/",
+      "currentChapter": 9,
+      "chapterCount": 10
     },
     {
+      "schemaVersion": 1,
       "id": "365-dias-diversos",
-      "title": "365 Dias Diversos",
       "slug": "365-dias-diversos",
+      "title": "365 Dias Diversos",
       "description": "Uma jornada diária explorando temas diversos e profundos.",
       "genres": [
         "Reflexão"
       ],
       "status": "DEVELOPMENT",
       "featured": false,
-      "order": 3,
-      "currentChapter": 18,
-      "chapterCount": 18,
+      "active": false,
       "cover": "livros/365-dias-diversos/capa.png",
+      "chapters": {
+        "path": "chapters.json",
+        "firstPublished": 1,
+        "currentPublished": 18
+      },
+      "legacy": {
+        "repository": "Uparchive/365-dias-diversos",
+        "url": "https://uparchive.github.io/365-dias-diversos/",
+        "readerPreserved": true
+      },
+      "assets": {
+        "formats": [
+          "ebook",
+          "print",
+          "audiobook",
+          "translation",
+          "licensing"
+        ]
+      },
+      "order": 3,
+      "bookId": "365-dias-diversos",
+      "chapterList": [
+        {
+          "chapterId": "chapter-1",
+          "number": 1
+        },
+        {
+          "chapterId": "chapter-2",
+          "number": 2
+        },
+        {
+          "chapterId": "chapter-3",
+          "number": 3
+        },
+        {
+          "chapterId": "chapter-4",
+          "number": 4
+        },
+        {
+          "chapterId": "chapter-5",
+          "number": 5
+        },
+        {
+          "chapterId": "chapter-6",
+          "number": 6
+        },
+        {
+          "chapterId": "chapter-7",
+          "number": 7
+        },
+        {
+          "chapterId": "chapter-8",
+          "number": 8
+        },
+        {
+          "chapterId": "chapter-9",
+          "number": 9
+        },
+        {
+          "chapterId": "chapter-10",
+          "number": 10
+        },
+        {
+          "chapterId": "chapter-11",
+          "number": 11
+        },
+        {
+          "chapterId": "chapter-12",
+          "number": 12
+        },
+        {
+          "chapterId": "chapter-13",
+          "number": 13
+        },
+        {
+          "chapterId": "chapter-14",
+          "number": 14
+        },
+        {
+          "chapterId": "chapter-15",
+          "number": 15
+        },
+        {
+          "chapterId": "chapter-16",
+          "number": 16
+        },
+        {
+          "chapterId": "chapter-17",
+          "number": 17
+        },
+        {
+          "chapterId": "chapter-18",
+          "number": 18
+        }
+      ],
+      "chaptersUrl": "livros/365-dias-diversos/chapters.json",
+      "coverLegacyUrl": "https://uparchive.github.io/365-dias-diversos/365-Dias-Diversos-poster.png",
       "url": "reader.html?book=365-dias-diversos",
-      "legacyUrl": "https://uparchive.github.io/365-dias-diversos/"
+      "legacyUrl": "https://uparchive.github.io/365-dias-diversos/",
+      "currentChapter": 18,
+      "chapterCount": 18
     },
     {
+      "schemaVersion": 1,
       "id": "diario-de-omega",
-      "title": "Diário de Ômega",
       "slug": "diariodeomega",
+      "title": "Diário de Ômega",
       "description": "Reflexões de fé sobre o presente e o futuro.",
       "genres": [
         "Cristianismo",
@@ -72,17 +358,59 @@
       ],
       "status": "DEVELOPMENT",
       "featured": false,
-      "order": 4,
-      "currentChapter": 4,
-      "chapterCount": 4,
+      "active": false,
       "cover": "livros/diario-de-omega/capa.png",
+      "chapters": {
+        "path": "chapters.json",
+        "firstPublished": 1,
+        "currentPublished": 4
+      },
+      "legacy": {
+        "repository": "Uparchive/diariodeomega",
+        "url": "https://uparchive.github.io/diariodeomega/",
+        "readerPreserved": true
+      },
+      "assets": {
+        "formats": [
+          "ebook",
+          "print",
+          "audiobook",
+          "translation",
+          "licensing"
+        ]
+      },
+      "order": 4,
+      "bookId": "diario-de-omega",
+      "chapterList": [
+        {
+          "chapterId": "chapter-1",
+          "number": 1
+        },
+        {
+          "chapterId": "chapter-2",
+          "number": 2
+        },
+        {
+          "chapterId": "chapter-3",
+          "number": 3
+        },
+        {
+          "chapterId": "chapter-4",
+          "number": 4
+        }
+      ],
+      "chaptersUrl": "livros/diario-de-omega/chapters.json",
+      "coverLegacyUrl": "https://uparchive.github.io/diariodeomega/DDO-poster.png",
       "url": "reader.html?book=diario-de-omega",
-      "legacyUrl": "https://uparchive.github.io/diariodeomega/"
+      "legacyUrl": "https://uparchive.github.io/diariodeomega/",
+      "currentChapter": 4,
+      "chapterCount": 4
     },
     {
+      "schemaVersion": 1,
       "id": "o-xadrez-pelo-poder",
-      "title": "O Xadrez pelo Poder: Um Jogo Mortal pela Democracia",
       "slug": "o-xadrez-pelo-poder",
+      "title": "O Xadrez pelo Poder: Um Jogo Mortal pela Democracia",
       "description": "Um thriller político sobre conspirações, manipulação digital e a corrida para defender a verdade em meio à polarização e à crise.",
       "genres": [
         "Thriller político",
@@ -97,17 +425,227 @@
       ],
       "status": "COMPLETED",
       "featured": false,
-      "order": 5,
-      "currentChapter": 45,
-      "chapterCount": 46,
+      "active": false,
       "cover": "livros/o-xadrez-pelo-poder/capa.png",
+      "chapters": {
+        "path": "chapters.json",
+        "firstPublished": 0,
+        "currentPublished": 45
+      },
+      "legacy": {
+        "repository": "Uparchive/o-xadrez-pelo-poder",
+        "url": "https://uparchive.github.io/oxpp-page/",
+        "readerPreserved": true
+      },
+      "assets": {
+        "formats": [
+          "ebook",
+          "print",
+          "audiobook",
+          "translation",
+          "licensing"
+        ]
+      },
+      "order": 5,
+      "bookId": "o-xadrez-pelo-poder",
+      "chapterList": [
+        {
+          "chapterId": "chapter-0",
+          "number": 0
+        },
+        {
+          "chapterId": "chapter-1",
+          "number": 1
+        },
+        {
+          "chapterId": "chapter-2",
+          "number": 2
+        },
+        {
+          "chapterId": "chapter-3",
+          "number": 3
+        },
+        {
+          "chapterId": "chapter-4",
+          "number": 4
+        },
+        {
+          "chapterId": "chapter-5",
+          "number": 5
+        },
+        {
+          "chapterId": "chapter-6",
+          "number": 6
+        },
+        {
+          "chapterId": "chapter-7",
+          "number": 7
+        },
+        {
+          "chapterId": "chapter-8",
+          "number": 8
+        },
+        {
+          "chapterId": "chapter-9",
+          "number": 9
+        },
+        {
+          "chapterId": "chapter-10",
+          "number": 10
+        },
+        {
+          "chapterId": "chapter-11",
+          "number": 11
+        },
+        {
+          "chapterId": "chapter-12",
+          "number": 12
+        },
+        {
+          "chapterId": "chapter-13",
+          "number": 13
+        },
+        {
+          "chapterId": "chapter-14",
+          "number": 14
+        },
+        {
+          "chapterId": "chapter-15",
+          "number": 15
+        },
+        {
+          "chapterId": "chapter-16",
+          "number": 16
+        },
+        {
+          "chapterId": "chapter-17",
+          "number": 17
+        },
+        {
+          "chapterId": "chapter-18",
+          "number": 18
+        },
+        {
+          "chapterId": "chapter-19",
+          "number": 19
+        },
+        {
+          "chapterId": "chapter-20",
+          "number": 20
+        },
+        {
+          "chapterId": "chapter-21",
+          "number": 21
+        },
+        {
+          "chapterId": "chapter-22",
+          "number": 22
+        },
+        {
+          "chapterId": "chapter-23",
+          "number": 23
+        },
+        {
+          "chapterId": "chapter-24",
+          "number": 24
+        },
+        {
+          "chapterId": "chapter-25",
+          "number": 25
+        },
+        {
+          "chapterId": "chapter-26",
+          "number": 26
+        },
+        {
+          "chapterId": "chapter-27",
+          "number": 27
+        },
+        {
+          "chapterId": "chapter-28",
+          "number": 28
+        },
+        {
+          "chapterId": "chapter-29",
+          "number": 29
+        },
+        {
+          "chapterId": "chapter-30",
+          "number": 30
+        },
+        {
+          "chapterId": "chapter-31",
+          "number": 31
+        },
+        {
+          "chapterId": "chapter-32",
+          "number": 32
+        },
+        {
+          "chapterId": "chapter-33",
+          "number": 33
+        },
+        {
+          "chapterId": "chapter-34",
+          "number": 34
+        },
+        {
+          "chapterId": "chapter-35",
+          "number": 35
+        },
+        {
+          "chapterId": "chapter-36",
+          "number": 36
+        },
+        {
+          "chapterId": "chapter-37",
+          "number": 37
+        },
+        {
+          "chapterId": "chapter-38",
+          "number": 38
+        },
+        {
+          "chapterId": "chapter-39",
+          "number": 39
+        },
+        {
+          "chapterId": "chapter-40",
+          "number": 40
+        },
+        {
+          "chapterId": "chapter-41",
+          "number": 41
+        },
+        {
+          "chapterId": "chapter-42",
+          "number": 42
+        },
+        {
+          "chapterId": "chapter-43",
+          "number": 43
+        },
+        {
+          "chapterId": "chapter-44",
+          "number": 44
+        },
+        {
+          "chapterId": "chapter-45",
+          "number": 45
+        }
+      ],
+      "chaptersUrl": "livros/o-xadrez-pelo-poder/chapters.json",
+      "coverLegacyUrl": "https://uparchive.github.io/o-xadrez-pelo-poder/OXPP-poster.png",
       "url": "reader.html?book=o-xadrez-pelo-poder",
-      "legacyUrl": "https://uparchive.github.io/oxpp-page/"
+      "legacyUrl": "https://uparchive.github.io/oxpp-page/",
+      "currentChapter": 45,
+      "chapterCount": 46
     },
     {
+      "schemaVersion": 1,
       "id": "amazonico-o-protetor-da-floresta",
-      "title": "Amazônico: O Protetor da Floresta",
       "slug": "amazonico-o-protetor-da-floresta",
+      "title": "Amazônico: O Protetor da Floresta",
       "description": "Em meio à exuberância da Amazônia, um jovem é escolhido para proteger a floresta contra forças que ameaçam o equilíbrio de toda a vida.",
       "genres": [
         "Aventura",
@@ -117,17 +655,147 @@
       ],
       "status": "COMPLETED",
       "featured": false,
-      "order": 6,
-      "currentChapter": 25,
-      "chapterCount": 26,
+      "active": false,
       "cover": "livros/amazonico-o-protetor-da-floresta/capa.png",
+      "chapters": {
+        "path": "chapters.json",
+        "firstPublished": 0,
+        "currentPublished": 25
+      },
+      "legacy": {
+        "repository": "Uparchive/amazonico-o-protetor-da-floresta",
+        "url": "https://uparchive.github.io/amazonico-o-protetor-da-floresta/",
+        "readerPreserved": true
+      },
+      "assets": {
+        "formats": [
+          "ebook",
+          "print",
+          "audiobook",
+          "translation",
+          "licensing"
+        ]
+      },
+      "order": 6,
+      "bookId": "amazonico-o-protetor-da-floresta",
+      "chapterList": [
+        {
+          "chapterId": "chapter-0",
+          "number": 0
+        },
+        {
+          "chapterId": "chapter-1",
+          "number": 1
+        },
+        {
+          "chapterId": "chapter-2",
+          "number": 2
+        },
+        {
+          "chapterId": "chapter-3",
+          "number": 3
+        },
+        {
+          "chapterId": "chapter-4",
+          "number": 4
+        },
+        {
+          "chapterId": "chapter-5",
+          "number": 5
+        },
+        {
+          "chapterId": "chapter-6",
+          "number": 6
+        },
+        {
+          "chapterId": "chapter-7",
+          "number": 7
+        },
+        {
+          "chapterId": "chapter-8",
+          "number": 8
+        },
+        {
+          "chapterId": "chapter-9",
+          "number": 9
+        },
+        {
+          "chapterId": "chapter-10",
+          "number": 10
+        },
+        {
+          "chapterId": "chapter-11",
+          "number": 11
+        },
+        {
+          "chapterId": "chapter-12",
+          "number": 12
+        },
+        {
+          "chapterId": "chapter-13",
+          "number": 13
+        },
+        {
+          "chapterId": "chapter-14",
+          "number": 14
+        },
+        {
+          "chapterId": "chapter-15",
+          "number": 15
+        },
+        {
+          "chapterId": "chapter-16",
+          "number": 16
+        },
+        {
+          "chapterId": "chapter-17",
+          "number": 17
+        },
+        {
+          "chapterId": "chapter-18",
+          "number": 18
+        },
+        {
+          "chapterId": "chapter-19",
+          "number": 19
+        },
+        {
+          "chapterId": "chapter-20",
+          "number": 20
+        },
+        {
+          "chapterId": "chapter-21",
+          "number": 21
+        },
+        {
+          "chapterId": "chapter-22",
+          "number": 22
+        },
+        {
+          "chapterId": "chapter-23",
+          "number": 23
+        },
+        {
+          "chapterId": "chapter-24",
+          "number": 24
+        },
+        {
+          "chapterId": "chapter-25",
+          "number": 25
+        }
+      ],
+      "chaptersUrl": "livros/amazonico-o-protetor-da-floresta/chapters.json",
+      "coverLegacyUrl": "https://uparchive.github.io/amazonico-o-protetor-da-floresta/amaz%C3%B4nico-poster.png",
       "url": "reader.html?book=amazonico-o-protetor-da-floresta",
-      "legacyUrl": "https://uparchive.github.io/amazonico-o-protetor-da-floresta/"
+      "legacyUrl": "https://uparchive.github.io/amazonico-o-protetor-da-floresta/",
+      "currentChapter": 25,
+      "chapterCount": 26
     },
     {
+      "schemaVersion": 1,
       "id": "o-guardiao-da-promessa",
-      "title": "O Guardião da Promessa",
       "slug": "o-guardiao-da-promessa",
+      "title": "O Guardião da Promessa",
       "description": "João, um homem comum, é escolhido para uma missão extraordinária que testa sua fé, resiliência e propósito.",
       "genres": [
         "Ficção cristã",
@@ -138,17 +806,167 @@
       ],
       "status": "COMPLETED",
       "featured": false,
-      "order": 7,
-      "currentChapter": 30,
-      "chapterCount": 31,
+      "active": false,
       "cover": "livros/o-guardiao-da-promessa/capa.png",
+      "chapters": {
+        "path": "chapters.json",
+        "firstPublished": 0,
+        "currentPublished": 30
+      },
+      "legacy": {
+        "repository": "Uparchive/o-guardiao-da-promessa",
+        "url": "https://uparchive.github.io/o-guardiao-da-promessa/",
+        "readerPreserved": true
+      },
+      "assets": {
+        "formats": [
+          "ebook",
+          "print",
+          "audiobook",
+          "translation",
+          "licensing"
+        ]
+      },
+      "order": 7,
+      "bookId": "o-guardiao-da-promessa",
+      "chapterList": [
+        {
+          "chapterId": "chapter-0",
+          "number": 0
+        },
+        {
+          "chapterId": "chapter-1",
+          "number": 1
+        },
+        {
+          "chapterId": "chapter-2",
+          "number": 2
+        },
+        {
+          "chapterId": "chapter-3",
+          "number": 3
+        },
+        {
+          "chapterId": "chapter-4",
+          "number": 4
+        },
+        {
+          "chapterId": "chapter-5",
+          "number": 5
+        },
+        {
+          "chapterId": "chapter-6",
+          "number": 6
+        },
+        {
+          "chapterId": "chapter-7",
+          "number": 7
+        },
+        {
+          "chapterId": "chapter-8",
+          "number": 8
+        },
+        {
+          "chapterId": "chapter-9",
+          "number": 9
+        },
+        {
+          "chapterId": "chapter-10",
+          "number": 10
+        },
+        {
+          "chapterId": "chapter-11",
+          "number": 11
+        },
+        {
+          "chapterId": "chapter-12",
+          "number": 12
+        },
+        {
+          "chapterId": "chapter-13",
+          "number": 13
+        },
+        {
+          "chapterId": "chapter-14",
+          "number": 14
+        },
+        {
+          "chapterId": "chapter-15",
+          "number": 15
+        },
+        {
+          "chapterId": "chapter-16",
+          "number": 16
+        },
+        {
+          "chapterId": "chapter-17",
+          "number": 17
+        },
+        {
+          "chapterId": "chapter-18",
+          "number": 18
+        },
+        {
+          "chapterId": "chapter-19",
+          "number": 19
+        },
+        {
+          "chapterId": "chapter-20",
+          "number": 20
+        },
+        {
+          "chapterId": "chapter-21",
+          "number": 21
+        },
+        {
+          "chapterId": "chapter-22",
+          "number": 22
+        },
+        {
+          "chapterId": "chapter-23",
+          "number": 23
+        },
+        {
+          "chapterId": "chapter-24",
+          "number": 24
+        },
+        {
+          "chapterId": "chapter-25",
+          "number": 25
+        },
+        {
+          "chapterId": "chapter-26",
+          "number": 26
+        },
+        {
+          "chapterId": "chapter-27",
+          "number": 27
+        },
+        {
+          "chapterId": "chapter-28",
+          "number": 28
+        },
+        {
+          "chapterId": "chapter-29",
+          "number": 29
+        },
+        {
+          "chapterId": "chapter-30",
+          "number": 30
+        }
+      ],
+      "chaptersUrl": "livros/o-guardiao-da-promessa/chapters.json",
+      "coverLegacyUrl": "https://uparchive.github.io/o-guardiao-da-promessa/OGDP-poster.png",
       "url": "reader.html?book=o-guardiao-da-promessa",
-      "legacyUrl": "https://uparchive.github.io/o-guardiao-da-promessa/"
+      "legacyUrl": "https://uparchive.github.io/o-guardiao-da-promessa/",
+      "currentChapter": 30,
+      "chapterCount": 31
     },
     {
+      "schemaVersion": 1,
       "id": "twilight-shadows",
-      "title": "Twilight Shadows",
       "slug": "Twilight-Shadows",
+      "title": "Twilight Shadows",
       "description": "Uma aventura épica de coragem, sacrifício e amor, em que uma faísca de luz pode transformar até as sombras mais profundas.",
       "genres": [
         "Épico",
@@ -158,29 +976,324 @@
       ],
       "status": "COMPLETED",
       "featured": false,
-      "order": 8,
-      "currentChapter": 50,
-      "chapterCount": 51,
+      "active": false,
       "cover": "livros/twilight-shadows/capa.png",
+      "chapters": {
+        "path": "chapters.json",
+        "firstPublished": 0,
+        "currentPublished": 50
+      },
+      "legacy": {
+        "repository": "Uparchive/Twilight-Shadows",
+        "url": "https://uparchive.github.io/Twilight-Shadows/",
+        "readerPreserved": true
+      },
+      "assets": {
+        "formats": [
+          "ebook",
+          "print",
+          "audiobook",
+          "translation",
+          "licensing"
+        ]
+      },
+      "order": 8,
+      "bookId": "twilight-shadows",
+      "chapterList": [
+        {
+          "chapterId": "chapter-0",
+          "number": 0
+        },
+        {
+          "chapterId": "chapter-1",
+          "number": 1
+        },
+        {
+          "chapterId": "chapter-2",
+          "number": 2
+        },
+        {
+          "chapterId": "chapter-3",
+          "number": 3
+        },
+        {
+          "chapterId": "chapter-4",
+          "number": 4
+        },
+        {
+          "chapterId": "chapter-5",
+          "number": 5
+        },
+        {
+          "chapterId": "chapter-6",
+          "number": 6
+        },
+        {
+          "chapterId": "chapter-7",
+          "number": 7
+        },
+        {
+          "chapterId": "chapter-8",
+          "number": 8
+        },
+        {
+          "chapterId": "chapter-9",
+          "number": 9
+        },
+        {
+          "chapterId": "chapter-10",
+          "number": 10
+        },
+        {
+          "chapterId": "chapter-11",
+          "number": 11
+        },
+        {
+          "chapterId": "chapter-12",
+          "number": 12
+        },
+        {
+          "chapterId": "chapter-13",
+          "number": 13
+        },
+        {
+          "chapterId": "chapter-14",
+          "number": 14
+        },
+        {
+          "chapterId": "chapter-15",
+          "number": 15
+        },
+        {
+          "chapterId": "chapter-16",
+          "number": 16
+        },
+        {
+          "chapterId": "chapter-17",
+          "number": 17
+        },
+        {
+          "chapterId": "chapter-18",
+          "number": 18
+        },
+        {
+          "chapterId": "chapter-19",
+          "number": 19
+        },
+        {
+          "chapterId": "chapter-20",
+          "number": 20
+        },
+        {
+          "chapterId": "chapter-21",
+          "number": 21
+        },
+        {
+          "chapterId": "chapter-22",
+          "number": 22
+        },
+        {
+          "chapterId": "chapter-23",
+          "number": 23
+        },
+        {
+          "chapterId": "chapter-24",
+          "number": 24
+        },
+        {
+          "chapterId": "chapter-25",
+          "number": 25
+        },
+        {
+          "chapterId": "chapter-26",
+          "number": 26
+        },
+        {
+          "chapterId": "chapter-27",
+          "number": 27
+        },
+        {
+          "chapterId": "chapter-28",
+          "number": 28
+        },
+        {
+          "chapterId": "chapter-29",
+          "number": 29
+        },
+        {
+          "chapterId": "chapter-30",
+          "number": 30
+        },
+        {
+          "chapterId": "chapter-31",
+          "number": 31
+        },
+        {
+          "chapterId": "chapter-32",
+          "number": 32
+        },
+        {
+          "chapterId": "chapter-33",
+          "number": 33
+        },
+        {
+          "chapterId": "chapter-34",
+          "number": 34
+        },
+        {
+          "chapterId": "chapter-35",
+          "number": 35
+        },
+        {
+          "chapterId": "chapter-36",
+          "number": 36
+        },
+        {
+          "chapterId": "chapter-37",
+          "number": 37
+        },
+        {
+          "chapterId": "chapter-38",
+          "number": 38
+        },
+        {
+          "chapterId": "chapter-39",
+          "number": 39
+        },
+        {
+          "chapterId": "chapter-40",
+          "number": 40
+        },
+        {
+          "chapterId": "chapter-41",
+          "number": 41
+        },
+        {
+          "chapterId": "chapter-42",
+          "number": 42
+        },
+        {
+          "chapterId": "chapter-43",
+          "number": 43
+        },
+        {
+          "chapterId": "chapter-44",
+          "number": 44
+        },
+        {
+          "chapterId": "chapter-45",
+          "number": 45
+        },
+        {
+          "chapterId": "chapter-46",
+          "number": 46
+        },
+        {
+          "chapterId": "chapter-47",
+          "number": 47
+        },
+        {
+          "chapterId": "chapter-48",
+          "number": 48
+        },
+        {
+          "chapterId": "chapter-49",
+          "number": 49
+        },
+        {
+          "chapterId": "chapter-50",
+          "number": 50
+        }
+      ],
+      "chaptersUrl": "livros/twilight-shadows/chapters.json",
+      "coverLegacyUrl": "https://uparchive.github.io/Twilight-Shadows/TSposter1.png",
       "url": "reader.html?book=twilight-shadows",
-      "legacyUrl": "https://uparchive.github.io/Twilight-Shadows/"
+      "legacyUrl": "https://uparchive.github.io/Twilight-Shadows/",
+      "currentChapter": 50,
+      "chapterCount": 51
     },
     {
+      "schemaVersion": 1,
       "id": "echoes-of-eternity",
-      "title": "Echoes of Eternity",
       "slug": "echoes-of-eternity",
+      "title": "Echoes of Eternity",
       "description": "Uma odisseia pelo tempo e escolhas eternas.",
       "genres": [
         "Ficção científica"
       ],
       "status": "COMPLETED",
       "featured": false,
-      "order": 9,
-      "currentChapter": 10,
-      "chapterCount": 10,
+      "active": false,
       "cover": "livros/echoes-of-eternity/capa.webp",
+      "chapters": {
+        "path": "chapters.json",
+        "firstPublished": 1,
+        "currentPublished": 10
+      },
+      "legacy": {
+        "repository": "Uparchive/echoes-of-eternity",
+        "url": "https://uparchive.github.io/echoes-of-eternity/",
+        "readerPreserved": true
+      },
+      "assets": {
+        "formats": [
+          "ebook",
+          "print",
+          "audiobook",
+          "translation",
+          "licensing"
+        ]
+      },
+      "order": 9,
+      "bookId": "echoes-of-eternity",
+      "chapterList": [
+        {
+          "chapterId": "chapter-1",
+          "number": 1
+        },
+        {
+          "chapterId": "chapter-2",
+          "number": 2
+        },
+        {
+          "chapterId": "chapter-3",
+          "number": 3
+        },
+        {
+          "chapterId": "chapter-4",
+          "number": 4
+        },
+        {
+          "chapterId": "chapter-5",
+          "number": 5
+        },
+        {
+          "chapterId": "chapter-6",
+          "number": 6
+        },
+        {
+          "chapterId": "chapter-7",
+          "number": 7
+        },
+        {
+          "chapterId": "chapter-8",
+          "number": 8
+        },
+        {
+          "chapterId": "chapter-9",
+          "number": 9
+        },
+        {
+          "chapterId": "chapter-10",
+          "number": 10
+        }
+      ],
+      "chaptersUrl": "livros/echoes-of-eternity/chapters.json",
+      "coverLegacyUrl": "https://uparchive.github.io/echoes-of-eternity/EOE-poster.webp",
       "url": "reader.html?book=echoes-of-eternity",
-      "legacyUrl": "https://uparchive.github.io/echoes-of-eternity/"
+      "legacyUrl": "https://uparchive.github.io/echoes-of-eternity/",
+      "currentChapter": 10,
+      "chapterCount": 10
     }
   ]
 }

@@ -38,6 +38,107 @@
         ]
       },
       "order": 1,
+      "bookId": "urbans-family",
+      "chapterList": [
+        {
+          "chapterId": "chapter-0",
+          "number": 0
+        },
+        {
+          "chapterId": "chapter-1",
+          "number": 1
+        },
+        {
+          "chapterId": "chapter-2",
+          "number": 2
+        },
+        {
+          "chapterId": "chapter-3",
+          "number": 3
+        },
+        {
+          "chapterId": "chapter-4",
+          "number": 4
+        },
+        {
+          "chapterId": "chapter-5",
+          "number": 5
+        },
+        {
+          "chapterId": "chapter-6",
+          "number": 6
+        },
+        {
+          "chapterId": "chapter-7",
+          "number": 7
+        },
+        {
+          "chapterId": "chapter-8",
+          "number": 8
+        },
+        {
+          "chapterId": "chapter-9",
+          "number": 9
+        },
+        {
+          "chapterId": "chapter-10",
+          "number": 10
+        },
+        {
+          "chapterId": "chapter-11",
+          "number": 11
+        },
+        {
+          "chapterId": "chapter-12",
+          "number": 12
+        },
+        {
+          "chapterId": "chapter-13",
+          "number": 13
+        },
+        {
+          "chapterId": "chapter-14",
+          "number": 14
+        },
+        {
+          "chapterId": "chapter-15",
+          "number": 15
+        },
+        {
+          "chapterId": "chapter-16",
+          "number": 16
+        },
+        {
+          "chapterId": "chapter-17",
+          "number": 17
+        },
+        {
+          "chapterId": "chapter-18",
+          "number": 18
+        },
+        {
+          "chapterId": "chapter-19",
+          "number": 19
+        },
+        {
+          "chapterId": "chapter-20",
+          "number": 20
+        },
+        {
+          "chapterId": "chapter-21",
+          "number": 21
+        },
+        {
+          "chapterId": "chapter-22",
+          "number": 22
+        },
+        {
+          "chapterId": "chapter-23",
+          "number": 23
+        }
+      ],
+      "chaptersUrl": "livros/urbans-family/chapters.json",
+      "coverLegacyUrl": "https://uparchive.github.io/urbans-family/UFORDC-poster.png",
       "url": "reader.html?book=urbans-family",
       "legacyUrl": "https://uparchive.github.io/urbans-family/",
       "currentChapter": 23,
@@ -80,6 +181,51 @@
         ]
       },
       "order": 2,
+      "bookId": "o-batuque-no-quarto-ao-lado",
+      "chapterList": [
+        {
+          "chapterId": "chapter-0",
+          "number": 0
+        },
+        {
+          "chapterId": "chapter-1",
+          "number": 1
+        },
+        {
+          "chapterId": "chapter-2",
+          "number": 2
+        },
+        {
+          "chapterId": "chapter-3",
+          "number": 3
+        },
+        {
+          "chapterId": "chapter-4",
+          "number": 4
+        },
+        {
+          "chapterId": "chapter-5",
+          "number": 5
+        },
+        {
+          "chapterId": "chapter-6",
+          "number": 6
+        },
+        {
+          "chapterId": "chapter-7",
+          "number": 7
+        },
+        {
+          "chapterId": "chapter-8",
+          "number": 8
+        },
+        {
+          "chapterId": "chapter-9",
+          "number": 9
+        }
+      ],
+      "chaptersUrl": "livros/o-batuque-no-quarto-ao-lado/chapters.json",
+      "coverLegacyUrl": "https://uparchive.github.io/o-batuque-no-quarto-ao-lado/OBNQAL-poster.png",
       "url": "reader.html?book=o-batuque-no-quarto-ao-lado",
       "legacyUrl": "https://uparchive.github.io/o-batuque-no-quarto-ao-lado/",
       "currentChapter": 9,
@@ -118,6 +264,83 @@
         ]
       },
       "order": 3,
+      "bookId": "365-dias-diversos",
+      "chapterList": [
+        {
+          "chapterId": "chapter-1",
+          "number": 1
+        },
+        {
+          "chapterId": "chapter-2",
+          "number": 2
+        },
+        {
+          "chapterId": "chapter-3",
+          "number": 3
+        },
+        {
+          "chapterId": "chapter-4",
+          "number": 4
+        },
+        {
+          "chapterId": "chapter-5",
+          "number": 5
+        },
+        {
+          "chapterId": "chapter-6",
+          "number": 6
+        },
+        {
+          "chapterId": "chapter-7",
+          "number": 7
+        },
+        {
+          "chapterId": "chapter-8",
+          "number": 8
+        },
+        {
+          "chapterId": "chapter-9",
+          "number": 9
+        },
+        {
+          "chapterId": "chapter-10",
+          "number": 10
+        },
+        {
+          "chapterId": "chapter-11",
+          "number": 11
+        },
+        {
+          "chapterId": "chapter-12",
+          "number": 12
+        },
+        {
+          "chapterId": "chapter-13",
+          "number": 13
+        },
+        {
+          "chapterId": "chapter-14",
+          "number": 14
+        },
+        {
+          "chapterId": "chapter-15",
+          "number": 15
+        },
+        {
+          "chapterId": "chapter-16",
+          "number": 16
+        },
+        {
+          "chapterId": "chapter-17",
+          "number": 17
+        },
+        {
+          "chapterId": "chapter-18",
+          "number": 18
+        }
+      ],
+      "chaptersUrl": "livros/365-dias-diversos/chapters.json",
+      "coverLegacyUrl": "https://uparchive.github.io/365-dias-diversos/365-Dias-Diversos-poster.png",
       "url": "reader.html?book=365-dias-diversos",
       "legacyUrl": "https://uparchive.github.io/365-dias-diversos/",
       "currentChapter": 18,
@@ -157,6 +380,27 @@
         ]
       },
       "order": 4,
+      "bookId": "diario-de-omega",
+      "chapterList": [
+        {
+          "chapterId": "chapter-1",
+          "number": 1
+        },
+        {
+          "chapterId": "chapter-2",
+          "number": 2
+        },
+        {
+          "chapterId": "chapter-3",
+          "number": 3
+        },
+        {
+          "chapterId": "chapter-4",
+          "number": 4
+        }
+      ],
+      "chaptersUrl": "livros/diario-de-omega/chapters.json",
+      "coverLegacyUrl": "https://uparchive.github.io/diariodeomega/DDO-poster.png",
       "url": "reader.html?book=diario-de-omega",
       "legacyUrl": "https://uparchive.github.io/diariodeomega/",
       "currentChapter": 4,
@@ -203,6 +447,195 @@
         ]
       },
       "order": 5,
+      "bookId": "o-xadrez-pelo-poder",
+      "chapterList": [
+        {
+          "chapterId": "chapter-0",
+          "number": 0
+        },
+        {
+          "chapterId": "chapter-1",
+          "number": 1
+        },
+        {
+          "chapterId": "chapter-2",
+          "number": 2
+        },
+        {
+          "chapterId": "chapter-3",
+          "number": 3
+        },
+        {
+          "chapterId": "chapter-4",
+          "number": 4
+        },
+        {
+          "chapterId": "chapter-5",
+          "number": 5
+        },
+        {
+          "chapterId": "chapter-6",
+          "number": 6
+        },
+        {
+          "chapterId": "chapter-7",
+          "number": 7
+        },
+        {
+          "chapterId": "chapter-8",
+          "number": 8
+        },
+        {
+          "chapterId": "chapter-9",
+          "number": 9
+        },
+        {
+          "chapterId": "chapter-10",
+          "number": 10
+        },
+        {
+          "chapterId": "chapter-11",
+          "number": 11
+        },
+        {
+          "chapterId": "chapter-12",
+          "number": 12
+        },
+        {
+          "chapterId": "chapter-13",
+          "number": 13
+        },
+        {
+          "chapterId": "chapter-14",
+          "number": 14
+        },
+        {
+          "chapterId": "chapter-15",
+          "number": 15
+        },
+        {
+          "chapterId": "chapter-16",
+          "number": 16
+        },
+        {
+          "chapterId": "chapter-17",
+          "number": 17
+        },
+        {
+          "chapterId": "chapter-18",
+          "number": 18
+        },
+        {
+          "chapterId": "chapter-19",
+          "number": 19
+        },
+        {
+          "chapterId": "chapter-20",
+          "number": 20
+        },
+        {
+          "chapterId": "chapter-21",
+          "number": 21
+        },
+        {
+          "chapterId": "chapter-22",
+          "number": 22
+        },
+        {
+          "chapterId": "chapter-23",
+          "number": 23
+        },
+        {
+          "chapterId": "chapter-24",
+          "number": 24
+        },
+        {
+          "chapterId": "chapter-25",
+          "number": 25
+        },
+        {
+          "chapterId": "chapter-26",
+          "number": 26
+        },
+        {
+          "chapterId": "chapter-27",
+          "number": 27
+        },
+        {
+          "chapterId": "chapter-28",
+          "number": 28
+        },
+        {
+          "chapterId": "chapter-29",
+          "number": 29
+        },
+        {
+          "chapterId": "chapter-30",
+          "number": 30
+        },
+        {
+          "chapterId": "chapter-31",
+          "number": 31
+        },
+        {
+          "chapterId": "chapter-32",
+          "number": 32
+        },
+        {
+          "chapterId": "chapter-33",
+          "number": 33
+        },
+        {
+          "chapterId": "chapter-34",
+          "number": 34
+        },
+        {
+          "chapterId": "chapter-35",
+          "number": 35
+        },
+        {
+          "chapterId": "chapter-36",
+          "number": 36
+        },
+        {
+          "chapterId": "chapter-37",
+          "number": 37
+        },
+        {
+          "chapterId": "chapter-38",
+          "number": 38
+        },
+        {
+          "chapterId": "chapter-39",
+          "number": 39
+        },
+        {
+          "chapterId": "chapter-40",
+          "number": 40
+        },
+        {
+          "chapterId": "chapter-41",
+          "number": 41
+        },
+        {
+          "chapterId": "chapter-42",
+          "number": 42
+        },
+        {
+          "chapterId": "chapter-43",
+          "number": 43
+        },
+        {
+          "chapterId": "chapter-44",
+          "number": 44
+        },
+        {
+          "chapterId": "chapter-45",
+          "number": 45
+        }
+      ],
+      "chaptersUrl": "livros/o-xadrez-pelo-poder/chapters.json",
+      "coverLegacyUrl": "https://uparchive.github.io/o-xadrez-pelo-poder/OXPP-poster.png",
       "url": "reader.html?book=o-xadrez-pelo-poder",
       "legacyUrl": "https://uparchive.github.io/oxpp-page/",
       "currentChapter": 45,
@@ -244,6 +677,115 @@
         ]
       },
       "order": 6,
+      "bookId": "amazonico-o-protetor-da-floresta",
+      "chapterList": [
+        {
+          "chapterId": "chapter-0",
+          "number": 0
+        },
+        {
+          "chapterId": "chapter-1",
+          "number": 1
+        },
+        {
+          "chapterId": "chapter-2",
+          "number": 2
+        },
+        {
+          "chapterId": "chapter-3",
+          "number": 3
+        },
+        {
+          "chapterId": "chapter-4",
+          "number": 4
+        },
+        {
+          "chapterId": "chapter-5",
+          "number": 5
+        },
+        {
+          "chapterId": "chapter-6",
+          "number": 6
+        },
+        {
+          "chapterId": "chapter-7",
+          "number": 7
+        },
+        {
+          "chapterId": "chapter-8",
+          "number": 8
+        },
+        {
+          "chapterId": "chapter-9",
+          "number": 9
+        },
+        {
+          "chapterId": "chapter-10",
+          "number": 10
+        },
+        {
+          "chapterId": "chapter-11",
+          "number": 11
+        },
+        {
+          "chapterId": "chapter-12",
+          "number": 12
+        },
+        {
+          "chapterId": "chapter-13",
+          "number": 13
+        },
+        {
+          "chapterId": "chapter-14",
+          "number": 14
+        },
+        {
+          "chapterId": "chapter-15",
+          "number": 15
+        },
+        {
+          "chapterId": "chapter-16",
+          "number": 16
+        },
+        {
+          "chapterId": "chapter-17",
+          "number": 17
+        },
+        {
+          "chapterId": "chapter-18",
+          "number": 18
+        },
+        {
+          "chapterId": "chapter-19",
+          "number": 19
+        },
+        {
+          "chapterId": "chapter-20",
+          "number": 20
+        },
+        {
+          "chapterId": "chapter-21",
+          "number": 21
+        },
+        {
+          "chapterId": "chapter-22",
+          "number": 22
+        },
+        {
+          "chapterId": "chapter-23",
+          "number": 23
+        },
+        {
+          "chapterId": "chapter-24",
+          "number": 24
+        },
+        {
+          "chapterId": "chapter-25",
+          "number": 25
+        }
+      ],
+      "chaptersUrl": "livros/amazonico-o-protetor-da-floresta/chapters.json",
+      "coverLegacyUrl": "https://uparchive.github.io/amazonico-o-protetor-da-floresta/amaz%C3%B4nico-poster.png",
       "url": "reader.html?book=amazonico-o-protetor-da-floresta",
       "legacyUrl": "https://uparchive.github.io/amazonico-o-protetor-da-floresta/",
       "currentChapter": 25,
@@ -286,6 +828,135 @@
         ]
       },
       "order": 7,
+      "bookId": "o-guardiao-da-promessa",
+      "chapterList": [
+        {
+          "chapterId": "chapter-0",
+          "number": 0
+        },
+        {
+          "chapterId": "chapter-1",
+          "number": 1
+        },
+        {
+          "chapterId": "chapter-2",
+          "number": 2
+        },
+        {
+          "chapterId": "chapter-3",
+          "number": 3
+        },
+        {
+          "chapterId": "chapter-4",
+          "number": 4
+        },
+        {
+          "chapterId": "chapter-5",
+          "number": 5
+        },
+        {
+          "chapterId": "chapter-6",
+          "number": 6
+        },
+        {
+          "chapterId": "chapter-7",
+          "number": 7
+        },
+        {
+          "chapterId": "chapter-8",
+          "number": 8
+        },
+        {
+          "chapterId": "chapter-9",
+          "number": 9
+        },
+        {
+          "chapterId": "chapter-10",
+          "number": 10
+        },
+        {
+          "chapterId": "chapter-11",
+          "number": 11
+        },
+        {
+          "chapterId": "chapter-12",
+          "number": 12
+        },
+        {
+          "chapterId": "chapter-13",
+          "number": 13
+        },
+        {
+          "chapterId": "chapter-14",
+          "number": 14
+        },
+        {
+          "chapterId": "chapter-15",
+          "number": 15
+        },
+        {
+          "chapterId": "chapter-16",
+          "number": 16
+        },
+        {
+          "chapterId": "chapter-17",
+          "number": 17
+        },
+        {
+          "chapterId": "chapter-18",
+          "number": 18
+        },
+        {
+          "chapterId": "chapter-19",
+          "number": 19
+        },
+        {
+          "chapterId": "chapter-20",
+          "number": 20
+        },
+        {
+          "chapterId": "chapter-21",
+          "number": 21
+        },
+        {
+          "chapterId": "chapter-22",
+          "number": 22
+        },
+        {
+          "chapterId": "chapter-23",
+          "number": 23
+        },
+        {
+          "chapterId": "chapter-24",
+          "number": 24
+        },
+        {
+          "chapterId": "chapter-25",
+          "number": 25
+        },
+        {
+          "chapterId": "chapter-26",
+          "number": 26
+        },
+        {
+          "chapterId": "chapter-27",
+          "number": 27
+        },
+        {
+          "chapterId": "chapter-28",
+          "number": 28
+        },
+        {
+          "chapterId": "chapter-29",
+          "number": 29
+        },
+        {
+          "chapterId": "chapter-30",
+          "number": 30
+        }
+      ],
+      "chaptersUrl": "livros/o-guardiao-da-promessa/chapters.json",
+      "coverLegacyUrl": "https://uparchive.github.io/o-guardiao-da-promessa/OGDP-poster.png",
       "url": "reader.html?book=o-guardiao-da-promessa",
       "legacyUrl": "https://uparchive.github.io/o-guardiao-da-promessa/",
       "currentChapter": 30,
@@ -327,6 +998,215 @@
         ]
       },
       "order": 8,
+      "bookId": "twilight-shadows",
+      "chapterList": [
+        {
+          "chapterId": "chapter-0",
+          "number": 0
+        },
+        {
+          "chapterId": "chapter-1",
+          "number": 1
+        },
+        {
+          "chapterId": "chapter-2",
+          "number": 2
+        },
+        {
+          "chapterId": "chapter-3",
+          "number": 3
+        },
+        {
+          "chapterId": "chapter-4",
+          "number": 4
+        },
+        {
+          "chapterId": "chapter-5",
+          "number": 5
+        },
+        {
+          "chapterId": "chapter-6",
+          "number": 6
+        },
+        {
+          "chapterId": "chapter-7",
+          "number": 7
+        },
+        {
+          "chapterId": "chapter-8",
+          "number": 8
+        },
+        {
+          "chapterId": "chapter-9",
+          "number": 9
+        },
+        {
+          "chapterId": "chapter-10",
+          "number": 10
+        },
+        {
+          "chapterId": "chapter-11",
+          "number": 11
+        },
+        {
+          "chapterId": "chapter-12",
+          "number": 12
+        },
+        {
+          "chapterId": "chapter-13",
+          "number": 13
+        },
+        {
+          "chapterId": "chapter-14",
+          "number": 14
+        },
+        {
+          "chapterId": "chapter-15",
+          "number": 15
+        },
+        {
+          "chapterId": "chapter-16",
+          "number": 16
+        },
+        {
+          "chapterId": "chapter-17",
+          "number": 17
+        },
+        {
+          "chapterId": "chapter-18",
+          "number": 18
+        },
+        {
+          "chapterId": "chapter-19",
+          "number": 19
+        },
+        {
+          "chapterId": "chapter-20",
+          "number": 20
+        },
+        {
+          "chapterId": "chapter-21",
+          "number": 21
+        },
+        {
+          "chapterId": "chapter-22",
+          "number": 22
+        },
+        {
+          "chapterId": "chapter-23",
+          "number": 23
+        },
+        {
+          "chapterId": "chapter-24",
+          "number": 24
+        },
+        {
+          "chapterId": "chapter-25",
+          "number": 25
+        },
+        {
+          "chapterId": "chapter-26",
+          "number": 26
+        },
+        {
+          "chapterId": "chapter-27",
+          "number": 27
+        },
+        {
+          "chapterId": "chapter-28",
+          "number": 28
+        },
+        {
+          "chapterId": "chapter-29",
+          "number": 29
+        },
+        {
+          "chapterId": "chapter-30",
+          "number": 30
+        },
+        {
+          "chapterId": "chapter-31",
+          "number": 31
+        },
+        {
+          "chapterId": "chapter-32",
+          "number": 32
+        },
+        {
+          "chapterId": "chapter-33",
+          "number": 33
+        },
+        {
+          "chapterId": "chapter-34",
+          "number": 34
+        },
+        {
+          "chapterId": "chapter-35",
+          "number": 35
+        },
+        {
+          "chapterId": "chapter-36",
+          "number": 36
+        },
+        {
+          "chapterId": "chapter-37",
+          "number": 37
+        },
+        {
+          "chapterId": "chapter-38",
+          "number": 38
+        },
+        {
+          "chapterId": "chapter-39",
+          "number": 39
+        },
+        {
+          "chapterId": "chapter-40",
+          "number": 40
+        },
+        {
+          "chapterId": "chapter-41",
+          "number": 41
+        },
+        {
+          "chapterId": "chapter-42",
+          "number": 42
+        },
+        {
+          "chapterId": "chapter-43",
+          "number": 43
+        },
+        {
+          "chapterId": "chapter-44",
+          "number": 44
+        },
+        {
+          "chapterId": "chapter-45",
+          "number": 45
+        },
+        {
+          "chapterId": "chapter-46",
+          "number": 46
+        },
+        {
+          "chapterId": "chapter-47",
+          "number": 47
+        },
+        {
+          "chapterId": "chapter-48",
+          "number": 48
+        },
+        {
+          "chapterId": "chapter-49",
+          "number": 49
+        },
+        {
+          "chapterId": "chapter-50",
+          "number": 50
+        }
+      ],
+      "chaptersUrl": "livros/twilight-shadows/chapters.json",
+      "coverLegacyUrl": "https://uparchive.github.io/Twilight-Shadows/TSposter1.png",
       "url": "reader.html?book=twilight-shadows",
       "legacyUrl": "https://uparchive.github.io/Twilight-Shadows/",
       "currentChapter": 50,
@@ -365,6 +1245,51 @@
         ]
       },
       "order": 9,
+      "bookId": "echoes-of-eternity",
+      "chapterList": [
+        {
+          "chapterId": "chapter-1",
+          "number": 1
+        },
+        {
+          "chapterId": "chapter-2",
+          "number": 2
+        },
+        {
+          "chapterId": "chapter-3",
+          "number": 3
+        },
+        {
+          "chapterId": "chapter-4",
+          "number": 4
+        },
+        {
+          "chapterId": "chapter-5",
+          "number": 5
+        },
+        {
+          "chapterId": "chapter-6",
+          "number": 6
+        },
+        {
+          "chapterId": "chapter-7",
+          "number": 7
+        },
+        {
+          "chapterId": "chapter-8",
+          "number": 8
+        },
+        {
+          "chapterId": "chapter-9",
+          "number": 9
+        },
+        {
+          "chapterId": "chapter-10",
+          "number": 10
+        }
+      ],
+      "chaptersUrl": "livros/echoes-of-eternity/chapters.json",
+      "coverLegacyUrl": "https://uparchive.github.io/echoes-of-eternity/EOE-poster.webp",
       "url": "reader.html?book=echoes-of-eternity",
       "legacyUrl": "https://uparchive.github.io/echoes-of-eternity/",
       "currentChapter": 10,

@@ -6,16 +6,21 @@
   <meta name="theme-color" content="#171b25">
   <title>Leitor — PageZone</title>
   <link rel="stylesheet" href="app/reader.css">
+  <script src="app/library.js" defer></script>
+  <script src="app/progress.js" defer></script>
+  <script src="app/images.js" defer></script>
   <script src="app/reader.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#chapter-content">Pular para o capítulo</a>
   <header class="reader-header">
     <a href="./" class="brand">← <span>PageZone</span></a>
-    <button id="index-toggle" type="button" aria-expanded="false" aria-controls="chapter-index">Índice</button>
+    <button id="index-toggle" type="button" disabled aria-expanded="false" aria-controls="chapter-index">Índice</button>
   </header>
   <main>
     <section id="reader-loading" class="loading" aria-live="polite">Abrindo obra…</section>
+    <p id="reader-recovery" class="loading" hidden><a href="./">Voltar à biblioteca</a> · <a href="">Tentar novamente</a></p>
+    <p id="reader-notice" class="reader-notice" role="status" hidden></p>
     <article id="reader" hidden>
       <header class="book-header">
         <img id="book-cover" class="book-cover" alt="">
