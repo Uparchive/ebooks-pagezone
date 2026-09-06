@@ -27,7 +27,10 @@ const server = http.createServer((req,res) => {
     async function catalog(){await page.goto(base);await page.waitForSelector('#catalog-grid .book-card');}
     async function reader(book,chapter){await page.goto(base+`reader.html?book=${book}`+(chapter===undefined?'':`&chapter=${chapter}`));await page.waitForSelector('#reader:visible');}
     async function images(){await page.waitForFunction(()=>[...document.images].filter(i=>i.loading!=='lazy').every(i=>i.complete));assert.deepEqual(await page.locator('img').evaluateAll(imgs=>imgs.filter(i=>(i.loading!=='lazy'||i.complete)&&(!i.naturalWidth||i.dataset.fallback)).map(i=>i.src)),[]);}
-    async function noOverflow(){assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'Horizontal overflow');}
+    async function noOverflow(){
+      const layout=await page.evaluate(()=>({width:innerWidth,scroll:document.documentElement.scrollWidth,overflow:[...document.querySelectorAll('body *')].filter(el=>el.getBoundingClientRect().right>innerWidth+1).slice(0,12).map(el=>({tag:el.tagName,class:el.className,width:el.getBoundingClientRect().width}))}));
+      assert.ok(layout.scroll<=layout.width,'Horizontal overflow: '+JSON.stringify(layout));
+    }
     await catalog();
     assert.equal(await page.locator('#catalog-grid .book-card').count(),books.length);
     console.log('A: all nine catalog books render');
