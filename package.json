@@ -5,6 +5,11 @@
   "scripts": {
     "build": "node scripts/build-catalog.js",
     "validate": "node scripts/validate-books.js",
-    "check": "npm run build && npm run validate"
+    "check": "npm run build && npm run validate",
+    "test": "node --test tests/library.test.js",
+    "test:browser": "node tests/browser.test.js"
+  },
+  "devDependencies": {
+    "playwright": "1.55.0"
   }
 }

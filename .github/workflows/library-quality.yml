@@ -1,0 +1,22 @@
+name: Library quality
+on:
+  push:
+    branches: [main]
+    paths: ['app/**', 'assets/**', 'tests/**', 'scripts/build-catalog.js', 'scripts/validate-books.js', 'index.html', 'reader.html', 'script.js', 'matrixstyle.css', 'package.json', '.github/workflows/library-quality.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  library:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm install --ignore-scripts --no-audit --no-fund
+      - run: npx playwright install --with-deps chromium
+      - run: npm run check
+      - run: npm test
+      - run: npm run test:browser
