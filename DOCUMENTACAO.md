@@ -14,11 +14,11 @@ livros/<id>/
   continuidade.json  estado editorial interno
 ```
 
-A biblioteca pública consome somente `data/books.json`. O leitor público consome somente `book.json`, `chapters.json` e a capa. Documentos de memória e planejamento nunca são referenciados pela interface.
+A biblioteca e o leitor consomem o mesmo catálogo público `books.json`, publicado pelo fluxo editorial existente. O leitor carrega os capítulos pelo caminho desse catálogo. `data/books.json` permanece uma cópia gerada de compatibilidade, não a fonte da interface. Documentos de memória e planejamento nunca são referenciados pela interface.
 
 ## Fonte da verdade e catálogo
 
-`book.json` é a fonte de verdade de metadados por obra. `scripts/build-catalog.js` gera `data/books.json` e a cópia de compatibilidade `books.json`. Nunca edite esses dois arquivos manualmente: altere o manifesto e execute `npm run build`.
+`book.json` é a fonte de verdade de metadados por obra. `scripts/build-catalog.js` gera `books.json` e a cópia de compatibilidade `data/books.json`. Nunca edite esses dois arquivos manualmente: altere o manifesto e execute `npm run build`.
 
 Campos essenciais do manifesto:
 
@@ -36,7 +36,17 @@ Campos essenciais do manifesto:
 
 O motor único está em `reader.html`, `app/reader.js` e `app/reader.css`. A URL é estável: `reader.html?book=<id>&chapter=<numero>`. Sem capítulo informado, o leitor retoma o último capítulo local; sem progresso local, abre o primeiro disponível.
 
-O progresso usa `pagezone:progress:<id>`. Um livro novo não exige mudar JavaScript. Uma futura conta pode substituir ou complementar essa camada sem alterar capítulos.
+O progresso usa `localStorage.pagezone_reading_progress`, um objeto indexado pelo `id` permanente da obra (também exposto como `bookId` no catálogo). Cada entrada contém `readerId`, `bookId`, `chapterId`, `chapterNumber`, `position` (ordinal, não scroll) e `updatedAt`. `pagezone_reader_id` identifica anonimamente o navegador, sem autenticação ou tracking externo. O registro legado `pagezone:progress:<id>` é lido e migrado automaticamente na próxima abertura, inclusive capítulo 0.
+
+Capítulos usam `chapterId` ou `id` explícito quando informado; para os registros atuais, a identidade é `chapter-<number>`. Números de capítulos publicados devem permanecer estáveis; inserir uma posição no array não altera IDs. Não é necessário modificar o fluxo editorial para gerar novos IDs. A URL numérica histórica permanece válida e IDs explícitos também são aceitos no parâmetro `chapter`.
+
+Abrir uma obra sem capítulo na URL retoma o salvo. Uma URL com capítulo explícito tem prioridade. Se ele tiver sido removido, abre o anterior disponível ou o primeiro e apresenta um aviso. Progresso é salvo após a renderização bem-sucedida, sem tentar restaurar scroll. Armazenamento bloqueado não impede leitura e produz aviso visível no leitor.
+
+`app/library.js` centraliza identidade, rotas e resolução de assets. Referências de capas anteriores à migração são resolvidas pelo manifesto; outras imagens relativas são resolvidas dentro da pasta da obra. A introdução de Twilight Shadows usa a imagem original `TSposter2.png`, recuperada do repositório legado. `app/images.js` oferece imagem alternativa e diagnóstico no console em caso de erro.
+
+A busca usa um único formulário para Enter e botão, mantém o filtro ao digitar, exibe resultados e aceita título, slug, ID, autor quando disponível, descrição e gênero, sem distinguir caixa ou acentos. A pesquisa submetida fica em `?q=...` e suporta recarga e voltar/avançar.
+
+Um livro novo não exige mudar JavaScript. Uma futura conta pode substituir ou complementar a camada local sem alterar capítulos.
 
 Para obra `DEVELOPMENT`, o último capítulo mostra “Continua…”. Quando um capítulo for anexado a `chapters.json` e `currentPublished` for atualizado, o motor reconhece automaticamente a nova posição.
 
@@ -65,3 +75,7 @@ O inventário completo está em `editorial/migration-inventory.json`. As nove ob
 `npm run validate` verifica IDs, status, presença de capa, capítulos, ordem, último capítulo, uma única obra ativa e arquivos editoriais obrigatórios. `npm run build` recria o catálogo público. `npm run check` executa ambos.
 
 A plataforma não implementa login, pagamentos, assinatura, analytics ou paywall. O conteúdo editorial está separado dessas futuras camadas.
+
+## Testes da interface
+
+`npm test` executa testes de identidade, fallback, armazenamento e assets. `npm run test:browser` executa os cenários A–K em Chromium, incluindo cinco larguras de tela e falhas simuladas. Antes do primeiro uso, execute `npm install` e `npx playwright install chromium`. O workflow separado `Library quality` verifica alterações da interface sem alterar a automação editorial.

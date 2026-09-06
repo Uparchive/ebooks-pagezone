@@ -10,7 +10,7 @@ npm run validate
 npm run check
 ```
 
-Não há framework nem dependência de produção. O build lê os manifestos internos e gera o catálogo público em `data/books.json`.
+Não há framework nem dependência de produção. O build lê os manifestos internos e gera o catálogo público em `books.json` (e `data/books.json` para compatibilidade).
 
 ## Estrutura
 
@@ -21,6 +21,8 @@ Não há framework nem dependência de produção. O build lê os manifestos int
 - `reader.html` + `app/reader.*` — leitor universal.
 - `editorial-state.json` — obra ativa e fila editorial.
 - `scripts/` — geração e validação.
-- `data/books.json` — catálogo público gerado; não editar manualmente.
+- `books.json` — catálogo público gerado, consumido pela biblioteca e pelo leitor; não editar manualmente.
+- `app/library.js`, `app/progress.js`, `app/images.js` — identidade, progresso local e assets compartilhados.
+- `tests/` — testes de regressão e navegador (`npm test`, `npm run test:browser`).
 
 Leia [DOCUMENTACAO.md](DOCUMENTACAO.md) antes de publicar ou alterar uma obra.
