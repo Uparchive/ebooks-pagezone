@@ -360,9 +360,9 @@
         "Cristianismo",
         "Espiritualidade"
       ],
-      "status": "DEVELOPMENT",
-      "featured": false,
+      "status": "COMPLETED",
       "active": false,
+      "featured": false,
       "cover": "livros/diario-de-omega/capa.png",
       "chapters": {
         "path": "chapters.json",
