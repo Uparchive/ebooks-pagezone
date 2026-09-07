@@ -9,8 +9,8 @@
     "Espiritualidade"
   ],
   "status": "COMPLETED",
-  "featured": false,
   "active": false,
+  "featured": false,
   "cover": {
     "path": "capa.png",
     "legacyUrl": "https://uparchive.github.io/diariodeomega/DDO-poster.png"
