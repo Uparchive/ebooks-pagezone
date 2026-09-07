@@ -8,6 +8,16 @@
   <link rel="icon" href="assets/favicon.svg">
   <title>PageZone — Biblioteca digital</title>
   <link rel="stylesheet" href="matrixstyle.css">
+  <style>
+    html:has(#book-dialog[open]),
+    body:has(#book-dialog[open]) {
+      overflow: hidden;
+      overscroll-behavior: none;
+    }
+    #book-dialog[open] {
+      overscroll-behavior: contain;
+    }
+  </style>
   <script src="app/library.js" defer></script>
   <script src="app/progress.js" defer></script>
   <script src="app/images.js" defer></script>
