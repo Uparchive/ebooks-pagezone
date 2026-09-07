@@ -1,13 +1,13 @@
 # Próxima jornada — Urbans Family
 
 ## Onde a história parou
-Capítulo 23, **A Saída**: Lemos retornou do anexo com **PROTOCOLO DIVERGENTE**. Ribeiro recebeu o documento e demonstrou preocupação. O recado “Mudaram o endereço” foi esclarecido: Carlos reconheceu **Valter Braga**, motorista do anexo e antigo conhecido de pessoas ligadas a Andrade, rondando um endereço de apoio. Mendes reconheceu o nome de Valter. Ribeiro disse “não foi você”, sugerindo tentativa de retirada irregular externa.
+Capítulo 24, **A Chave**: João descobre que Valter tentou retirar um malote com cópias de alterações recentes de cadastro externo. A requisição trazia um **número verdadeiro ligado ao prontuário de João**, mas assinatura de **Marcos Vale**, inexistente no setor informado. **Sônia foi quem barrou a retirada**. Valter apareceu para coletar o material e fez uma ligação após a recusa. Carlos confirmou que ele continua prestando serviço no anexo.
 
 ## Objetivo da próxima jornada
-Descobrir o que Valter tentou retirar, quem autorizou a tentativa e se existe prova atual de ligação com Andrade.
+Descobrir quem teve acesso ao número real usado na requisição e transformar o vazamento interno em uma pessoa ou setor concreto.
 
 ## Tensão a manter
-Valter é elo externo concreto, mas não culpado definitivo. Sônia pode ter barrado o desvio. Ribeiro continua ambíguo. Lemos pode ser apenas transportador. Mendes sabe mais do que admite. Ana, Clara e Carlos não devem ser usados como isca.
+Valter é executor verificável da tentativa, mas sua ligação atual com Andrade ainda não está provada. Ribeiro e Mendes continuam ambíguos. Sônia agiu corretamente neste episódio. Ana, Clara e Carlos não devem ser usados como isca.
 
 ## Tarefa
-Escrever a continuação direta de **A Saída**, fazendo a investigação chegar ao conteúdo da retirada divergente ou à pessoa que a autorizou.
+Escrever a continuação direta de **A Chave**, rastreando a origem do número real e fazendo a investigação avançar para um responsável interno concreto.

@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "activeBookId": "urbans-family",
   "stage": "WRITING",
-  "lastExecution": "2026-09-05",
-  "nextObjective": "Descobrir o que Valter Braga tentou retirar do anexo, quem autorizou a tentativa e se sua ligação atual com Andrade pode ser provada.",
+  "lastExecution": "2026-09-07",
+  "nextObjective": "Descobrir quem teve acesso ao número real usado na requisição falsa e identificar uma pessoa ou setor concreto ligado ao vazamento.",
   "legacyQueue": ["urbans-family", "o-batuque-no-quarto-ao-lado", "365-dias-diversos", "diario-de-omega"],
-  "rules": { "oneActiveBook": true, "completeLegacyBeforeNew": true, "publicContentOnly": true }
+  "rules": {"oneActiveBook": true, "completeLegacyBeforeNew": true, "publicContentOnly": true}
 }

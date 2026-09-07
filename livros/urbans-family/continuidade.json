@@ -2,31 +2,10 @@
   "schemaVersion": 1,
   "bookId": "urbans-family",
   "editorialState": "WRITING",
-  "publishedRange": { "first": 0, "last": 23 },
-  "lastChapter": { "number": 23, "title": "A Saída" },
-  "characterLedger": [
-    {"name":"João Carvalho","status":"preso; identificou Valter Braga como primeiro elo externo verificável","location":"prisão"},
-    {"name":"Carlos","status":"reconheceu Valter e mudou um endereço de apoio após notar vigilância","location":"fora da prisão"},
-    {"name":"Torres","status":"principal aliado operacional; cobra prova antes de sentença","location":"prisão"},
-    {"name":"Mendes","status":"reconheceu o nome de Valter e já ouviu Andrade no mesmo contexto; útil e suspeito","location":"prisão"},
-    {"name":"Ribeiro","status":"provável operador sob pressão; disse que a divergência não foi causada por João","location":"prisão"},
-    {"name":"Lemos","status":"transporta documentos e malotes; cumplicidade não comprovada","location":"prisão/anexo"},
-    {"name":"Sônia","status":"servidora do protocolo; pode ter barrado retirada irregular","location":"anexo"},
-    {"name":"Valter Braga","status":"motorista/prestador externo; reconhecido por Carlos como antigo ligado a pessoas de Andrade; vínculo atual não provado","location":"fora da prisão/anexo"},
-    {"name":"Ana","status":"separada de João; registros continuam vulneráveis","location":"fora da prisão"},
-    {"name":"Clara","status":"filha de João; permanece vulnerável","location":"com Ana"},
-    {"name":"Diego Santos","status":"baleado pela polícia no capítulo 13; morte não confirmada","location":"não confirmada"}
-  ],
-  "openThreads": [
-    "Descobrir o que Valter tentou retirar e por que o protocolo marcou divergência.",
-    "Confirmar a ligação atual de Valter Braga com Andrade.",
-    "Entender o significado de Ribeiro dizer não foi você.",
-    "Determinar o papel real de Mendes.",
-    "Confirmar se Sônia barrou a retirada irregular.",
-    "Proteger Ana, Clara e Carlos.",
-    "O estado definitivo de Diego permanece não confirmado."
-  ],
-  "nextAction": "Descobrir o que Valter tentou retirar, quem autorizou e se ele atua atualmente para Andrade.",
+  "publishedRange": {"first": 0, "last": 24},
+  "lastChapter": {"number": 24, "title": "A Chave"},
+  "openThreads": ["Descobrir quem acessou o número real usado na requisição falsa.", "Descobrir quem é Marcos Vale ou quem criou essa identidade.", "Confirmar a ligação atual de Valter Braga com Andrade.", "Determinar o papel real de Mendes e Ribeiro.", "Proteger Ana, Clara e Carlos.", "O estado definitivo de Diego permanece não confirmado."],
+  "nextAction": "Rastrear quem consultou ou copiou o número real do prontuário e identificar uma pessoa concreta ligada ao vazamento.",
   "chapterLedgerSource": "chapters.json",
   "spoilersInternal": true
 }

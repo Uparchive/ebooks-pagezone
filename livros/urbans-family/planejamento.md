@@ -1,16 +1,17 @@
 # Planejamento editorial — Urbans Family
 
 ## Estado
-Capítulo 23 publicado. O fluxo interno finalmente produziu um elo externo: **Valter Braga**, motorista/prestador reconhecido por Carlos como alguém que anos atrás circulava com pessoas de Andrade. Um envelope **PROTOCOLO DIVERGENTE** sugere tentativa irregular de retirada no anexo.
+Capítulo 24 publicado. A retirada divergente era um malote de **retificações de cadastro externo**. O pedido usava número real ligado ao prontuário de João, mas assinatura de **Marcos Vale**, inexistente no setor declarado. **Sônia bloqueou a coleta** e Valter apareceu para executá-la.
 
 ## Movimento imediato
-Descobrir **o que Valter tentou retirar**, quem autorizou ou falsificou a retirada e qual era o valor da informação/material. Confirmar ou refutar a ligação atual de Valter com Andrade; aprofundar “não foi você”; preservar a incerteza sobre Mendes; não transformar Sônia, Lemos ou Ribeiro em culpados sem prova; manter Ana, Clara e Carlos fora de iscas deliberadas.
+Rastrear **quem acessou ou copiou o número real** utilizado na requisição. Investigar se “Marcos Vale” é identidade falsa, intermediário ou nome reaproveitado. Confirmar ou refutar a ligação atual de Valter com Andrade sem retroceder para mera especulação.
 
 ## Restrições
 - Não declarar Diego morto.
-- Não transformar Mendes em aliado fiel ou traidor definitivo.
-- Não declarar Ribeiro, Lemos, Sônia ou Valter culpados definitivos sem evidência adicional.
-- Não assumir Ana e Clara totalmente seguras.
+- Não transformar Mendes ou Ribeiro em aliado fiel ou traidor definitivo.
+- Sônia não deve voltar a ser tratada como culpada sem nova evidência.
+- Não declarar Valter agente de Andrade sem prova atual.
+- Não expor Ana, Clara ou Carlos como isca.
 
 ## Próximo marco editorial
-Identificar qual item ou informação Valter tentou retirar e quem abriu essa porta para ele.
+Identificar uma pessoa concreta que teve acesso ao número verdadeiro usado na fraude.

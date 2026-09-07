@@ -1,40 +1,35 @@
 # Memória narrativa — Urbans Family
 
 ## Estado atual
-João Carvalho está preso e transformando sobrevivência em influência para proteger Ana e Clara de longe. No capítulo 23, **A Saída**, Lemos retorna do anexo com um envelope marcado **PROTOCOLO DIVERGENTE**; Ribeiro depois recebe o documento e demonstra preocupação. João descobre que um veículo terceirizado recolhe material no anexo. O antigo recado “Mudaram o endereço” é esclarecido: Carlos reconheceu o motorista careca como **Valter Braga**, homem que anos antes dirigia para pessoas ligadas a Andrade, e mudou um endereço de apoio após vê-lo rondando o local. Mendes reconhece o nome de Valter e admite já ter ouvido Andrade no mesmo contexto. Ribeiro diz “não foi você”, sugerindo uma tentativa externa de retirada irregular. Sônia pode ter sido justamente quem barrou o procedimento.
+João Carvalho está preso e investigando a rede de Andrade sem expor Ana, Clara ou Carlos. No capítulo 24, **A Chave**, a divergência é finalmente esclarecida: Valter Braga tentou retirar um malote com **cópias de retificações de cadastro externo** — endereços de visitantes, telefones, pessoas autorizadas e mudanças de contato. A requisição usava um **número real ligado ao prontuário de João**, mas uma assinatura atribuída a **Marcos Vale**, pessoa que não existe no setor indicado. **Sônia barrou a retirada**. Ribeiro confirma que o problema foi o uso de um número verdadeiro em um pedido falso. Valter ainda presta serviço no anexo apesar de a empresa contratada ter mudado. Mendes associa o primeiro nome “Marcos” a antigos prestadores ligados a gente de Andrade, mas não há prova atual.
 
 ## Personagens relevantes
-- **João Carvalho** — preso; agora possui o primeiro elo externo verificável da rede.
-- **Ana** — separada de João; registros continuam vulneráveis.
-- **Clara** — filha de João; permanece vulnerável.
-- **Carlos** — reconheceu Valter e mudou um endereço de apoio após notar vigilância.
-- **Torres** — principal aliado operacional.
-- **Andrade** — ameaça central; rede atravessa funções institucionais e prestadores externos.
-- **Mendes** — reconheceu o nome de Valter; útil e suspeito.
-- **Ribeiro** — provável operador sob pressão; disse que a divergência “não foi” causada por João.
-- **Lemos** — transportador administrativo; cumplicidade não comprovada.
-- **Sônia** — protocolo; pode ter barrado a retirada irregular.
-- **Valter Braga** — motorista/prestador externo; Carlos o reconhece do passado como ligado a pessoas de Andrade; papel atual ainda precisa ser provado.
-- **Nando** — aliado agredido.
-- **Diego Santos** — baleado pela polícia no capítulo 13; morte não confirmada.
-
-## Conflito central atual
-João tem um elo externo: Valter Braga. A próxima etapa é descobrir o que ele tentou retirar, quem autorizou e se sua ligação atual com Andrade é real.
+- **João Carvalho** — preso; agora sabe o que a rede tentou retirar e que houve acesso interno a um número real.
+- **Carlos** — confirmou que Valter continua no anexo; mantém endereços de apoio protegidos.
+- **Torres** — aliado operacional; insiste em separar prova de suspeita.
+- **Andrade** — ameaça central; ligação atual com a fraude ainda precisa ser provada.
+- **Mendes** — reconhece ecos antigos do nome “Marcos”; continua ambíguo.
+- **Ribeiro** — revelou a natureza do malote e o uso de um número real; continua sob pressão.
+- **Lemos** — confirmou indiretamente que era um malote; cumplicidade não provada.
+- **Sônia** — confirmou-se como quem bloqueou a retirada irregular.
+- **Valter Braga** — compareceu para a coleta; continua prestador no anexo; vínculo atual com Andrade ainda não provado.
+- **Marcos Vale** — nome usado na requisição falsa; pode ser identidade inventada.
+- **Ana / Clara** — dados de contato podem ser alvo; localização não deve ser exposta.
+- **Diego Santos** — baleado no capítulo 13; morte não confirmada.
 
 ## Pontas abertas
-- Descobrir o item cuja retirada gerou PROTOCOLO DIVERGENTE.
-- Confirmar a ligação atual de Valter com Andrade.
-- Entender por que Ribeiro disse “não foi você”.
-- Determinar o papel real de Mendes.
-- Confirmar se Sônia barrou a retirada.
+- Descobrir quem acessou o número real do prontuário de João.
+- Descobrir quem é “Marcos Vale” ou quem criou essa identidade.
+- Confirmar ou refutar a ligação atual de Valter com Andrade.
+- Determinar o papel real de Mendes e Ribeiro.
 - Proteger Ana, Clara e Carlos.
 - Confirmar o estado definitivo de Diego.
 
 ## Última mudança publicada
-Capítulo 23, **A Saída**: Valter Braga surge como primeiro elo externo concreto e “Mudaram o endereço” é esclarecido como ação preventiva de Carlos.
+Capítulo 24, **A Chave**: o objeto da retirada e a fraude documental são esclarecidos; Sônia deixa de ser suspeita principal e a investigação volta-se para o vazamento interno do número verdadeiro.
 
 ## Objetivo narrativo imediato
-Descobrir o que Valter tentou retirar do anexo, quem autorizou a tentativa e se ele atua atualmente para Andrade.
+Rastrear quem consultou ou copiou o número real usado na requisição falsa e ligar esse acesso a uma pessoa concreta.
 
 ## Regra de continuidade
 `chapters.json` é a fonte canônica do publicado. Em caso de conflito, o texto publicado prevalece.
