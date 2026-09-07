@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "bookId": "diario-de-omega",
-  "editorialState": "MIGRATED_NEEDS_NARRATIVE_AUDIT",
+  "editorialState": "COMPLETED",
   "publishedRange": {
     "first": 1,
     "last": 4
   },
-  "nextAction": "Auditar continuidade dos capítulos publicados antes de planejar escrita nova.",
+  "nextAction": "Nenhuma. Obra declarada completa; não desenvolver novos capítulos.",
   "chapterLedgerSource": "chapters.json",
   "openThreads": [],
   "characterLedger": [],
