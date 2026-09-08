@@ -2,10 +2,24 @@
   "schemaVersion": 1,
   "bookId": "urbans-family",
   "editorialState": "WRITING",
-  "publishedRange": {"first": 0, "last": 24},
-  "lastChapter": {"number": 24, "title": "A Chave"},
-  "openThreads": ["Descobrir quem acessou o número real usado na requisição falsa.", "Descobrir quem é Marcos Vale ou quem criou essa identidade.", "Confirmar a ligação atual de Valter Braga com Andrade.", "Determinar o papel real de Mendes e Ribeiro.", "Proteger Ana, Clara e Carlos.", "O estado definitivo de Diego permanece não confirmado."],
-  "nextAction": "Rastrear quem consultou ou copiou o número real do prontuário e identificar uma pessoa concreta ligada ao vazamento.",
+  "publishedRange": {
+    "first": 0,
+    "last": 25
+  },
+  "lastChapter": {
+    "number": 25,
+    "title": "O Acesso"
+  },
+  "openThreads": [
+    "Confirmar quem usou o login de Paulo Neri no terminal 3.",
+    "Investigar a transferência de Fábio Lacerda para o anexo e sua possível conexão com Valter Braga.",
+    "Descobrir quem criou a identidade Marcos Vale.",
+    "Confirmar a ligação atual da fraude com Andrade.",
+    "Determinar o papel real de Mendes e Ribeiro.",
+    "Proteger Ana, Clara e Carlos.",
+    "O estado definitivo de Diego permanece não confirmado."
+  ],
+  "nextAction": "Rastrear a transferência de Fábio para o anexo e buscar evidência concreta de contato ou coordenação com Valter.",
   "chapterLedgerSource": "chapters.json",
   "spoilersInternal": true
 }

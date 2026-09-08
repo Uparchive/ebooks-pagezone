@@ -1,17 +1,18 @@
 # Planejamento editorial — Urbans Family
 
 ## Estado
-Capítulo 24 publicado. A retirada divergente era um malote de **retificações de cadastro externo**. O pedido usava número real ligado ao prontuário de João, mas assinatura de **Marcos Vale**, inexistente no setor declarado. **Sônia bloqueou a coleta** e Valter apareceu para executá-la.
+Capítulo 25 publicado. O usuário de **Paulo Neri** consultou o módulo com o número verdadeiro às 17h43, mas Sônia sustenta documentalmente que Paulo estava no protocolo. Ribeiro identifica o **terminal 3** como origem da consulta; Sônia confirma que esse terminal era usado por **Fábio Lacerda**, depois transferido para o patrimônio do anexo.
 
 ## Movimento imediato
-Rastrear **quem acessou ou copiou o número real** utilizado na requisição. Investigar se “Marcos Vale” é identidade falsa, intermediário ou nome reaproveitado. Confirmar ou refutar a ligação atual de Valter com Andrade sem retroceder para mera especulação.
+Rastrear a transferência de Fábio e descobrir se ela tem relação com Valter ou com a tentativa de retirar o malote. Buscar uma evidência observável — escala, ordem de serviço, contato, presença conjunta ou cadeia documental — sem transformar proximidade em culpa.
 
 ## Restrições
 - Não declarar Diego morto.
 - Não transformar Mendes ou Ribeiro em aliado fiel ou traidor definitivo.
-- Sônia não deve voltar a ser tratada como culpada sem nova evidência.
+- Não incriminar Paulo: há evidência concreta de que estava em outro local no horário da consulta.
+- Não declarar Fábio culpado sem prova de que foi ele quem usou o terminal.
 - Não declarar Valter agente de Andrade sem prova atual.
 - Não expor Ana, Clara ou Carlos como isca.
 
 ## Próximo marco editorial
-Identificar uma pessoa concreta que teve acesso ao número verdadeiro usado na fraude.
+Ligar, por evidência concreta, a transferência de Fábio ao circuito do anexo e à tentativa de retirada de Valter.

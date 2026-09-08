@@ -1,35 +1,36 @@
 # Memória narrativa — Urbans Family
 
 ## Estado atual
-João Carvalho está preso e investigando a rede de Andrade sem expor Ana, Clara ou Carlos. No capítulo 24, **A Chave**, a divergência é finalmente esclarecida: Valter Braga tentou retirar um malote com **cópias de retificações de cadastro externo** — endereços de visitantes, telefones, pessoas autorizadas e mudanças de contato. A requisição usava um **número real ligado ao prontuário de João**, mas uma assinatura atribuída a **Marcos Vale**, pessoa que não existe no setor indicado. **Sônia barrou a retirada**. Ribeiro confirma que o problema foi o uso de um número verdadeiro em um pedido falso. Valter ainda presta serviço no anexo apesar de a empresa contratada ter mudado. Mendes associa o primeiro nome “Marcos” a antigos prestadores ligados a gente de Andrade, mas não há prova atual.
+João Carvalho está preso e investigando a rede de Andrade sem expor Ana, Clara ou Carlos. No capítulo 25, **O Acesso**, o vazamento interno ganha um responsável operacional concreto, ainda sem culpa definitiva: o usuário de **Paulo Neri**, auxiliar de cadastro, consultou o módulo com o número real do prontuário de João às 17h43 do dia anterior à requisição falsa. Porém, Sônia possui documento indicando que Paulo estava com ela no protocolo naquele horário. Ribeiro acrescenta que a consulta ocorreu no **terminal 3**, enquanto Paulo normalmente usava o terminal 2. Sônia confirma que o terminal 3 era usado por **Fábio Lacerda**, outro auxiliar que dividia a sala e foi transferido duas semanas depois para o patrimônio do anexo — o mesmo complexo onde Valter continua prestando serviço. Isso torna Fábio o primeiro elo interno concreto do vazamento, mas ainda não prova que ele realizou a consulta nem que trabalha para Andrade.
 
 ## Personagens relevantes
-- **João Carvalho** — preso; agora sabe o que a rede tentou retirar e que houve acesso interno a um número real.
-- **Carlos** — confirmou que Valter continua no anexo; mantém endereços de apoio protegidos.
-- **Torres** — aliado operacional; insiste em separar prova de suspeita.
-- **Andrade** — ameaça central; ligação atual com a fraude ainda precisa ser provada.
-- **Mendes** — reconhece ecos antigos do nome “Marcos”; continua ambíguo.
-- **Ribeiro** — revelou a natureza do malote e o uso de um número real; continua sob pressão.
-- **Lemos** — confirmou indiretamente que era um malote; cumplicidade não provada.
-- **Sônia** — confirmou-se como quem bloqueou a retirada irregular.
-- **Valter Braga** — compareceu para a coleta; continua prestador no anexo; vínculo atual com Andrade ainda não provado.
-- **Marcos Vale** — nome usado na requisição falsa; pode ser identidade inventada.
-- **Ana / Clara** — dados de contato podem ser alvo; localização não deve ser exposta.
+- **João Carvalho** — preso; rastreou o número verdadeiro até um login e terminal específicos.
+- **Torres** — aliado operacional; mantém a investigação focada em evidência.
+- **Andrade** — ameaça central; ligação atual com a fraude ainda não comprovada.
+- **Mendes** — conhece Paulo apenas de vista; continua ambíguo.
+- **Ribeiro** — revelou o usuário consultado e depois o terminal; continua sob pressão.
+- **Lemos** — reage ao nome de Paulo, mas não fornece prova.
+- **Sônia** — sustenta com documento que Paulo estava no protocolo e identifica o terminal habitual de Fábio.
+- **Paulo Neri** — auxiliar de cadastro cujo usuário foi usado na consulta; há evidência de que estava em outro local.
+- **Fábio Lacerda** — auxiliar que usava o terminal 3; transferido depois para o patrimônio do anexo. Torna-se principal pessoa de interesse, sem culpa provada.
+- **Valter Braga** — tentou retirar o malote; continua no anexo; vínculo atual com Andrade ainda não provado.
+- **Marcos Vale** — identidade usada na requisição falsa; origem ainda desconhecida.
+- **Ana / Clara / Carlos** — devem permanecer protegidos e fora de qualquer isca.
 - **Diego Santos** — baleado no capítulo 13; morte não confirmada.
 
 ## Pontas abertas
-- Descobrir quem acessou o número real do prontuário de João.
-- Descobrir quem é “Marcos Vale” ou quem criou essa identidade.
-- Confirmar ou refutar a ligação atual de Valter com Andrade.
+- Confirmar quem efetivamente usou o login de Paulo no terminal 3.
+- Descobrir por que Fábio foi transferido para o anexo e se há conexão atual com Valter.
+- Descobrir quem criou a identidade “Marcos Vale”.
+- Confirmar ou refutar a ligação atual da cadeia com Andrade.
 - Determinar o papel real de Mendes e Ribeiro.
-- Proteger Ana, Clara e Carlos.
 - Confirmar o estado definitivo de Diego.
 
 ## Última mudança publicada
-Capítulo 24, **A Chave**: o objeto da retirada e a fraude documental são esclarecidos; Sônia deixa de ser suspeita principal e a investigação volta-se para o vazamento interno do número verdadeiro.
+Capítulo 25, **O Acesso**: o vazamento deixa de ser abstrato. O login de Paulo foi usado no terminal de Fábio, enquanto Paulo estava documentadamente no protocolo. Fábio passa a ser o primeiro elo interno concreto a ser investigado.
 
 ## Objetivo narrativo imediato
-Rastrear quem consultou ou copiou o número real usado na requisição falsa e ligar esse acesso a uma pessoa concreta.
+Rastrear a transferência de Fábio para o anexo e descobrir se ela conecta a consulta interna à tentativa de retirada executada por Valter.
 
 ## Regra de continuidade
 `chapters.json` é a fonte canônica do publicado. Em caso de conflito, o texto publicado prevalece.

@@ -21,7 +21,7 @@
       "chapters": {
         "path": "chapters.json",
         "firstPublished": 0,
-        "currentPublished": 24
+        "currentPublished": 25
       },
       "legacy": {
         "repository": "Uparchive/urbans-family",
@@ -139,14 +139,18 @@
         {
           "chapterId": "chapter-24",
           "number": 24
+        },
+        {
+          "chapterId": "chapter-25",
+          "number": 25
         }
       ],
       "chaptersUrl": "livros/urbans-family/chapters.json",
       "coverLegacyUrl": "https://uparchive.github.io/urbans-family/UFORDC-poster.png",
       "url": "reader.html?book=urbans-family",
       "legacyUrl": "https://uparchive.github.io/urbans-family/",
-      "currentChapter": 24,
-      "chapterCount": 25
+      "currentChapter": 25,
+      "chapterCount": 26
     },
     {
       "schemaVersion": 1,

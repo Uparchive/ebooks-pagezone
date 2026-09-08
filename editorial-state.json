@@ -2,8 +2,17 @@
   "schemaVersion": 1,
   "activeBookId": "urbans-family",
   "stage": "WRITING",
-  "lastExecution": "2026-09-07",
-  "nextObjective": "Descobrir quem teve acesso ao número real usado na requisição falsa e identificar uma pessoa ou setor concreto ligado ao vazamento.",
-  "legacyQueue": ["urbans-family", "o-batuque-no-quarto-ao-lado", "365-dias-diversos", "diario-de-omega"],
-  "rules": {"oneActiveBook": true, "completeLegacyBeforeNew": true, "publicContentOnly": true}
+  "lastExecution": "2026-09-08",
+  "nextObjective": "Rastrear a transferência de Fábio Lacerda para o anexo e buscar evidência concreta de conexão operacional com Valter Braga.",
+  "legacyQueue": [
+    "urbans-family",
+    "o-batuque-no-quarto-ao-lado",
+    "365-dias-diversos",
+    "diario-de-omega"
+  ],
+  "rules": {
+    "oneActiveBook": true,
+    "completeLegacyBeforeNew": true,
+    "publicContentOnly": true
+  }
 }
