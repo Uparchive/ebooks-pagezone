@@ -1,13 +1,13 @@
 # Próxima jornada — Urbans Family
 
 ## Onde a história parou
-Capítulo 25, **O Acesso**: o usuário de Paulo Neri consultou o número real do prontuário às 17h43 do dia anterior à requisição falsa, mas Sônia possui registro de que Paulo estava com ela no protocolo. Ribeiro revela que a consulta partiu do **terminal 3**; Paulo costumava usar o 2. Sônia confirma que o terminal 3 era usado por **Fábio Lacerda**, auxiliar transferido duas semanas depois para o patrimônio do anexo, onde Valter ainda presta serviço.
+Capítulo 26, **A Transferência**: a ordem 47-B mostra que Fábio foi remanejado ao Patrimônio Externo — Núcleo B onze dias depois da consulta no terminal 3. Três dias após a transferência, a folha 112 registra **Fábio Lacerda e Valter Braga assinando juntos a mesma movimentação patrimonial**. Entre os itens havia caixas, computadores e um **armário de documentos administrativos**. A prova confirma contato operacional entre os dois, mas ainda não prova fraude ou vínculo com Andrade.
 
 ## Objetivo da próxima jornada
-Rastrear por que Fábio foi transferido para o anexo e encontrar evidência concreta que confirme ou refute uma conexão operacional com Valter.
+Rastrear o destino do armário de documentos administrativos da folha 112 e verificar se ele se conecta à requisição falsa, ao malote ou à identidade Marcos Vale.
 
 ## Tensão a manter
-Fábio é a principal pessoa de interesse, não culpado confirmado. Paulo tem álibi documental para o horário. Valter segue ligado à tentativa de retirada, mas não há prova atual de Andrade. Ribeiro e Mendes permanecem ambíguos. Ana, Clara e Carlos não devem ser usados como isca.
+Fábio e Valter trabalharam juntos: isso agora é fato. Quem fez a consulta no terminal 3 ainda não está provado. Celso Moura é responsável formal pelo patrimônio, não culpado. Andrade continua sem ligação documental atual com essa cadeia. Mendes e Ribeiro seguem ambíguos. Ana, Clara e Carlos não devem ser usados como isca.
 
 ## Tarefa
-Escrever a continuação direta de **O Acesso**, investigando a transferência de Fábio e fazendo a cadeia interna→anexo avançar por uma prova observável, sem converter suspeita em certeza.
+Escrever a continuação direta de **A Transferência**, seguindo o armário por registros de patrimônio/arquivo e produzindo uma consequência observável. Não transformar coincidência em conspiração.

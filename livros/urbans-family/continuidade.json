@@ -4,22 +4,23 @@
   "editorialState": "WRITING",
   "publishedRange": {
     "first": 0,
-    "last": 25
+    "last": 26
   },
   "lastChapter": {
-    "number": 25,
-    "title": "O Acesso"
+    "number": 26,
+    "title": "A Transferência"
   },
   "openThreads": [
     "Confirmar quem usou o login de Paulo Neri no terminal 3.",
-    "Investigar a transferência de Fábio Lacerda para o anexo e sua possível conexão com Valter Braga.",
+    "Rastrear o destino do armário de documentos administrativos movimentado por Fábio e Valter.",
+    "Verificar se a movimentação patrimonial se conecta ao malote ou à requisição falsa.",
     "Descobrir quem criou a identidade Marcos Vale.",
     "Confirmar a ligação atual da fraude com Andrade.",
-    "Determinar o papel real de Mendes e Ribeiro.",
+    "Determinar o papel real de Mendes, Ribeiro e Celso Moura.",
     "Proteger Ana, Clara e Carlos.",
     "O estado definitivo de Diego permanece não confirmado."
   ],
-  "nextAction": "Rastrear a transferência de Fábio para o anexo e buscar evidência concreta de contato ou coordenação com Valter.",
+  "nextAction": "Rastrear o destino do armário de documentos administrativos da folha 112 e procurar conexão documental com a fraude de cadastro ou com Marcos Vale.",
   "chapterLedgerSource": "chapters.json",
   "spoilersInternal": true
 }

@@ -1,36 +1,38 @@
 # Memória narrativa — Urbans Family
 
 ## Estado atual
-João Carvalho está preso e investigando a rede de Andrade sem expor Ana, Clara ou Carlos. No capítulo 25, **O Acesso**, o vazamento interno ganha um responsável operacional concreto, ainda sem culpa definitiva: o usuário de **Paulo Neri**, auxiliar de cadastro, consultou o módulo com o número real do prontuário de João às 17h43 do dia anterior à requisição falsa. Porém, Sônia possui documento indicando que Paulo estava com ela no protocolo naquele horário. Ribeiro acrescenta que a consulta ocorreu no **terminal 3**, enquanto Paulo normalmente usava o terminal 2. Sônia confirma que o terminal 3 era usado por **Fábio Lacerda**, outro auxiliar que dividia a sala e foi transferido duas semanas depois para o patrimônio do anexo — o mesmo complexo onde Valter continua prestando serviço. Isso torna Fábio o primeiro elo interno concreto do vazamento, mas ainda não prova que ele realizou a consulta nem que trabalha para Andrade.
+João Carvalho está preso e investigando a rede de Andrade sem expor Ana, Clara ou Carlos. No capítulo 26, **A Transferência**, a mudança de Fábio Lacerda para o anexo deixa de ser coincidência geográfica e ganha prova operacional. A ordem 47-B mostra que Fábio foi remanejado do Cadastro Administrativo para o Patrimônio Externo — Núcleo B onze dias depois da consulta no terminal 3, por "apoio temporário em inventário e regularização de bens". O chefe receptor registrado é **Celso Moura**, não Valter. Porém, uma folha de conferência de patrimônio, três dias após a transferência, traz **Fábio Lacerda e Valter Braga assinando a mesma movimentação**: Fábio como apoio interno e Valter como responsável pela movimentação externa. Entre os itens havia caixas de arquivo morto, computadores fora de uso e um armário de documentos administrativos. Isso comprova contato operacional entre Fábio e Valter, mas não prova fraude nem vínculo atual com Andrade.
 
 ## Personagens relevantes
-- **João Carvalho** — preso; rastreou o número verdadeiro até um login e terminal específicos.
-- **Torres** — aliado operacional; mantém a investigação focada em evidência.
+- **João Carvalho** — preso; agora possui uma cadeia documental ligando Fábio ao trabalho de Valter.
+- **Torres** — aliado operacional; reforça a disciplina de não fazer uma prova dizer mais do que ela diz.
 - **Andrade** — ameaça central; ligação atual com a fraude ainda não comprovada.
-- **Mendes** — conhece Paulo apenas de vista; continua ambíguo.
-- **Ribeiro** — revelou o usuário consultado e depois o terminal; continua sob pressão.
-- **Lemos** — reage ao nome de Paulo, mas não fornece prova.
-- **Sônia** — sustenta com documento que Paulo estava no protocolo e identifica o terminal habitual de Fábio.
-- **Paulo Neri** — auxiliar de cadastro cujo usuário foi usado na consulta; há evidência de que estava em outro local.
-- **Fábio Lacerda** — auxiliar que usava o terminal 3; transferido depois para o patrimônio do anexo. Torna-se principal pessoa de interesse, sem culpa provada.
-- **Valter Braga** — tentou retirar o malote; continua no anexo; vínculo atual com Andrade ainda não provado.
+- **Mendes** — permanece ambíguo.
+- **Ribeiro** — forneceu detalhes da transferência e a referência da folha 112; continua ambíguo.
+- **Lemos** — deixou escapar a existência de conferência com assinatura de terceirizado.
+- **Sônia** — confirmou a ordem de remanejamento e a assinatura conjunta na folha 112.
+- **Paulo Neri** — seu login foi usado no terminal 3; há evidência documental de que estava em outro local.
+- **Fábio Lacerda** — usuário habitual do terminal 3; transferido para o anexo e comprovadamente trabalhou na mesma movimentação que Valter.
+- **Valter Braga** — tentou retirar o malote e três dias após a transferência de Fábio assinou com ele uma conferência patrimonial.
+- **Celso Moura** — chefe de patrimônio do anexo e responsável formal pelo recebimento de Fábio.
 - **Marcos Vale** — identidade usada na requisição falsa; origem ainda desconhecida.
 - **Ana / Clara / Carlos** — devem permanecer protegidos e fora de qualquer isca.
 - **Diego Santos** — baleado no capítulo 13; morte não confirmada.
 
 ## Pontas abertas
-- Confirmar quem efetivamente usou o login de Paulo no terminal 3.
-- Descobrir por que Fábio foi transferido para o anexo e se há conexão atual com Valter.
+- Confirmar quem efetivamente usou o login de Paulo Neri no terminal 3.
+- Descobrir o destino do armário de documentos administrativos movimentado por Fábio e Valter.
+- Determinar se a movimentação patrimonial tem relação com o malote/requisição falsa.
 - Descobrir quem criou a identidade “Marcos Vale”.
 - Confirmar ou refutar a ligação atual da cadeia com Andrade.
-- Determinar o papel real de Mendes e Ribeiro.
+- Determinar o papel real de Mendes, Ribeiro e Celso Moura.
 - Confirmar o estado definitivo de Diego.
 
 ## Última mudança publicada
-Capítulo 25, **O Acesso**: o vazamento deixa de ser abstrato. O login de Paulo foi usado no terminal de Fábio, enquanto Paulo estava documentadamente no protocolo. Fábio passa a ser o primeiro elo interno concreto a ser investigado.
+Capítulo 26, **A Transferência**: a ordem 47-B explica formalmente a ida de Fábio ao anexo; a folha 112 comprova que ele e Valter atuaram juntos em uma movimentação patrimonial três dias depois.
 
 ## Objetivo narrativo imediato
-Rastrear a transferência de Fábio para o anexo e descobrir se ela conecta a consulta interna à tentativa de retirada executada por Valter.
+Rastrear o destino do armário de documentos administrativos da folha 112 e verificar se ele conecta o contato Fábio–Valter à fraude de cadastro ou à identidade Marcos Vale.
 
 ## Regra de continuidade
 `chapters.json` é a fonte canônica do publicado. Em caso de conflito, o texto publicado prevalece.
