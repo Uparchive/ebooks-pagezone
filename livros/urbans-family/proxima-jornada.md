@@ -1,13 +1,13 @@
 # Próxima jornada — Urbans Family
 
 ## Onde a história parou
-Capítulo 26, **A Transferência**: a ordem 47-B mostra que Fábio foi remanejado ao Patrimônio Externo — Núcleo B onze dias depois da consulta no terminal 3. Três dias após a transferência, a folha 112 registra **Fábio Lacerda e Valter Braga assinando juntos a mesma movimentação patrimonial**. Entre os itens havia caixas, computadores e um **armário de documentos administrativos**. A prova confirma contato operacional entre os dois, mas ainda não prova fraude ou vínculo com Andrade.
+Capítulo 27, **O Armário**: o patrimônio 18-443 foi rastreado até o Arquivo Temporário, sala 2. Seis dias depois, a ordem 47-B/2 liberou seus documentos para triagem sem destino final. O responsável registrado é **Marcos Vale**, matrícula zero e setor inexistente — o mesmo nome usado na requisição falsa do malote. Isso conecta documentalmente os eventos, mas não identifica quem operou o sistema.
 
 ## Objetivo da próxima jornada
-Rastrear o destino do armário de documentos administrativos da folha 112 e verificar se ele se conecta à requisição falsa, ao malote ou à identidade Marcos Vale.
+Rastrear a autoria técnica da ordem 47-B/2 por credencial, terminal, horário ou setor e descobrir quem tinha capacidade de inserir Marcos Vale no sistema.
 
 ## Tensão a manter
-Fábio e Valter trabalharam juntos: isso agora é fato. Quem fez a consulta no terminal 3 ainda não está provado. Celso Moura é responsável formal pelo patrimônio, não culpado. Andrade continua sem ligação documental atual com essa cadeia. Mendes e Ribeiro seguem ambíguos. Ana, Clara e Carlos não devem ser usados como isca.
+Fábio e Valter têm contato operacional comprovado; nenhum dos dois está provado como autor da fraude. Celso é chefe do setor, não culpado por definição. Andrade continua sem elo documental atual. Paulo não deve ser incriminado. Ana, Clara e Carlos permanecem fora de qualquer isca.
 
 ## Tarefa
-Escrever a continuação direta de **A Transferência**, seguindo o armário por registros de patrimônio/arquivo e produzindo uma consequência observável. Não transformar coincidência em conspiração.
+Escrever a continuação direta de **O Armário**, seguindo logs ou rastros administrativos da ordem 47-B/2. Produzir uma pista técnica concreta, mas não transformar acesso em culpa sem evidência adicional.
