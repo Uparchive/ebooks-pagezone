@@ -1,39 +1,38 @@
 # Memória narrativa — Urbans Family
 
 ## Estado atual
-João Carvalho está preso e investiga a rede de Andrade sem expor Ana, Clara ou Carlos. No capítulo 27, **O Armário**, o bem patrimonial 18-443 da folha 112 é rastreado do Cadastro Administrativo ao Patrimônio Externo — Núcleo B e depois ao Arquivo Temporário, sala 2. Seis dias após a movimentação assinada por Fábio Lacerda e Valter Braga, uma ordem complementar 47-B/2 muda o armário de lacrado para liberado e registra a transferência de sua documentação para triagem sem destino final. O responsável informado no sistema é **Marcos Vale**, com matrícula zero e setor inexistente na estrutura atual. O mesmo nome já aparecia na requisição falsa do malote. A repetição conecta documentalmente os dois eventos, mas ainda não prova quem inseriu a ordem, nem culpa Fábio, Valter, Celso ou Andrade.
+João Carvalho está preso e investiga a rede de Andrade sem expor Ana, Clara ou Carlos. No capítulo 28, **O Terminal**, a ordem 47-B/2 ganha trilha técnica: foi registrada às 18:31:44 no terminal **PAT-04**, na sala de triagem do Arquivo Temporário, usando a credencial **CMOURA**. Celso Moura, dono da credencial, havia deixado o prédio às 17:58 e não retornou naquele dia; portanto, o log prova uso da credencial, não autoria pessoal. O PAT-04 possui uma tela antiga de contingência com campo livre, o que explica como **Marcos Vale** pôde ser digitado sem existir no cadastro funcional. Às 18:33:02, o mesmo terminal enviou à impressora **ARQ-02** uma etiqueta de transferência interna, registrada como reimpressão ligada à rota **RT-2091**. A sequência cria hora, sala, máquina e rota verificáveis, mas ainda não identifica quem estava diante do terminal.
 
 ## Personagens relevantes
-- **João Carvalho** — preso; agora sabe que Marcos Vale aparece em dois pontos administrativos distintos da mesma cadeia.
-- **Torres** — aliado operacional; mantém a disciplina de separar conexão documental de culpa individual.
-- **Andrade** — ameaça central; ainda sem ligação documental atual com a fraude.
-- **Mendes** — permanece ambíguo.
-- **Ribeiro** — indicou a existência da carga complementar; continua ambíguo.
-- **Lemos** — confirmou o funcionamento do controle patrimonial, sem entregar prova direta.
-- **Sônia** — rastreou o patrimônio 18-443 e identificou a ordem 47-B/2; segue como fonte administrativa cautelosa.
-- **Paulo Neri** — seu login foi usado no terminal 3; há evidência de que estava em outro local no horário da consulta.
-- **Fábio Lacerda** — usuário habitual do terminal 3; transferido pela ordem 47-B e presente na movimentação inicial do armário.
-- **Valter Braga** — participou da movimentação externa da folha 112 e tentou retirar o malote; ainda não há prova de que tenha manuseado o conteúdo depois.
-- **Celso Moura** — chefe formal do patrimônio do anexo; responsabilidade hierárquica não equivale a culpa.
-- **Marcos Vale** — identidade usada na requisição falsa e agora também na ordem 47-B/2; matrícula zero e setor informado não reconhecido.
+- **João Carvalho** — preso; conduz a investigação separando registro técnico de culpa.
+- **Torres** — aliado operacional; acompanha a cadeia de evidências.
+- **Sônia** — fonte administrativa cautelosa; obteve os logs de terminal e impressão.
+- **Celso Moura** — sua credencial CMOURA foi usada depois que ele já havia saído do prédio; isso não prova participação.
+- **Fábio Lacerda** — já trabalhava no anexo no período e pode conhecer a tela de contingência; sem prova de autoria.
+- **Valter Braga** — circulava transportando lotes; motorista, sem prova de acesso ao terminal.
+- **Ribeiro** — sugeriu observar memória de impressora; permanece ambíguo.
+- **Lemos** — confirmou que havia inventário e que a chave da sala ficava com o encarregado do turno.
+- **Marcos Vale** — nome digitado em campo livre de contingência; não há evidência de que seja uma pessoa real.
+- **Andrade** — ameaça central; ainda sem elo documental atual com a fraude.
 - **Ana / Clara / Carlos** — permanecem protegidos e fora de qualquer isca.
 - **Diego Santos** — baleado no capítulo 13; morte não confirmada.
 
 ## Pontas abertas
-- Descobrir quem inseriu a ordem 47-B/2 e tinha permissão para registrar Marcos Vale.
+- Abrir a rota RT-2091 e descobrir seu destino, veículo e responsáveis.
+- Identificar quem estava autorizado ou fisicamente presente na sala do PAT-04 após 17:58.
+- Descobrir como a credencial CMOURA foi usada depois da saída de Celso.
 - Confirmar quem efetivamente usou o login de Paulo Neri no terminal 3.
-- Determinar o destino real dos documentos retirados do armário após a liberação.
-- Descobrir quem criou ou reutiliza a identidade Marcos Vale.
-- Verificar se Fábio ou Valter tiveram participação posterior à movimentação da folha 112.
+- Determinar o destino real dos documentos do patrimônio 18-443.
+- Descobrir quem reutiliza o nome Marcos Vale.
 - Confirmar ou refutar a ligação atual da cadeia com Andrade.
-- Determinar o papel real de Mendes, Ribeiro e Celso Moura.
+- Determinar o papel real de Mendes e Ribeiro.
 - Confirmar o estado definitivo de Diego.
 
 ## Última mudança publicada
-Capítulo 27, **O Armário**: o patrimônio 18-443 é rastreado até a sala 2 e a ordem 47-B/2 revela a segunda aparição administrativa de Marcos Vale, conectando a requisição falsa ao fluxo do armário sem ainda identificar o operador por trás do nome.
+Capítulo 28, **O Terminal**: a ordem 47-B/2 é localizada no PAT-04 com a credencial CMOURA após a saída de Celso; a tela de contingência explica o campo livre de Marcos Vale e uma impressão subsequente aponta para a rota RT-2091.
 
 ## Objetivo narrativo imediato
-Rastrear a autoria técnica da ordem 47-B/2: credencial, terminal ou setor que inseriu Marcos Vale e liberou a documentação para triagem.
+Rastrear a rota RT-2091 e cruzá-la com acesso físico à sala de triagem para descobrir para onde a documentação foi preparada para seguir e quem podia operar o PAT-04 naquele horário.
 
 ## Regra de continuidade
 `chapters.json` é a fonte canônica do publicado. Em caso de conflito, o texto publicado prevalece.

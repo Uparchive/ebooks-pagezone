@@ -1,13 +1,13 @@
 # Próxima jornada — Urbans Family
 
 ## Onde a história parou
-Capítulo 27, **O Armário**: o patrimônio 18-443 foi rastreado até o Arquivo Temporário, sala 2. Seis dias depois, a ordem 47-B/2 liberou seus documentos para triagem sem destino final. O responsável registrado é **Marcos Vale**, matrícula zero e setor inexistente — o mesmo nome usado na requisição falsa do malote. Isso conecta documentalmente os eventos, mas não identifica quem operou o sistema.
+Capítulo 28, **O Terminal**: a ordem 47-B/2 foi registrada às 18:31:44 no PAT-04 com a credencial CMOURA, embora Celso Moura já tivesse saído do prédio. A tela antiga de contingência aceita nome em campo livre, explicando a inserção de Marcos Vale sem cadastro. Um minuto e dezoito segundos depois, o terminal imprimiu uma etiqueta de transferência interna ligada à rota **RT-2091**.
 
 ## Objetivo da próxima jornada
-Rastrear a autoria técnica da ordem 47-B/2 por credencial, terminal, horário ou setor e descobrir quem tinha capacidade de inserir Marcos Vale no sistema.
+Abrir RT-2091 e descobrir destino, veículo, folha de saída e responsáveis; cruzar isso com quem tinha acesso físico à sala do PAT-04 após 17:58.
 
 ## Tensão a manter
-Fábio e Valter têm contato operacional comprovado; nenhum dos dois está provado como autor da fraude. Celso é chefe do setor, não culpado por definição. Andrade continua sem elo documental atual. Paulo não deve ser incriminado. Ana, Clara e Carlos permanecem fora de qualquer isca.
+O uso de CMOURA não prova que Celso operou o terminal. Fábio e Valter continuam suspeitos possíveis, não culpados. Marcos Vale pode ser apenas texto inserido em campo livre. Andrade segue sem elo documental atual. Ana, Clara e Carlos permanecem fora de qualquer isca.
 
 ## Tarefa
-Escrever a continuação direta de **O Armário**, seguindo logs ou rastros administrativos da ordem 47-B/2. Produzir uma pista técnica concreta, mas não transformar acesso em culpa sem evidência adicional.
+Escrever a continuação direta de **O Terminal**, transformando a rota RT-2091 em deslocamento físico verificável e buscando um próximo elo concreto sem antecipar autoria ou culpa.

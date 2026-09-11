@@ -4,24 +4,25 @@
   "editorialState": "WRITING",
   "publishedRange": {
     "first": 0,
-    "last": 27
+    "last": 28
   },
   "lastChapter": {
-    "number": 27,
-    "title": "O Armário"
+    "number": 28,
+    "title": "O Terminal"
   },
   "openThreads": [
-    "Descobrir quem inseriu a ordem 47-B/2 e tinha permissão para registrar Marcos Vale.",
+    "Abrir a rota RT-2091 e identificar destino, veículo e responsáveis.",
+    "Identificar quem tinha acesso físico ao PAT-04 após 17:58.",
+    "Descobrir como a credencial CMOURA foi usada depois da saída de Celso Moura.",
     "Confirmar quem usou o login de Paulo Neri no terminal 3.",
-    "Rastrear o destino dos documentos liberados do patrimônio 18-443.",
-    "Descobrir quem criou ou reutiliza a identidade Marcos Vale.",
-    "Verificar se Fábio ou Valter participaram da cadeia depois da folha 112.",
+    "Rastrear o destino final dos documentos do patrimônio 18-443.",
+    "Descobrir quem reutiliza a identidade Marcos Vale.",
     "Confirmar a ligação atual da fraude com Andrade.",
-    "Determinar o papel real de Mendes, Ribeiro e Celso Moura.",
+    "Determinar o papel real de Mendes e Ribeiro.",
     "Proteger Ana, Clara e Carlos.",
     "O estado definitivo de Diego permanece não confirmado."
   ],
-  "nextAction": "Rastrear a autoria técnica da ordem 47-B/2 por credencial, terminal ou setor e descobrir quem conseguiu registrar Marcos Vale no sistema.",
+  "nextAction": "Rastrear a rota RT-2091 e cruzá-la com os acessos físicos à sala do PAT-04 para identificar o próximo elo verificável da cadeia.",
   "chapterLedgerSource": "chapters.json",
   "spoilersInternal": true
 }

@@ -1,19 +1,20 @@
 # Planejamento editorial — Urbans Family
 
 ## Estado
-Capítulo 27 publicado. O patrimônio 18-443 da folha 112 foi rastreado até o Arquivo Temporário, sala 2. Seis dias depois, a ordem complementar 47-B/2 liberou o conteúdo do armário para triagem sem destino especificado. O campo de responsável registra **Marcos Vale**, matrícula zero e setor inexistente. O mesmo nome constava na requisição falsa do malote, criando conexão documental entre os eventos sem identificar o autor real.
+Capítulo 28 publicado. A ordem 47-B/2 foi registrada às 18:31:44 no terminal PAT-04 com a credencial CMOURA, embora Celso Moura tenha deixado o prédio às 17:58. O PAT-04 usa uma tela de contingência que aceita responsável em campo livre, explicando tecnicamente a inserção de Marcos Vale sem cadastro funcional. Às 18:33:02, o terminal gerou uma etiqueta de transferência interna vinculada à rota RT-2091.
 
 ## Movimento imediato
-Rastrear a autoria técnica da ordem 47-B/2: qual credencial, terminal ou setor registrou a liberação e inseriu o nome Marcos Vale. Procurar uma consequência verificável e, se possível, aproximar ou separar Fábio, Valter e Celso da fraude.
+Rastrear RT-2091: destino, veículo, folha de saída e responsáveis. Em paralelo, identificar quem tinha acesso físico à sala de triagem depois da saída de Celso e quem poderia usar a credencial CMOURA.
 
 ## Restrições
 - Não declarar Diego morto.
 - Não transformar Mendes ou Ribeiro em aliado fiel ou traidor definitivo.
-- Não incriminar Paulo: há evidência concreta de que estava em outro local no horário da consulta.
-- Não afirmar que Fábio fez a consulta apenas porque usava o terminal 3.
+- Não incriminar Paulo; há evidência de que estava em outro local no horário da consulta.
+- Não afirmar que Fábio usou o terminal 3 ou PAT-04 sem prova.
 - Não declarar Fábio, Valter ou Celso agentes de Andrade sem prova atual.
-- Não tratar a repetição do nome Marcos Vale como prova de uma pessoa real.
+- Não tratar o uso de CMOURA como prova de autoria de Celso.
+- Não tratar Marcos Vale como pessoa real sem evidência.
 - Não expor Ana, Clara ou Carlos como isca.
 
 ## Próximo marco editorial
-Identificar o ponto técnico de criação da ordem 47-B/2 e transformar o fantasma Marcos Vale em uma trilha de acesso verificável.
+Abrir a rota RT-2091 e transformar o rastro de impressão em deslocamento físico verificável, aproximando a investigação de quem retirou ou recebeu os documentos.
