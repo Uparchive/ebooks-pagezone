@@ -1,20 +1,22 @@
 # Planejamento editorial — Urbans Family
 
 ## Estado
-Capítulo 28 publicado. A ordem 47-B/2 foi registrada às 18:31:44 no terminal PAT-04 com a credencial CMOURA, embora Celso Moura tenha deixado o prédio às 17:58. O PAT-04 usa uma tela de contingência que aceita responsável em campo livre, explicando tecnicamente a inserção de Marcos Vale sem cadastro funcional. Às 18:33:02, o terminal gerou uma etiqueta de transferência interna vinculada à rota RT-2091.
+Capítulo 29 publicado. A RT-2091 foi aberta: destino Depósito Externo 3, veículo 6F-12 e responsável de rota V. Braga. A portaria confirma Valter Braga saindo às 19:18 e retornando às 20:07. O depósito registra 3 de 4 volumes recebidos às 19:42; o quarto consta como “entrega intermediária autorizada”, código AE-17.
 
 ## Movimento imediato
-Rastrear RT-2091: destino, veículo, folha de saída e responsáveis. Em paralelo, identificar quem tinha acesso físico à sala de triagem depois da saída de Celso e quem poderia usar a credencial CMOURA.
+Rastrear AE-17 em formulários antigos e descobrir onde a entrega intermediária poderia ocorrer. Cruzar esse código com a rota física do 6F-12 sem assumir que o volume 4 era o malote.
 
 ## Restrições
 - Não declarar Diego morto.
 - Não transformar Mendes ou Ribeiro em aliado fiel ou traidor definitivo.
 - Não incriminar Paulo; há evidência de que estava em outro local no horário da consulta.
-- Não afirmar que Fábio usou o terminal 3 ou PAT-04 sem prova.
+- Não afirmar que Fábio usou terminal 3 ou PAT-04 sem prova.
 - Não declarar Fábio, Valter ou Celso agentes de Andrade sem prova atual.
-- Não tratar o uso de CMOURA como prova de autoria de Celso.
+- Não tratar CMOURA como prova de autoria de Celso.
 - Não tratar Marcos Vale como pessoa real sem evidência.
+- Não afirmar ainda que o volume 4 era o malote/documentação do patrimônio 18-443.
+- Não afirmar que Andrade recebeu o volume.
 - Não expor Ana, Clara ou Carlos como isca.
 
 ## Próximo marco editorial
-Abrir a rota RT-2091 e transformar o rastro de impressão em deslocamento físico verificável, aproximando a investigação de quem retirou ou recebeu os documentos.
+Transformar AE-17 de código opaco em referência verificável — setor, autorização, ponto de parada ou documento — e aproximar a investigação do local da entrega intermediária.

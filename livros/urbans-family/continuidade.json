@@ -4,25 +4,26 @@
   "editorialState": "WRITING",
   "publishedRange": {
     "first": 0,
-    "last": 28
+    "last": 29
   },
   "lastChapter": {
-    "number": 28,
-    "title": "O Terminal"
+    "number": 29,
+    "title": "A Rota"
   },
   "openThreads": [
-    "Abrir a rota RT-2091 e identificar destino, veículo e responsáveis.",
+    "Descobrir o significado e a origem documental de AE-17.",
+    "Localizar o ponto físico da entrega intermediária do volume 4.",
+    "Verificar se o volume 4 era o malote/documentação ligada ao patrimônio 18-443.",
     "Identificar quem tinha acesso físico ao PAT-04 após 17:58.",
     "Descobrir como a credencial CMOURA foi usada depois da saída de Celso Moura.",
     "Confirmar quem usou o login de Paulo Neri no terminal 3.",
-    "Rastrear o destino final dos documentos do patrimônio 18-443.",
     "Descobrir quem reutiliza a identidade Marcos Vale.",
     "Confirmar a ligação atual da fraude com Andrade.",
     "Determinar o papel real de Mendes e Ribeiro.",
     "Proteger Ana, Clara e Carlos.",
     "O estado definitivo de Diego permanece não confirmado."
   ],
-  "nextAction": "Rastrear a rota RT-2091 e cruzá-la com os acessos físicos à sala do PAT-04 para identificar o próximo elo verificável da cadeia.",
+  "nextAction": "Rastrear AE-17 em formulários e registros antigos e localizar o ponto da entrega intermediária do quarto volume sem antecipar autoria ou culpa.",
   "chapterLedgerSource": "chapters.json",
   "spoilersInternal": true
 }

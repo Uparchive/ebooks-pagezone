@@ -1,13 +1,13 @@
 # Próxima jornada — Urbans Family
 
 ## Onde a história parou
-Capítulo 28, **O Terminal**: a ordem 47-B/2 foi registrada às 18:31:44 no PAT-04 com a credencial CMOURA, embora Celso Moura já tivesse saído do prédio. A tela antiga de contingência aceita nome em campo livre, explicando a inserção de Marcos Vale sem cadastro. Um minuto e dezoito segundos depois, o terminal imprimiu uma etiqueta de transferência interna ligada à rota **RT-2091**.
+Capítulo 29, **A Rota**: a RT-2091 foi ligada ao veículo 6F-12, conduzido por Valter Braga. A folha declara quatro volumes na saída às 19:18; o Depósito Externo 3 registra apenas três às 19:42. O quarto consta como **entrega intermediária autorizada**, identificada pelo código **AE-17**. Valter retorna às 20:07.
 
 ## Objetivo da próxima jornada
-Abrir RT-2091 e descobrir destino, veículo, folha de saída e responsáveis; cruzar isso com quem tinha acesso físico à sala do PAT-04 após 17:58.
+Descobrir o que **AE-17** significa e localizar o ponto físico da entrega intermediária. Cruzar formulários antigos, autorizações e o trajeto plausível do 6F-12.
 
 ## Tensão a manter
-O uso de CMOURA não prova que Celso operou o terminal. Fábio e Valter continuam suspeitos possíveis, não culpados. Marcos Vale pode ser apenas texto inserido em campo livre. Andrade segue sem elo documental atual. Ana, Clara e Carlos permanecem fora de qualquer isca.
+A divergência 4→3 é evidência de uma entrega intermediária, não prova de que o volume era o malote. Valter conduziu a rota, mas isso não prova fraude. Andrade continua sem elo documental atual. Marcos Vale segue sem identidade real confirmada. Ana, Clara e Carlos permanecem fora de qualquer isca.
 
 ## Tarefa
-Escrever a continuação direta de **O Terminal**, transformando a rota RT-2091 em deslocamento físico verificável e buscando um próximo elo concreto sem antecipar autoria ou culpa.
+Escrever a continuação direta de **A Rota**, transformando AE-17 em referência verificável e aproximando a investigação do ponto onde o quarto volume saiu da rota, sem antecipar culpado ou destinatário final.
