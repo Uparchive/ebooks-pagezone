@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#171b25">
   <meta name="description" content="PageZone, uma biblioteca digital de histórias para descobrir e continuar lendo.">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="PageZone">
+  <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="assets/favicon.svg">
   <title>PageZone — Biblioteca digital</title>
   <link rel="stylesheet" href="matrixstyle.css">
@@ -17,11 +22,34 @@
     #book-dialog[open] {
       overscroll-behavior: contain;
     }
+    .install-app-button {
+      border: 1px solid #171b25;
+      border-radius: 9px;
+      background: #171b25;
+      color: #fff;
+      padding: .48rem .72rem;
+      font: inherit;
+      font-size: .78rem;
+      font-weight: 750;
+      line-height: 1;
+      white-space: nowrap;
+    }
+    .install-app-button:hover,
+    .install-app-button:focus-visible {
+      background: #30394b;
+    }
+    @media (max-width: 650px) {
+      .install-app-button {
+        padding: .44rem .58rem;
+        font-size: .7rem;
+      }
+    }
   </style>
   <script src="app/library.js" defer></script>
   <script src="app/progress.js" defer></script>
   <script src="app/images.js" defer></script>
   <script src="script.js" defer></script>
+  <script src="app/install.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#conteudo">Pular para o catálogo</a>
@@ -34,6 +62,7 @@
       <a href="#destaque">Novos livros</a>
       <a href="#biblioteca">Minha biblioteca</a>
       <a href="#contato">Contato</a>
+      <button id="install-app" class="install-app-button" type="button" aria-label="Instalar PageZone neste dispositivo">Instalar app</button>
     </nav>
   </header>
 
