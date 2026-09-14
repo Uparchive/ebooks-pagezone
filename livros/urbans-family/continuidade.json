@@ -2,20 +2,14 @@
   "schemaVersion": 1,
   "bookId": "urbans-family",
   "editorialState": "WRITING",
-  "publishedRange": {
-    "first": 0,
-    "last": 29
-  },
-  "lastChapter": {
-    "number": 29,
-    "title": "A Rota"
-  },
+  "publishedRange": {"first": 0, "last": 30},
+  "lastChapter": {"number": 30, "title": "O Ponto"},
   "openThreads": [
-    "Descobrir o significado e a origem documental de AE-17.",
-    "Localizar o ponto físico da entrega intermediária do volume 4.",
-    "Verificar se o volume 4 era o malote/documentação ligada ao patrimônio 18-443.",
-    "Identificar quem tinha acesso físico ao PAT-04 após 17:58.",
-    "Descobrir como a credencial CMOURA foi usada depois da saída de Celso Moura.",
+    "Provar se o 6F-12 efetivamente parou no Ponto de Apoio Leste.",
+    "Identificar quem ainda tinha acesso físico ou chave do PA-L.",
+    "Verificar se o volume 4 foi descarregado no PA-L e qual era seu conteúdo.",
+    "Rastrear quem reutilizou o código antigo AE-17.",
+    "Descobrir quem tinha acesso ao PAT-04 e como CMOURA foi usada.",
     "Confirmar quem usou o login de Paulo Neri no terminal 3.",
     "Descobrir quem reutiliza a identidade Marcos Vale.",
     "Confirmar a ligação atual da fraude com Andrade.",
@@ -23,7 +17,7 @@
     "Proteger Ana, Clara e Carlos.",
     "O estado definitivo de Diego permanece não confirmado."
   ],
-  "nextAction": "Rastrear AE-17 em formulários e registros antigos e localizar o ponto da entrega intermediária do quarto volume sem antecipar autoria ou culpa.",
+  "nextAction": "Obter evidência direta de uso recente do Ponto de Apoio Leste e identificar quem podia acessar o local na noite da RT-2091, sem confundir presença com autoria ou culpa.",
   "chapterLedgerSource": "chapters.json",
   "spoilersInternal": true
 }

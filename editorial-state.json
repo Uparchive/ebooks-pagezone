@@ -2,17 +2,8 @@
   "schemaVersion": 1,
   "activeBookId": "urbans-family",
   "stage": "WRITING",
-  "lastExecution": "2026-09-12",
-  "nextObjective": "Rastrear AE-17 em formulários e registros antigos e localizar o ponto da entrega intermediária do quarto volume sem antecipar autoria ou culpa.",
-  "legacyQueue": [
-    "urbans-family",
-    "o-batuque-no-quarto-ao-lado",
-    "365-dias-diversos",
-    "diario-de-omega"
-  ],
-  "rules": {
-    "oneActiveBook": true,
-    "completeLegacyBeforeNew": true,
-    "publicContentOnly": true
-  }
+  "lastExecution": "2026-09-14",
+  "nextObjective": "Obter evidência direta de uso recente do Ponto de Apoio Leste e identificar quem podia acessar o local na noite da RT-2091 sem confundir presença com culpa.",
+  "legacyQueue": ["urbans-family", "o-batuque-no-quarto-ao-lado", "365-dias-diversos", "diario-de-omega"],
+  "rules": {"oneActiveBook": true, "completeLegacyBeforeNew": true, "publicContentOnly": true}
 }
