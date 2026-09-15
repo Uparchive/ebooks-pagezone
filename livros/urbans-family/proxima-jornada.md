@@ -1,13 +1,13 @@
 # Próxima jornada — Urbans Family
 
 ## Onde a história parou
-Capítulo 30, **O Ponto**: AE-17 foi identificado como **Autorização Externa 17 — Ponto de Apoio Leste**, Estrada do Contorno, km 2. O ponto está oficialmente desativado, mas o desvio até ele é compatível com a quilometragem registrada pelo 6F-12 na noite da RT-2091. Compatibilidade não prova parada.
+Capítulo 31, **A Chave**: a ocorrência MT-884 comprova atendimento no portão lateral do PA-L às 20:06 da noite da RT-2091, após chamada do ramal 214 do transporte. Dias depois, Fábio Lacerda retirou do posto de combustível as imagens externas das 19h às 21h daquela noite.
 
 ## Objetivo da próxima jornada
-Conseguir a primeira evidência direta de que o PA-L ainda era usado e, se possível, de que o 6F-12 esteve ali naquela noite. Procurar registro de acesso, chave, testemunha, câmera externa, assinatura ou outra marca independente.
+Descobrir o destino e, se possível, o conteúdo das imagens retiradas por Fábio. Verificar se registram o 6F-12, outra pessoa ou movimentação relevante no PA-L e identificar quem usou o ramal 214.
 
 ## Tensão a manter
-AE-17 identifica um lugar e a quilometragem sustenta a possibilidade do desvio, mas ainda não prova que o volume 4 foi deixado lá. Valter conduzia o veículo, porém isso não prova fraude ou conhecimento do conteúdo. Fábio, Ribeiro, Lemos e demais suspeitos permanecem em aberto. Andrade continua sem elo documental atual.
+Fábio procurou as imagens, mas isso não prova que participou da fraude. Valter podia acessar a sala do ramal 214, assim como outros funcionários. A ocorrência prova uso recente do PA-L, não quem entregou ou recebeu o volume 4. Andrade continua sem elo documental atual.
 
 ## Tarefa
-Escrever a continuação direta de **O Ponto**, convertendo a hipótese de parada no PA-L em evidência verificável sem antecipar destinatário, conteúdo do volume ou culpado.
+Escrever a continuação direta de **A Chave**, transformando o rastro das imagens em evidência verificável sem antecipar culpa, conteúdo do volume ou destinatário.

@@ -1,39 +1,25 @@
 # Memória narrativa — Urbans Family
 
 ## Estado atual
-João Carvalho está preso e investiga a rede de Andrade sem expor Ana, Clara ou Carlos. No capítulo 30, **O Ponto**, o código **AE-17** é identificado em formulário antigo como **Autorização Externa 17 — Ponto de Apoio Leste**, na Estrada do Contorno, km 2. O formulário foi descontinuado e o ponto está oficialmente desativado há dois anos. O trajeto pelo local é compatível com a quilometragem registrada pelo 6F-12 na noite da RT-2091: o veículo retornou com 11 km adicionais, cerca de 3 km acima do percurso direto ao Depósito Externo 3, diferença próxima do desvio pelo PA-L. Isso torna a parada fisicamente plausível, mas não prova que o veículo parou, que o volume 4 foi deixado ali, quem recebeu algo ou que Andrade esteja ligado ao evento.
+João está preso e investiga a rede de Andrade sem expor Ana, Clara ou Carlos. No capítulo 31, **A Chave**, surge a primeira evidência direta de uso recente do Ponto de Apoio Leste: a ocorrência **MT-884** registra atendimento de manutenção no portão lateral às 20:06 da noite da RT-2091, após chamada do ramal 214 da sala de despacho do transporte. O registro comprova uso do local, mas não quem provocou o chamado. Depois, João descobre que **Fábio Lacerda** retirou do posto de combustível próximo as imagens externas das 19h às 21h daquela mesma noite, sob justificativa de verificação de tráfego. Isso prova que Fábio buscou evidência visual do local, não o motivo nem o conteúdo das imagens.
 
-## Personagens relevantes
-- **João Carvalho** — preso; conduz a investigação separando compatibilidade de prova.
-- **Torres** — aliado operacional; cruza rota, tempo e quilometragem.
-- **Lemos** — indica os modelos antigos e confirma que o PA-L foi oficialmente desativado.
-- **Sônia** — não foi novamente acionada nesta jornada para reduzir sua exposição.
-- **Valter Braga** — conduziu o 6F-12; elo operacional comprovado da rota, não culpado provado.
-- **Fábio Lacerda** — transferido para patrimônio; relevante porque patrimônio tinha acesso histórico ao PA-L, sem prova de autoria.
-- **Ribeiro** — sugere que locais fechados no papel podem continuar ativos; papel segue ambíguo.
-- **Celso Moura** — CMOURA foi usada após sua saída; autoria não provada.
-- **Marcos Vale** — nome inserido em campo livre; identidade real não confirmada.
-- **Andrade** — ameaça central; ainda sem elo documental atual com a rota.
-- **Ana / Clara / Carlos** — permanecem protegidos.
+## Pessoas e fatos relevantes
+- **João Carvalho** — preso; separa presença, acesso e culpa.
+- **Torres** — aliado operacional.
+- **Fábio Lacerda** — patrimônio; retirou as imagens externas da noite da RT-2091. Motivo desconhecido.
+- **Valter Braga** — conduziu o 6F-12 e podia circular pela sala do ramal 214, mas outros três funcionários também podiam.
+- **Rogério Nunes** — manutenção predial; responsável registrado no atendimento MT-884.
+- **Lemos / Ribeiro / Sônia** — permanecem fontes ou peças ambíguas; não culpados provados.
+- **Celso Moura / Paulo Neri / Marcos Vale** — credenciais ou identidade envolvidas em pistas anteriores, autoria ainda não provada.
+- **Andrade** — ameaça central; ainda sem elo documental atual com a cadeia.
 - **Diego Santos** — baleado no capítulo 13; morte não confirmada.
 
 ## Pontas abertas
-- Provar se o 6F-12 realmente parou no Ponto de Apoio Leste.
-- Descobrir quem ainda tinha chave/acesso ao PA-L.
-- Verificar se o volume 4 foi descarregado ali e qual era seu conteúdo.
-- Rastrear quem reutilizou o código descontinuado AE-17.
-- Descobrir quem operou o PAT-04 e como CMOURA foi usada.
-- Confirmar quem usou o login de Paulo Neri no terminal 3.
-- Descobrir quem reutiliza a identidade Marcos Vale.
-- Confirmar ou refutar ligação atual da cadeia com Andrade.
-- Determinar o papel real de Mendes e Ribeiro.
-- Confirmar o estado definitivo de Diego.
-
-## Última mudança publicada
-Capítulo 30, **O Ponto**: AE-17 deixa de ser código opaco e passa a identificar o Ponto de Apoio Leste. O desvio até o local é compatível com a quilometragem real do 6F-12, mas a parada ainda precisa de prova direta.
-
-## Objetivo narrativo imediato
-Transformar a compatibilidade física em evidência de parada real no PA-L por meio de registro de acesso, chave, testemunha, imagem ou assinatura, preservando a distinção entre presença, entrega e culpa.
+- Descobrir o conteúdo e o destino das imagens retiradas por Fábio.
+- Identificar quem usou o ramal 214 para acionar manutenção no PA-L.
+- Verificar se o 6F-12 aparece nas imagens e se o volume 4 foi descarregado.
+- Rastrear quem reutilizou AE-17, PAT-04/CMOURA, login de Paulo Neri e Marcos Vale.
+- Confirmar ou refutar ligação atual da cadeia com Andrade e o papel de Mendes/Ribeiro.
 
 ## Regra de continuidade
-`chapters.json` é a fonte canônica do publicado. Em caso de conflito, o texto publicado prevalece.
+`chapters.json` é a fonte canônica do publicado; em conflito, o texto publicado prevalece.

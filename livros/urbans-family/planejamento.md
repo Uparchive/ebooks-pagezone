@@ -1,23 +1,19 @@
 # Planejamento editorial — Urbans Family
 
 ## Estado
-Capítulo 30 publicado. AE-17 foi identificado como **Autorização Externa 17 — Ponto de Apoio Leste**, na Estrada do Contorno, km 2. O código pertence a formulário descontinuado. O PA-L foi oficialmente desativado há dois anos, mas a quilometragem do 6F-12 na RT-2091 é compatível com um desvio pelo local.
+Capítulo 31 publicado. A ocorrência MT-884 comprova atendimento no portão lateral do PA-L às 20:06 da noite da RT-2091, após chamada do ramal 214 do transporte. Fábio Lacerda retirou posteriormente as imagens externas do posto de combustível referentes às 19h–21h da mesma noite.
 
 ## Movimento imediato
-Procurar evidência independente de que o 6F-12 efetivamente parou no PA-L: registro de acesso, chave, vigilância externa, testemunha, assinatura ou outra marca física. Depois, distinguir quem esteve presente de quem autorizou ou recebeu eventual volume.
+Rastrear o destino das imagens retiradas por Fábio e descobrir o que elas mostram. Priorizar evidência documental ou testemunhal independente: protocolo de mídia, cópia, visualização, descarte, câmera secundária ou relato do gerente. Em paralelo, identificar quem estava efetivamente no ramal 214 no momento do chamado.
 
 ## Restrições
 - Não declarar Diego morto.
 - Não transformar Mendes ou Ribeiro em aliado fiel ou traidor definitivo.
-- Não incriminar Paulo.
-- Não afirmar que Fábio usou terminal 3 ou PAT-04 sem prova.
-- Não declarar Fábio, Valter ou Celso agentes de Andrade sem prova atual.
-- Não tratar CMOURA como prova de autoria de Celso.
-- Não tratar Marcos Vale como pessoa real sem evidência.
+- Não incriminar Paulo, Celso, Fábio, Valter ou Rogério sem prova.
+- Não tratar a retirada das imagens por Fábio como prova de fraude ou vínculo com Andrade.
 - Não afirmar ainda que o volume 4 era o malote/documentação do patrimônio 18-443.
 - Não afirmar que Andrade recebeu o volume.
-- Não tratar a quilometragem compatível como prova de parada no PA-L.
 - Não expor Ana, Clara ou Carlos como isca.
 
 ## Próximo marco editorial
-Obter a primeira evidência direta de uso recente do Ponto de Apoio Leste e identificar quem podia acessar fisicamente o local na noite da RT-2091.
+Obter o conteúdo, rastro ou testemunho das imagens retiradas por Fábio e verificar se elas registram o 6F-12 ou outra presença relevante no PA-L.
