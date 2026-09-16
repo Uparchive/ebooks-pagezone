@@ -1,13 +1,13 @@
 # Próxima jornada — Urbans Family
 
 ## Onde a história parou
-Capítulo 31, **A Chave**: a ocorrência MT-884 comprova atendimento no portão lateral do PA-L às 20:06 da noite da RT-2091, após chamada do ramal 214 do transporte. Dias depois, Fábio Lacerda retirou do posto de combustível as imagens externas das 19h às 21h daquela noite.
+Capítulo 32, **A Cópia**: a gravação retirada por Fábio deixou um rastro verificável. O DVD 0417 foi exportado integralmente e o anexo digital SV-2091-A preserva cópia com o mesmo hash. A VP-2091, aberta pelo ramal 214 às 20:11, analisava o 6F-12 e registra `20:03 — PA-L?`. O mesmo ramal acionou manutenção no PA-L às 20:06.
 
 ## Objetivo da próxima jornada
-Descobrir o destino e, se possível, o conteúdo das imagens retiradas por Fábio. Verificar se registram o 6F-12, outra pessoa ou movimentação relevante no PA-L e identificar quem usou o ramal 214.
+Visualizar ou obter evidência independente do trecho das 20:03 do SV-2091-A e identificar quem estava fisicamente no ramal 214 entre 20:00 e 20:15.
 
 ## Tensão a manter
-Fábio procurou as imagens, mas isso não prova que participou da fraude. Valter podia acessar a sala do ramal 214, assim como outros funcionários. A ocorrência prova uso recente do PA-L, não quem entregou ou recebeu o volume 4. Andrade continua sem elo documental atual.
+A sequência documental é forte, mas ainda não identifica o usuário do ramal, o autor da anotação ou o conteúdo do volume 4. Fábio retirou a mídia, porém isso não prova que abriu a ocorrência ou participou da fraude. Andrade continua sem elo documental atual.
 
 ## Tarefa
-Escrever a continuação direta de **A Chave**, transformando o rastro das imagens em evidência verificável sem antecipar culpa, conteúdo do volume ou destinatário.
+Continuar diretamente de **A Cópia**, transformando o arquivo preservado e o intervalo crítico do ramal em evidência concreta sem saltar de presença para culpa.

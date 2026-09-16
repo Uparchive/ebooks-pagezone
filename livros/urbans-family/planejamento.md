@@ -1,19 +1,18 @@
 # Planejamento editorial — Urbans Family
 
 ## Estado
-Capítulo 31 publicado. A ocorrência MT-884 comprova atendimento no portão lateral do PA-L às 20:06 da noite da RT-2091, após chamada do ramal 214 do transporte. Fábio Lacerda retirou posteriormente as imagens externas do posto de combustível referentes às 19h–21h da mesma noite.
+Capítulo 32 publicado. A mídia do posto possui hash verificável e cópia digital preservada como SV-2091-A. A VP-2091, aberta pelo ramal 214 às 20:11, registra análise do 6F-12 e a anotação `20:03 — PA-L?`; o mesmo ramal acionou manutenção no PA-L às 20:06.
 
 ## Movimento imediato
-Rastrear o destino das imagens retiradas por Fábio e descobrir o que elas mostram. Priorizar evidência documental ou testemunhal independente: protocolo de mídia, cópia, visualização, descarte, câmera secundária ou relato do gerente. Em paralelo, identificar quem estava efetivamente no ramal 214 no momento do chamado.
+Buscar acesso legítimo ao conteúdo do SV-2091-A ou evidência independente de seus quadros e identificar quem ocupava fisicamente a sala de despacho entre 20:00 e 20:15. Priorizar livro de turno, registro de acesso, impressão, rádio ou testemunho cruzável.
 
 ## Restrições
 - Não declarar Diego morto.
-- Não transformar Mendes ou Ribeiro em aliado fiel ou traidor definitivo.
-- Não incriminar Paulo, Celso, Fábio, Valter ou Rogério sem prova.
-- Não tratar a retirada das imagens por Fábio como prova de fraude ou vínculo com Andrade.
-- Não afirmar ainda que o volume 4 era o malote/documentação do patrimônio 18-443.
-- Não afirmar que Andrade recebeu o volume.
+- Não incriminar Fábio, Valter, Rogério, Paulo ou Celso sem prova.
+- Não afirmar que `20:03 — PA-L?` confirma parada ou descarga; é anotação de análise.
+- Não afirmar ainda que o volume 4 era o malote.
+- Não afirmar vínculo atual com Andrade sem elo documental ou testemunhal forte.
 - Não expor Ana, Clara ou Carlos como isca.
 
 ## Próximo marco editorial
-Obter o conteúdo, rastro ou testemunho das imagens retiradas por Fábio e verificar se elas registram o 6F-12 ou outra presença relevante no PA-L.
+Visualizar ou reconstruir de forma verificável o trecho das 20:03 do SV-2091-A e reduzir os quatro possíveis usuários do ramal 214 a uma presença concreta.
