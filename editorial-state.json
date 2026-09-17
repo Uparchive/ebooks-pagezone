@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "activeBookId": "urbans-family",
   "stage": "WRITING",
-  "lastExecution": "2026-09-16",
-  "nextObjective": "Visualizar ou reconstruir de forma verificável o trecho das 20:03 do SV-2091-A e identificar quem ocupava o ramal 214 no intervalo crítico.",
+  "lastExecution": "2026-09-17",
+  "nextObjective": "Identificar de forma independente o veículo do quadro de 20:03:18 e descobrir o que atravessou o portão do PA-L.",
   "legacyQueue": ["urbans-family", "o-batuque-no-quarto-ao-lado", "365-dias-diversos", "diario-de-omega"],
   "rules": {"oneActiveBook": true, "completeLegacyBeforeNew": true, "publicContentOnly": true}
 }
