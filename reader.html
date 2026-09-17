@@ -1,11 +1,22 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-reader-theme="light">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#171b25">
   <link rel="icon" href="assets/favicon.svg">
   <title>Leitor — PageZone</title>
+  <script>
+    (() => {
+      try {
+        const theme = localStorage.getItem("readerTheme");
+        if (theme === "dark") {
+          document.documentElement.dataset.readerTheme = "dark";
+          document.querySelector('meta[name="theme-color"]').content = "#12161f";
+        }
+      } catch (_) {}
+    })();
+  </script>
   <link rel="stylesheet" href="app/reader.css">
   <script src="app/library.js" defer></script>
   <script src="app/progress.js" defer></script>
@@ -16,7 +27,13 @@
   <a class="skip-link" href="#chapter-content">Pular para o capítulo</a>
   <header class="reader-header">
     <a href="./" class="brand">← <span>PageZone</span></a>
-    <button id="index-toggle" type="button" disabled aria-expanded="false" aria-controls="chapter-index">Índice</button>
+    <div class="reader-actions">
+      <div class="theme-control" role="group" aria-label="Aparência da leitura">
+        <button id="theme-light" type="button" data-theme-choice="light" aria-label="Usar tema claro" aria-pressed="true"><span aria-hidden="true">☀</span> Claro</button>
+        <button id="theme-dark" type="button" data-theme-choice="dark" aria-label="Usar tema escuro" aria-pressed="false"><span aria-hidden="true">☾</span> Escuro</button>
+      </div>
+      <button id="index-toggle" type="button" disabled aria-expanded="false" aria-controls="chapter-index">Índice</button>
+    </div>
   </header>
   <main>
     <section id="reader-loading" class="loading" aria-live="polite">Abrindo obra…</section>

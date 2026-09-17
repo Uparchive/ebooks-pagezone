@@ -77,13 +77,29 @@ const server = http.createServer((req,res) => {
     assert.equal(await page.locator('#chapter-label').innerText(),'Capítulo 5');
     await page.reload();await page.waitForSelector('#reader:visible');assert.equal(await page.locator('#chapter-label').innerText(),'Capítulo 5');
     console.log('J: direct route, reload, index, next and previous');
+    await page.getByRole('button',{name:'Usar tema escuro'}).click();
+    assert.equal(await page.evaluate(()=>localStorage.getItem('readerTheme')),'dark');
+    assert.equal(await page.locator('html').getAttribute('data-reader-theme'),'dark');
+    assert.equal(await page.getByRole('button',{name:'Usar tema escuro'}).getAttribute('aria-pressed'),'true');
+    await page.getByRole('link',{name:'Próximo capítulo',exact:true}).click();await page.waitForSelector('#reader:visible');
+    assert.equal(await page.locator('html').getAttribute('data-reader-theme'),'dark');
+    await page.getByRole('link',{name:'Capítulo anterior',exact:true}).click();await page.waitForSelector('#reader:visible');
+    assert.equal(await page.locator('html').getAttribute('data-reader-theme'),'dark');
+    await reader('echoes-of-eternity',5);assert.equal(await page.locator('html').getAttribute('data-reader-theme'),'dark');
+    await page.reload();await page.waitForSelector('#reader:visible');assert.equal(await page.locator('html').getAttribute('data-reader-theme'),'dark');
+    await page.getByRole('button',{name:'Usar tema claro'}).click();
+    assert.equal(await page.evaluate(()=>localStorage.getItem('readerTheme')),'light');
+    assert.equal(await page.locator('html').getAttribute('data-reader-theme'),'light');
+    console.log('Theme: dark persists across chapters, books and reload; light restores accessibly');
+    await page.evaluate(()=>localStorage.setItem('readerTheme','dark'));
     for(const width of [320,390,768,1024,1440]){
       await page.setViewportSize({width,height:900});await catalog();await noOverflow();
       await page.locator('#catalog-grid [data-book-id="urbans-family"]').click();assert.ok(await page.locator('#book-dialog').isVisible());await noOverflow();await page.getByRole('button',{name:'Fechar detalhes'}).click();
-      await reader('o-guardiao-da-promessa',0);await images();await noOverflow();
+      await reader('o-guardiao-da-promessa',0);await images();await noOverflow();assert.equal(await page.locator('html').getAttribute('data-reader-theme'),'dark');
       await page.getByRole('button',{name:'Índice',exact:true}).click();await noOverflow();await page.keyboard.press('Escape');assert.equal(await page.locator('#chapter-index').isVisible(),false);
     }
     console.log('K: 320/390/768/1024/1440px catalog, dialog, reader and index without overflow');
+    await page.evaluate(()=>localStorage.setItem('readerTheme','light'));
     assert.deepEqual(errors,[],'No console errors/warnings on normal paths');
     // Controlled failure cases: console diagnostics are expected from this point.
     await reader('urbans-family',999);assert.ok(await page.locator('#reader-notice').isVisible());
