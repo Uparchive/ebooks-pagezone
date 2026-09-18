@@ -1,8 +1,14 @@
-const CACHE_NAME = 'pagezone-pwa-v2';
+const CACHE_NAME = 'pagezone-pwa-v3';
 const APP_SHELL = [
   './',
   './index.html',
+  './book.html',
   './reader.html',
+  './app/theme.css',
+  './app/theme.js',
+  './app/shell.js',
+  './app/book.css',
+  './app/book.js',
   './matrixstyle.css',
   './app/reader.css',
   './app/library.js',

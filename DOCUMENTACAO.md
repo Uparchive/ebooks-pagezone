@@ -16,6 +16,14 @@ livros/<id>/
 
 A biblioteca e o leitor consomem o mesmo catálogo público `books.json`, publicado pelo fluxo editorial existente. O leitor carrega os capítulos pelo caminho desse catálogo. `data/books.json` permanece uma cópia gerada de compatibilidade, não a fonte da interface. Documentos de memória e planejamento nunca são referenciados pela interface.
 
+## Experiência do aplicativo
+
+O fluxo público é `index.html` (biblioteca e descoberta) → `book.html?book=<id>` (detalhes e capítulos) → `reader.html?book=<id>&chapter=<numero>` (leitura sem distrações). A biblioteca deriva prateleiras, destaque, estado e quantidade de capítulos exclusivamente do catálogo existente; progresso só é exibido quando há um registro local verdadeiro.
+
+`app/theme.js` e `app/theme.css` formam o sistema global de aparência. A preferência `light`, `dark` ou `system` fica em `localStorage.pagezone-theme`; no modo `system`, mudanças em `prefers-color-scheme` são acompanhadas enquanto a aplicação está aberta. Um script mínimo no início de cada página aplica o tema antes do CSS principal para evitar flash perceptível.
+
+`app/shell.js` controla a navegação compartilhada: sidebar compacta/expandida no desktop e drawer acessível no mobile. `app/book.js` renderiza a página da obra e `app/progress.js` continua sendo a fonte única do progresso anônimo. O leitor permanece independente do App Shell para preservar o foco, mas usa os mesmos tokens e a mesma preferência de aparência.
+
 ## Fonte da verdade e catálogo
 
 `book.json` é a fonte de verdade de metadados por obra. `scripts/build-catalog.js` gera `books.json` e a cópia de compatibilidade `data/books.json`. Nunca edite esses dois arquivos manualmente: altere o manifesto e execute `npm run build`.
@@ -78,4 +86,4 @@ A plataforma não implementa login, pagamentos, assinatura, analytics ou paywall
 
 ## Testes da interface
 
-`npm test` executa testes de identidade, fallback, armazenamento e assets. `npm run test:browser` executa os cenários A–K em Chromium, incluindo cinco larguras de tela e falhas simuladas. Antes do primeiro uso, execute `npm install` e `npx playwright install chromium`. O workflow separado `Library quality` verifica alterações da interface sem alterar a automação editorial.
+`npm test` executa testes de identidade, fallback, armazenamento e assets. `npm run test:browser` executa os cenários A–I em Chromium, incluindo o fluxo completo biblioteca–obra–leitor, temas claro/escuro/sistema, cinco larguras de tela e falhas simuladas. Antes do primeiro uso, execute `npm install` e `npx playwright install chromium`. O workflow separado `Library quality` verifica alterações da interface sem alterar a automação editorial.

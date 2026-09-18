@@ -1,136 +1,148 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-theme="light" data-theme-choice="system" data-sidebar="compact" data-drawer="closed">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#171b25">
-  <meta name="description" content="PageZone, uma biblioteca digital de histórias para descobrir e continuar lendo.">
+  <meta name="theme-color" content="#f4f1ea">
+  <meta name="description" content="PageZone, um app de histórias para descobrir, ler e continuar.">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="PageZone">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="assets/favicon.svg">
-  <title>PageZone — Biblioteca digital</title>
+  <title>PageZone — Histórias para descobrir</title>
+  <script>
+    (() => {
+      let choice = "system";
+      try { choice = localStorage.getItem("pagezone-theme") || localStorage.getItem("readerTheme") || "system"; } catch (_) {}
+      if (!["light", "dark", "system"].includes(choice)) choice = "system";
+      const theme = choice === "system" && matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : choice === "dark" ? "dark" : "light";
+      document.documentElement.dataset.themeChoice = choice;
+      document.documentElement.dataset.theme = theme;
+      document.querySelector('meta[name="theme-color"]').content = theme === "dark" ? "#11151d" : "#f4f1ea";
+    })();
+  </script>
+  <link rel="stylesheet" href="app/theme.css">
   <link rel="stylesheet" href="matrixstyle.css">
-  <style>
-    html:has(#book-dialog[open]),
-    body:has(#book-dialog[open]) {
-      overflow: hidden;
-      overscroll-behavior: none;
-    }
-    #book-dialog[open] {
-      overscroll-behavior: contain;
-    }
-    .install-app-button {
-      border: 1px solid #171b25;
-      border-radius: 9px;
-      background: #171b25;
-      color: #fff;
-      padding: .48rem .72rem;
-      font: inherit;
-      font-size: .78rem;
-      font-weight: 750;
-      line-height: 1;
-      white-space: nowrap;
-    }
-    .install-app-button:hover,
-    .install-app-button:focus-visible {
-      background: #30394b;
-    }
-    @media (max-width: 650px) {
-      .install-app-button {
-        padding: .44rem .58rem;
-        font-size: .7rem;
-      }
-    }
-  </style>
+  <script src="app/theme.js" defer></script>
   <script src="app/library.js" defer></script>
   <script src="app/progress.js" defer></script>
   <script src="app/images.js" defer></script>
+  <script src="app/shell.js" defer></script>
   <script src="script.js" defer></script>
   <script src="app/install.js" defer></script>
 </head>
-<body>
-  <a class="skip-link" href="#conteudo">Pular para o catálogo</a>
-  <header class="topbar">
-    <a class="brand" href="#inicio" aria-label="PageZone, início">
-      <span class="brand-mark" aria-hidden="true">PZ</span>
-      <span>PageZone</span>
-    </a>
-    <nav aria-label="Navegação principal">
-      <a href="#destaque">Novos livros</a>
-      <a href="#biblioteca">Minha biblioteca</a>
-      <a href="#contato">Contato</a>
-      <button id="install-app" class="install-app-button" type="button" aria-label="Instalar PageZone neste dispositivo">Instalar app</button>
-    </nav>
+<body data-current="home">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="mobile-topbar">
+    <button id="mobile-menu-toggle" class="icon-button" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="app-sidebar">☰</button>
+    <a class="brand" href="#inicio" aria-label="PageZone, início"><span class="brand-mark" aria-hidden="true">PZ</span><span>PageZone</span></a>
   </header>
 
-  <main id="conteudo">
-    <section class="hero" id="inicio" aria-labelledby="hero-title">
-      <div class="hero-copy">
-        <p class="eyebrow">Biblioteca digital</p>
-        <h1 id="hero-title">Histórias para entrar e <em>continuar</em>.</h1>
-        <p class="hero-text">Uma estante viva de mundos, ideias e narrativas em movimento.</p>
-        <form class="search" id="search-form" action="index.html" method="get" role="search">
-          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H11v17H6.5A2.5 2.5 0 0 0 4 22V5.5ZM20 5.5A2.5 2.5 0 0 0 17.5 3H13v17h4.5A2.5 2.5 0 0 1 20 22V5.5Z"/></svg>
-          <input id="search-input" name="q" aria-label="Pesquisar obras" type="search" placeholder="Pesquise por obras..." autocomplete="off">
-          <button type="submit" aria-label="Pesquisar"><svg class="search-lens" aria-hidden="true" viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.3"/><path d="m16 16 4.3 4.3"/></svg></button>
-        </form>
+  <button id="sidebar-overlay" class="sidebar-overlay" type="button" aria-label="Fechar menu" hidden></button>
+  <aside id="app-sidebar" class="app-sidebar" aria-label="Navegação principal">
+    <div class="sidebar-head">
+      <a class="sidebar-brand" href="#inicio" aria-label="PageZone, início"><span class="brand-mark" aria-hidden="true">PZ</span><span class="sidebar-wordmark">PageZone</span></a>
+      <button id="sidebar-toggle" class="sidebar-toggle" type="button" aria-label="Expandir menu lateral" aria-expanded="false"><span aria-hidden="true">›</span></button>
+    </div>
+    <nav class="sidebar-nav">
+      <a href="#inicio" data-nav="home"><span class="nav-icon" aria-hidden="true">⌂</span><span class="nav-label">Início</span></a>
+      <a href="#explorar" data-nav="explore"><span class="nav-icon" aria-hidden="true">⌕</span><span class="nav-label">Explorar</span></a>
+      <a href="#biblioteca" data-nav="library"><span class="nav-icon" aria-hidden="true">▣</span><span class="nav-label">Minha biblioteca</span></a>
+      <a href="#continuar" data-nav="continue"><span class="nav-icon" aria-hidden="true">◷</span><span class="nav-label">Continuar lendo</span></a>
+    </nav>
+    <div class="sidebar-bottom">
+      <p class="sidebar-section-title">Aparência</p>
+      <div class="theme-switch" role="group" aria-label="Aparência da PageZone">
+        <button type="button" data-theme-value="light" aria-label="Usar tema claro" aria-pressed="false"><span aria-hidden="true">☀</span><span class="theme-label">Claro</span></button>
+        <button type="button" data-theme-value="dark" aria-label="Usar tema escuro" aria-pressed="false"><span aria-hidden="true">☾</span><span class="theme-label">Escuro</span></button>
+        <button type="button" data-theme-value="system" aria-label="Usar tema do sistema" aria-pressed="true"><span aria-hidden="true">◐</span><span class="theme-label">Sistema</span></button>
       </div>
-      <div class="hero-art" aria-hidden="true"><span></span><span></span><span></span></div>
-    </section>
+      <button id="install-app" class="install-app-button" type="button" aria-label="Instalar PageZone neste dispositivo"><span aria-hidden="true">⇩</span><span class="nav-label">Instalar app</span></button>
+    </div>
+  </aside>
 
-    <section class="section featured-section" id="destaque" aria-label="Destaque editorial">
-      <p class="eyebrow">Destaque editorial</p>
-      <div id="featured-book" class="featured-book" aria-live="polite"></div>
-    </section>
+  <div class="app-frame">
+    <main id="conteudo">
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Seu próximo universo começa aqui</p>
+          <h1 id="hero-title">Histórias para entrar e <em>continuar</em>.</h1>
+          <p class="hero-text">Descubra mundos, acompanhe novos capítulos e retome cada leitura do ponto certo.</p>
+          <form class="search" id="search-form" action="index.html" method="get" role="search">
+            <span aria-hidden="true">⌕</span>
+            <input id="search-input" name="q" aria-label="Pesquisar obras" type="search" placeholder="Pesquisar histórias, gêneros..." autocomplete="off">
+            <button type="submit" aria-label="Pesquisar">Buscar</button>
+          </form>
+        </div>
+        <div id="hero-preview" class="hero-preview" aria-live="polite"></div>
+      </section>
 
-    <section class="section shelf-section" id="em-desenvolvimento" aria-labelledby="development-heading">
-      <div class="section-heading">
-        <div><p class="eyebrow">Histórias vivas</p><h2 id="development-heading">Em desenvolvimento</h2></div>
-        <p>Obras que ainda estão ganhando novos capítulos.</p>
-      </div>
-      <div id="development-shelf" class="book-shelf" aria-live="polite"></div>
-    </section>
+      <section class="app-section continue-section" id="continuar" hidden aria-labelledby="continue-heading">
+        <div class="section-heading">
+          <div><p class="eyebrow">De onde você parou</p><h2 id="continue-heading">Continue lendo</h2></div>
+        </div>
+        <div class="shelf-shell">
+          <button class="shelf-arrow previous" type="button" data-shelf-direction="previous" aria-label="Ver itens anteriores">‹</button>
+          <div id="continue-shelf" class="shelf-track continue-track" aria-live="polite"></div>
+          <button class="shelf-arrow next" type="button" data-shelf-direction="next" aria-label="Ver próximos itens">›</button>
+        </div>
+      </section>
 
-    <section class="section catalog-section" id="biblioteca" aria-labelledby="catalog-heading">
-      <div class="section-heading">
-        <div><p class="eyebrow">Catálogo completo</p><h2 id="catalog-heading" tabindex="-1">Minha biblioteca</h2></div>
-        <p id="catalog-count" aria-live="polite"></p>
-      </div>
-      <div class="filters" aria-label="Filtros do catálogo">
-        <div id="status-filters" class="filter-group" role="group" aria-label="Filtrar por status"></div>
-        <label class="genre-filter" for="genre-filter">Gênero <select id="genre-filter"><option value="">Todos os gêneros</option></select></label>
-      </div>
-      <p id="catalog-loading" role="status">Carregando biblioteca…</p>
-      <div id="catalog-grid" class="catalog-grid" aria-live="polite"></div>
-      <div id="empty-state" class="empty-state" hidden>
-        <span aria-hidden="true">⌁</span>
-        <h3>Nenhum livro encontrado</h3>
-        <p>Tente outro título, gênero ou filtro.</p>
-        <button id="clear-filters" type="button">Limpar filtros</button>
-      </div>
-    </section>
+      <section class="app-section featured-section" id="destaque" aria-labelledby="featured-heading">
+        <div class="section-heading"><div><p class="eyebrow">Seleção PageZone</p><h2 id="featured-heading">Em destaque</h2></div></div>
+        <div id="featured-book" class="featured-book" aria-live="polite"></div>
+      </section>
 
-    <section class="section shelf-section completed-section" id="concluidos" aria-labelledby="completed-heading">
-      <div class="section-heading">
-        <div><p class="eyebrow">Histórias completas</p><h2 id="completed-heading">Concluídos</h2></div>
-        <p>Obras para ler do começo ao fim.</p>
-      </div>
-      <div id="completed-shelf" class="book-shelf" aria-live="polite"></div>
-    </section>
-  </main>
+      <section class="app-section" id="em-desenvolvimento" aria-labelledby="development-heading">
+        <div class="section-heading">
+          <div><p class="eyebrow">Novos capítulos</p><h2 id="development-heading">Histórias em andamento</h2></div>
+          <p>Obras que continuam crescendo.</p>
+        </div>
+        <div class="shelf-shell">
+          <button class="shelf-arrow previous" type="button" data-shelf-direction="previous" aria-label="Ver itens anteriores">‹</button>
+          <div id="development-shelf" class="shelf-track" aria-live="polite"></div>
+          <button class="shelf-arrow next" type="button" data-shelf-direction="next" aria-label="Ver próximos itens">›</button>
+        </div>
+      </section>
 
-  <footer id="contato">
-    <a class="brand" href="#inicio"><span class="brand-mark" aria-hidden="true">PZ</span><span>PageZone</span></a>
-    <p>Uma biblioteca digital em crescimento.</p>
-    <a href="mailto:uparchive@gmail.com">Contato editorial</a>
-  </footer>
+      <section class="app-section" id="concluidos" aria-labelledby="completed-heading">
+        <div class="section-heading">
+          <div><p class="eyebrow">Maratone do início ao fim</p><h2 id="completed-heading">Obras concluídas</h2></div>
+          <p>Histórias completas, prontas para leitura.</p>
+        </div>
+        <div class="shelf-shell">
+          <button class="shelf-arrow previous" type="button" data-shelf-direction="previous" aria-label="Ver itens anteriores">‹</button>
+          <div id="completed-shelf" class="shelf-track" aria-live="polite"></div>
+          <button class="shelf-arrow next" type="button" data-shelf-direction="next" aria-label="Ver próximos itens">›</button>
+        </div>
+      </section>
 
-  <dialog id="book-dialog" aria-labelledby="dialog-title">
-    <button class="dialog-close" type="button" aria-label="Fechar detalhes">×</button>
-    <div id="dialog-content"></div>
-  </dialog>
+      <section class="app-section catalog-section" id="explorar" aria-labelledby="catalog-heading">
+        <div class="section-heading">
+          <div><p class="eyebrow">Todos os mundos</p><h2 id="catalog-heading" tabindex="-1">Explorar biblioteca</h2></div>
+          <p id="catalog-count" aria-live="polite"></p>
+        </div>
+        <div class="filters" id="biblioteca" aria-label="Filtros do catálogo">
+          <div id="status-filters" class="filter-group" role="group" aria-label="Filtrar por status"></div>
+          <label class="genre-filter" for="genre-filter">Gênero <select id="genre-filter"><option value="">Todos</option></select></label>
+        </div>
+        <p id="catalog-loading" role="status">Carregando biblioteca…</p>
+        <div id="catalog-grid" class="catalog-grid" aria-live="polite"></div>
+        <div id="empty-state" class="empty-state" hidden>
+          <span aria-hidden="true">⌁</span><h3>Nenhuma história encontrada</h3><p>Tente outro título, gênero ou filtro.</p>
+          <button id="clear-filters" type="button">Limpar filtros</button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <a class="brand" href="#inicio"><span class="brand-mark" aria-hidden="true">PZ</span><span>PageZone</span></a>
+      <p>Uma plataforma viva de histórias.</p>
+      <a href="mailto:uparchive@gmail.com">Contato editorial</a>
+    </footer>
+  </div>
 </body>
 </html>

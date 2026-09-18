@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="light" data-theme-choice="system" data-sidebar="compact" data-drawer="closed">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f1ea">
+  <meta name="description" content="Detalhes da obra na PageZone.">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/favicon.svg">
+  <title>Obra — PageZone</title>
+  <script>
+    (() => {
+      let choice = "system";
+      try { choice = localStorage.getItem("pagezone-theme") || localStorage.getItem("readerTheme") || "system"; } catch (_) {}
+      if (!["light", "dark", "system"].includes(choice)) choice = "system";
+      const theme = choice === "system" && matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : choice === "dark" ? "dark" : "light";
+      document.documentElement.dataset.themeChoice = choice; document.documentElement.dataset.theme = theme;
+      document.querySelector('meta[name="theme-color"]').content = theme === "dark" ? "#11151d" : "#f4f1ea";
+    })();
+  </script>
+  <link rel="stylesheet" href="app/theme.css">
+  <link rel="stylesheet" href="matrixstyle.css">
+  <link rel="stylesheet" href="app/book.css">
+  <script src="app/theme.js" defer></script>
+  <script src="app/library.js" defer></script>
+  <script src="app/progress.js" defer></script>
+  <script src="app/images.js" defer></script>
+  <script src="app/shell.js" defer></script>
+  <script src="app/book.js" defer></script>
+  <script src="app/install.js" defer></script>
+</head>
+<body data-current="library">
+  <a class="skip-link" href="#obra">Pular para a obra</a>
+  <header class="mobile-topbar">
+    <button id="mobile-menu-toggle" class="icon-button" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="app-sidebar">☰</button>
+    <a class="brand" href="./" aria-label="PageZone, biblioteca"><span class="brand-mark" aria-hidden="true">PZ</span><span>PageZone</span></a>
+  </header>
+  <button id="sidebar-overlay" class="sidebar-overlay" type="button" aria-label="Fechar menu" hidden></button>
+  <aside id="app-sidebar" class="app-sidebar" aria-label="Navegação principal">
+    <div class="sidebar-head">
+      <a class="sidebar-brand" href="./" aria-label="PageZone, biblioteca"><span class="brand-mark" aria-hidden="true">PZ</span><span class="sidebar-wordmark">PageZone</span></a>
+      <button id="sidebar-toggle" class="sidebar-toggle" type="button" aria-label="Expandir menu lateral" aria-expanded="false"><span aria-hidden="true">›</span></button>
+    </div>
+    <nav class="sidebar-nav">
+      <a href="./#inicio" data-nav="home"><span class="nav-icon" aria-hidden="true">⌂</span><span class="nav-label">Início</span></a>
+      <a href="./#explorar" data-nav="explore"><span class="nav-icon" aria-hidden="true">⌕</span><span class="nav-label">Explorar</span></a>
+      <a href="./#biblioteca" data-nav="library"><span class="nav-icon" aria-hidden="true">▣</span><span class="nav-label">Minha biblioteca</span></a>
+      <a href="./#continuar" data-nav="continue"><span class="nav-icon" aria-hidden="true">◷</span><span class="nav-label">Continuar lendo</span></a>
+    </nav>
+    <div class="sidebar-bottom">
+      <p class="sidebar-section-title">Aparência</p>
+      <div class="theme-switch" role="group" aria-label="Aparência da PageZone">
+        <button type="button" data-theme-value="light" aria-label="Usar tema claro" aria-pressed="false"><span aria-hidden="true">☀</span><span class="theme-label">Claro</span></button>
+        <button type="button" data-theme-value="dark" aria-label="Usar tema escuro" aria-pressed="false"><span aria-hidden="true">☾</span><span class="theme-label">Escuro</span></button>
+        <button type="button" data-theme-value="system" aria-label="Usar tema do sistema" aria-pressed="true"><span aria-hidden="true">◐</span><span class="theme-label">Sistema</span></button>
+      </div>
+      <button id="install-app" class="install-app-button" type="button" aria-label="Instalar PageZone neste dispositivo"><span aria-hidden="true">⇩</span><span class="nav-label">Instalar app</span></button>
+    </div>
+  </aside>
+
+  <div class="app-frame">
+    <main id="obra" class="book-page">
+      <p id="book-loading" class="book-loading" role="status">Abrindo obra…</p>
+      <div id="book-recovery" class="book-loading" hidden><p>Não foi possível abrir esta obra.</p><a class="button secondary" href="./">Voltar à biblioteca</a></div>
+      <article id="book-details" hidden>
+        <section class="book-hero">
+          <div class="book-art"><img id="detail-cover" alt=""></div>
+          <div class="book-summary">
+            <a class="back-link" href="./#biblioteca">← Biblioteca</a>
+            <p id="detail-status" class="eyebrow"></p>
+            <h1 id="detail-title"></h1>
+            <p id="detail-description" class="detail-description"></p>
+            <div id="detail-genres" class="detail-genres"></div>
+            <p id="detail-meta" class="detail-meta"></p>
+            <div id="detail-progress" class="detail-progress" hidden>
+              <div class="progress-copy"><span id="progress-label"></span><strong id="progress-percent"></strong></div>
+              <div class="reading-progress"><span id="progress-bar"></span></div>
+            </div>
+            <div class="button-row">
+              <a id="primary-reading-action" class="button" href="">Começar a ler</a>
+              <a class="button secondary" href="#capitulos">Ver capítulos</a>
+            </div>
+          </div>
+        </section>
+        <section id="capitulos" class="chapter-section" aria-labelledby="chapters-heading">
+          <div class="section-heading"><div><p class="eyebrow">Da primeira à última página</p><h2 id="chapters-heading">Capítulos</h2></div><p id="chapters-count"></p></div>
+          <div id="chapters-list" class="chapters-list"></div>
+        </section>
+      </article>
+    </main>
+    <footer><a class="brand" href="./"><span class="brand-mark" aria-hidden="true">PZ</span><span>PageZone</span></a><p>Uma plataforma viva de histórias.</p><a href="mailto:uparchive@gmail.com">Contato editorial</a></footer>
+  </div>
+</body>
+</html>

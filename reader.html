@@ -1,23 +1,26 @@
 <!doctype html>
-<html lang="pt-BR" data-reader-theme="light">
+<html lang="pt-BR" data-theme="light" data-theme-choice="system">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#171b25">
+  <meta name="theme-color" content="#f4f1ea">
   <link rel="icon" href="assets/favicon.svg">
   <title>Leitor — PageZone</title>
   <script>
     (() => {
       try {
-        const theme = localStorage.getItem("readerTheme");
-        if (theme === "dark") {
-          document.documentElement.dataset.readerTheme = "dark";
-          document.querySelector('meta[name="theme-color"]').content = "#12161f";
-        }
+        let choice = localStorage.getItem("pagezone-theme") || localStorage.getItem("readerTheme") || "system";
+        if (!["light", "dark", "system"].includes(choice)) choice = "system";
+        const theme = choice === "system" && matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : choice === "dark" ? "dark" : "light";
+        document.documentElement.dataset.themeChoice = choice;
+        document.documentElement.dataset.theme = theme;
+        document.querySelector('meta[name="theme-color"]').content = theme === "dark" ? "#11151d" : "#f4f1ea";
       } catch (_) {}
     })();
   </script>
+  <link rel="stylesheet" href="app/theme.css">
   <link rel="stylesheet" href="app/reader.css">
+  <script src="app/theme.js" defer></script>
   <script src="app/library.js" defer></script>
   <script src="app/progress.js" defer></script>
   <script src="app/images.js" defer></script>
@@ -29,8 +32,9 @@
     <a href="./" class="brand">← <span>PageZone</span></a>
     <div class="reader-actions">
       <div class="theme-control" role="group" aria-label="Aparência da leitura">
-        <button id="theme-light" type="button" data-theme-choice="light" aria-label="Usar tema claro" aria-pressed="true"><span aria-hidden="true">☀</span> Claro</button>
-        <button id="theme-dark" type="button" data-theme-choice="dark" aria-label="Usar tema escuro" aria-pressed="false"><span aria-hidden="true">☾</span> Escuro</button>
+        <button id="theme-light" type="button" data-theme-value="light" aria-label="Usar tema claro" aria-pressed="false"><span aria-hidden="true">☀</span><span class="theme-label">Claro</span></button>
+        <button id="theme-dark" type="button" data-theme-value="dark" aria-label="Usar tema escuro" aria-pressed="false"><span aria-hidden="true">☾</span><span class="theme-label">Escuro</span></button>
+        <button id="theme-system" type="button" data-theme-value="system" aria-label="Usar tema do sistema" aria-pressed="true"><span aria-hidden="true">◐</span><span class="theme-label">Sistema</span></button>
       </div>
       <button id="index-toggle" type="button" disabled aria-expanded="false" aria-controls="chapter-index">Índice</button>
     </div>

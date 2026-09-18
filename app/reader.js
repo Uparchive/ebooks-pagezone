@@ -3,28 +3,10 @@
   const params = new URLSearchParams(location.search);
   const $ = id => document.getElementById(id);
   const P = window.PageZone, progress = window.PageZoneProgress;
-  const THEME_KEY = "readerTheme";
   const safe = v => String(v ?? "").replace(/[&<>"']/g, c => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#039;" })[c]);
   function notice(message) { $("reader-notice").textContent = message; $("reader-notice").hidden = false; }
   function storageNotice() { notice("Seu navegador não permite salvar o progresso. Você pode continuar lendo nesta sessão."); }
   document.addEventListener("pagezone:storage-unavailable", storageNotice);
-  function applyTheme(theme, persist = false) {
-    const selected = theme === "dark" ? "dark" : "light";
-    document.documentElement.dataset.readerTheme = selected;
-    document.querySelector('meta[name="theme-color"]').content = selected === "dark" ? "#12161f" : "#f6f3ed";
-    document.querySelectorAll("[data-theme-choice]").forEach(button => {
-      button.setAttribute("aria-pressed", String(button.dataset.themeChoice === selected));
-    });
-    if (persist) {
-      try { localStorage.setItem(THEME_KEY, selected); } catch (_) {}
-    }
-  }
-  function initTheme() {
-    applyTheme(document.documentElement.dataset.readerTheme);
-    document.querySelectorAll("[data-theme-choice]").forEach(button => {
-      button.addEventListener("click", () => applyTheme(button.dataset.themeChoice, true));
-    });
-  }
   function setNav(element, book, chapter) {
     element.hidden = !chapter;
     if (chapter) element.href = P.route(book.id, chapter.number);
@@ -95,5 +77,5 @@
       console.error(error);
     }
   }
-  document.addEventListener("DOMContentLoaded", () => { initTheme(); init(); });
+  document.addEventListener("DOMContentLoaded", init);
 })();
