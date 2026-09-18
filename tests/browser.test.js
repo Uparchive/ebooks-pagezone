@@ -109,7 +109,11 @@ const server = http.createServer((req,res) => {
     const old=await isolated.newPage();await old.goto(base+'reader.html?book=urbans-family');await old.waitForSelector('#reader:visible');assert.equal(await old.locator('#chapter-label').innerText(),'Capítulo 10');await isolated.close();
     const blocked=await browser.newContext();await blocked.addInitScript(()=>{Object.defineProperty(window,'localStorage',{get(){throw Error('denied');}});});
     const denied=await blocked.newPage();await denied.goto(base+'reader.html?book=urbans-family&chapter=10');await denied.waitForSelector('#reader:visible');assert.match(await denied.locator('#reader-notice').innerText(),/não permite salvar/);await blocked.close();
-    await page.route('**/capa.png',route=>route.abort());await reader('urbans-family',0);await page.waitForSelector('#book-cover[data-fallback]');await page.waitForFunction(()=>document.querySelector('#book-cover').naturalWidth>0);await page.unroute('**/capa.png');
+    const fallbackContext=await browser.newContext({serviceWorkers:'block'});
+    const fallbackPage=await fallbackContext.newPage();
+    await fallbackPage.route('**/capa.png',route=>route.abort());
+    await fallbackPage.goto(base+'reader.html?book=urbans-family&chapter=0');await fallbackPage.waitForSelector('#reader:visible');
+    await fallbackPage.waitForSelector('#book-cover[data-fallback]');await fallbackPage.waitForFunction(()=>document.querySelector('#book-cover').naturalWidth>0);await fallbackContext.close();
     await page.route('**/books.json',route=>route.fulfill({status:503,body:'Unavailable'}));await page.goto(base);await page.waitForSelector('#catalog-loading a');assert.match(await page.locator('#catalog-loading').innerText(),/Tentar novamente/);
     console.log('Failure cases: invalid routes, legacy/corrupt/blocked storage, image and catalog failure all recover');
     await context.close();
