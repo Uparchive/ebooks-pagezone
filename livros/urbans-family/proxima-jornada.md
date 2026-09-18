@@ -1,13 +1,13 @@
 # Próxima jornada — Urbans Family
 
 ## Onde a história parou
-Capítulo 33, **O Quadro**: uma captura de 20:03:18 mostra um veículo administrativo compatível com o perfil do 6F-12 diante do PA-L, com o portão lateral aberto e uma figura transportando algo retangular. Fábio está documentalmente no despacho às 20:09, entre a chamada do ramal 214 à manutenção e a abertura da VP-2091.
+Capítulo 34, **O Lacre**: a cadeia L-7714 → abertura AE-17 → L-7731 identifica operacionalmente o 6F-12 na passagem pelo ponto. O livro de materiais registra uma caixa R2 como `TRANSFERÊNCIA 2091 / VOLUME 4`, acompanhada da rubrica `F.L.`.
 
 ## Objetivo da próxima jornada
-Identificar de forma independente o veículo do quadro e descobrir o que a figura transportava pelo portão, buscando cruzamento com o volume 4 sem pressupor identidade.
+Confirmar de forma independente quem escreveu `F.L.` e descobrir o conteúdo da caixa R2 por inventário, peso, selo, etiqueta ou outro registro.
 
 ## Tensão a manter
-A imagem confirma atividade no PA-L e o registro confirma presença de Fábio no despacho, mas não identifica placa, pessoa, objeto nem autor das chamadas. Andrade continua sem elo documental atual.
+A rubrica aproxima Fábio do volume 4, mas iniciais não são prova de autoria. A caixa R2 é o volume 4, porém seu conteúdo ainda não foi demonstrado como o malote. Andrade continua sem elo documental atual.
 
 ## Tarefa
-Continuar diretamente de **O Quadro**, procurando uma segunda fonte que transforme o veículo compatível em veículo identificado e o objeto retangular em evidência rastreável.
+Continuar diretamente de **O Lacre**, transformando a rubrica e o conteúdo da caixa em evidências verificáveis sem saltar de associação para culpa.

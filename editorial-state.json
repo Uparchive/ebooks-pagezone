@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "activeBookId": "urbans-family",
   "stage": "WRITING",
-  "lastExecution": "2026-09-17",
-  "nextObjective": "Identificar de forma independente o veículo do quadro de 20:03:18 e descobrir o que atravessou o portão do PA-L.",
+  "lastExecution": "2026-09-18",
+  "nextObjective": "Confirmar a autoria da rubrica F.L. e identificar o conteúdo do volume 4 por fonte independente.",
   "legacyQueue": ["urbans-family", "o-batuque-no-quarto-ao-lado", "365-dias-diversos", "diario-de-omega"],
   "rules": {"oneActiveBook": true, "completeLegacyBeforeNew": true, "publicContentOnly": true}
 }
