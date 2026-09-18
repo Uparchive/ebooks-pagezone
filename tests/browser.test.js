@@ -114,7 +114,10 @@ const server = http.createServer((req,res) => {
     await fallbackPage.route('**/capa.png',route=>route.abort());
     await fallbackPage.goto(base+'reader.html?book=urbans-family&chapter=0');await fallbackPage.waitForSelector('#reader:visible');
     await fallbackPage.waitForSelector('#book-cover[data-fallback]');await fallbackPage.waitForFunction(()=>document.querySelector('#book-cover').naturalWidth>0);await fallbackContext.close();
-    await page.route('**/books.json',route=>route.fulfill({status:503,body:'Unavailable'}));await page.goto(base);await page.waitForSelector('#catalog-loading a');assert.match(await page.locator('#catalog-loading').innerText(),/Tentar novamente/);
+    const catalogFailureContext=await browser.newContext({serviceWorkers:'block'});
+    const catalogFailurePage=await catalogFailureContext.newPage();
+    await catalogFailurePage.route('**/books.json',route=>route.fulfill({status:503,body:'Unavailable'}));await catalogFailurePage.goto(base);
+    await catalogFailurePage.waitForSelector('#catalog-loading a');assert.match(await catalogFailurePage.locator('#catalog-loading').innerText(),/Tentar novamente/);await catalogFailureContext.close();
     console.log('Failure cases: invalid routes, legacy/corrupt/blocked storage, image and catalog failure all recover');
     await context.close();
     console.log('PASS: all PageZone browser scenarios');
