@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "activeBookId": "urbans-family",
   "stage": "WRITING",
-  "lastExecution": "2026-09-18",
-  "nextObjective": "Confirmar a autoria da rubrica F.L. e identificar o conteúdo do volume 4 por fonte independente.",
+  "lastExecution": "2026-09-19",
+  "nextObjective": "Identificar documentalmente as pastas 17-43 e descobrir por que foram retiradas da RT-2091.",
   "legacyQueue": ["urbans-family", "o-batuque-no-quarto-ao-lado", "365-dias-diversos", "diario-de-omega"],
   "rules": {"oneActiveBook": true, "completeLegacyBeforeNew": true, "publicContentOnly": true}
 }

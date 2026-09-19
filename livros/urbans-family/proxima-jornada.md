@@ -1,13 +1,13 @@
 # Próxima jornada — Urbans Family
 
 ## Onde a história parou
-Capítulo 34, **O Lacre**: a cadeia L-7714 → abertura AE-17 → L-7731 identifica operacionalmente o 6F-12 na passagem pelo ponto. O livro de materiais registra uma caixa R2 como `TRANSFERÊNCIA 2091 / VOLUME 4`, acompanhada da rubrica `F.L.`.
+Capítulo 35, **A Rubrica**: a rubrica `F.L.` da baixa da caixa R2 foi atribuída documentalmente a Fábio Lacerda; o peso de 6,8 kg confirma a caixa como o volume 4. A etiqueta carbonada declara `PASTAS ADMINISTRATIVAS`, faixa `17-43`, com origem no Arquivo Temporário / Sala 2.
 
 ## Objetivo da próxima jornada
-Confirmar de forma independente quem escreveu `F.L.` e descobrir o conteúdo da caixa R2 por inventário, peso, selo, etiqueta ou outro registro.
+Identificar as pastas 17-43 em inventário, índice ou protocolo anterior e descobrir por que esse conjunto documental foi retirado da RT-2091.
 
 ## Tensão a manter
-A rubrica aproxima Fábio do volume 4, mas iniciais não são prova de autoria. A caixa R2 é o volume 4, porém seu conteúdo ainda não foi demonstrado como o malote. Andrade continua sem elo documental atual.
+Fábio rubricou a baixa, mas isso não prova que conhecia uma fraude. A descrição da caixa confirma pastas administrativas, não o malote. Andrade continua sem elo documental atual.
 
 ## Tarefa
-Continuar diretamente de **O Lacre**, transformando a rubrica e o conteúdo da caixa em evidências verificáveis sem saltar de associação para culpa.
+Continuar diretamente de **A Rubrica**, transformando a faixa 17-43 em conteúdo identificável e motivo verificável, sem saltar de cadeia documental para culpa.
