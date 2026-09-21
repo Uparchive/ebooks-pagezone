@@ -2,19 +2,10 @@
   "schemaVersion": 1,
   "bookId": "urbans-family",
   "editorialState": "WRITING",
-  "publishedRange": {"first": 0, "last": 35},
-  "lastChapter": {"number": 35, "title": "A Rubrica"},
-  "openThreads": [
-    "Identificar as pastas administrativas 17-43 e a razão de seu desvio.",
-    "Determinar se o conteúdo do volume 4 corresponde ao malote/documentos procurados.",
-    "Determinar quem usou o ramal 214 às 20:06 e 20:11.",
-    "Descobrir quem escreveu a anotação 20:03 — PA-L? na VP-2091.",
-    "Rastrear PAT-04/CMOURA, Paulo Neri e Marcos Vale.",
-    "Confirmar ligação atual da cadeia com Andrade e o papel real de Mendes/Ribeiro.",
-    "Proteger Ana, Clara e Carlos.",
-    "O estado definitivo de Diego permanece não confirmado."
-  ],
-  "nextAction": "Identificar documentalmente as pastas 17-43 e descobrir por que foram retiradas da RT-2091.",
+  "publishedRange": {"first": 0, "last": 36},
+  "lastChapter": {"number": 36, "title": "O Índice"},
+  "openThreads": ["Rastrear a origem de MV-214 e recuperar a outra via.", "Descobrir como RC-12 foi incluído na RT-2091 sem autorização.", "Confirmar ou refutar ligação atual com Andrade.", "O estado definitivo de Diego permanece não confirmado."],
+  "nextAction": "Rastrear MV-214 até sua origem e recuperar uma segunda via.",
   "chapterLedgerSource": "chapters.json",
   "spoilersInternal": true
 }

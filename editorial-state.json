@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "activeBookId": "urbans-family",
   "stage": "WRITING",
-  "lastExecution": "2026-09-19",
-  "nextObjective": "Identificar documentalmente as pastas 17-43 e descobrir por que foram retiradas da RT-2091.",
+  "lastExecution": "2026-09-21",
+  "nextObjective": "Rastrear MV-214 até sua origem e recuperar uma segunda via.",
   "legacyQueue": ["urbans-family", "o-batuque-no-quarto-ao-lado", "365-dias-diversos", "diario-de-omega"],
   "rules": {"oneActiveBook": true, "completeLegacyBeforeNew": true, "publicContentOnly": true}
 }
