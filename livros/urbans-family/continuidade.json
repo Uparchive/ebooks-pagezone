@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "bookId": "urbans-family",
   "editorialState": "WRITING",
-  "publishedRange": {"first": 0, "last": 36},
-  "lastChapter": {"number": 36, "title": "O Índice"},
-  "openThreads": ["Rastrear a origem de MV-214 e recuperar a outra via.", "Descobrir como RC-12 foi incluído na RT-2091 sem autorização.", "Confirmar ou refutar ligação atual com Andrade.", "O estado definitivo de Diego permanece não confirmado."],
-  "nextAction": "Rastrear MV-214 até sua origem e recuperar uma segunda via.",
+  "publishedRange": {"first": 0, "last": 38},
+  "lastChapter": {"number": 38, "title": "O Recebimento"},
+  "openThreads": ["Rastrear o lacre AC47-06 no termo de conferência do processo AC-47.", "Descobrir como RC-12 foi incluído na RT-2091 sem autorização.", "Confirmar ou refutar ligação atual com Andrade.", "O estado definitivo de Diego permanece não confirmado."],
+  "nextAction": "Localizar o termo de conferência do AC-47 e estabelecer o destino do lacre AC47-06 após 16:42.",
   "chapterLedgerSource": "chapters.json",
   "spoilersInternal": true
 }
