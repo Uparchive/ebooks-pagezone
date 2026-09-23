@@ -1,10 +1,10 @@
 # Planejamento editorial — Urbans Family
 
 ## Estado
-Capítulo 36 publicado. As pastas 17-43 foram identificadas; o núcleo 31-43 estava sob `RC-12 — REVISÃO DE CONFORMIDADE / PRESERVAÇÃO TEMPORÁRIA` e saiu da Sala 2 sem autorização registrada. A pasta 40 contém a entrada `MV-214`, com destinatário ilegível.
+Capítulo 38 publicado. `MV-214` foi identificado como malote do `PROCESSO AC-47 / ANEXOS DE CONFORMIDADE`, recebido na Sala 2 às 16:42. Presença, acesso e responsabilidade de turno convergem para Fábio Lacerda como recebedor operacional. A segunda via registra o lacre de origem `AC47-06`, ausente do índice preservado da pasta 40.
 
 ## Movimento imediato
-Rastrear `MV-214` até o protocolo de origem e buscar uma segunda via que identifique remetente, destinatário e natureza do malote.
+Localizar o termo de conferência do processo `AC-47` e determinar se `AC47-06` foi preservado, rompido, substituído, reembalado ou apenas deixou de ser transcrito.
 
 ## Restrições
-Não declarar Diego morto. Não afirmar que MV-214 é o malote procurado antes de confirmação independente. Não converter associação documental em culpa.
+Não declarar Diego morto. Não atribuir a Fábio conhecimento do conteúdo ou participação consciente em fraude apenas pelo recebimento. Não tratar a ausência do lacre no índice como prova de violação. Não converter associação documental em culpa.
