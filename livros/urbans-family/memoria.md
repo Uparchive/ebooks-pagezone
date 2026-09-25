@@ -1,13 +1,5 @@
 # Memória narrativa — Urbans Family
 
-## Estado atual
-Até o capítulo 38, a cadeia documental liga a RT-2091 ao volume 4 (caixa R2, 6,8 kg), retirado no PA-L e contendo pastas 17-43 da Sala 2. O núcleo 31-43 estava sob `RC-12` sem autorização de saída. A pasta 40 preserva `MV-214`; sua segunda via `214-B` identifica origem no Núcleo de Controle Documental, destino Sala 2, conteúdo `PROCESSO AC-47 / ANEXOS DE CONFORMIDADE`, peso 1,4 kg e lacre `AC47-06`. Registros independentes de presença, acesso e responsabilidade de turno convergem para Fábio Lacerda como recebedor operacional às 16:42, sem provar ciência de fraude. O lacre `AC47-06` não aparece no índice preservado.
+Até o capítulo 40, João rastreou o MV-214 (AC-47) recebido por Fábio às 16:42: lacre AC47-06 chegou íntegro, foi rompido formalmente às 16:46 na conferência C-2 e substituído por AT2-118. OC-12, emitida em nome de Helena Duarte às 16:39, autoriza somente a conferência e a permanência do conjunto na Sala 2. AT2-118 aparece no inventário da prateleira B no dia seguinte. A caixa R2 (pastas 17–43) saiu na RT-2091 e foi baixada no PA-L, mas sua etiqueta não reproduz o lacre. Falta a baixa da prateleira B; o verso de OC-12 remete à via 2 BC-31.
 
-## Pontas abertas
-- Localizar o termo de conferência do `AC-47` e rastrear `AC47-06`.
-- Explicar a inclusão de `RC-12` na RT-2091 sem autorização formal.
-- Confirmar ou refutar ligação atual da cadeia com Andrade.
-- O estado definitivo de Diego permanece não confirmado.
-
-## Regra de continuidade
-`chapters.json` é a fonte canônica do publicado; em conflito, o texto publicado prevalece.
+Pontas abertas: localizar BC-31; explicar a saída do conjunto sob RC-12; apurar eventual conexão atual com Andrade; estado definitivo de Diego não confirmado. Não confundir responsabilidade de turno ou presença com ciência de fraude.

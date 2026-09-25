@@ -2,8 +2,17 @@
   "schemaVersion": 1,
   "activeBookId": "urbans-family",
   "stage": "WRITING",
-  "lastExecution": "2026-09-23",
-  "nextObjective": "Localizar o termo de conferência do AC-47 e rastrear o lacre AC47-06 após o recebimento.",
-  "legacyQueue": ["urbans-family", "o-batuque-no-quarto-ao-lado", "365-dias-diversos", "diario-de-omega"],
-  "rules": {"oneActiveBook": true, "completeLegacyBeforeNew": true, "publicContentOnly": true}
+  "lastExecution": "2026-09-25",
+  "nextObjective": "Localizar a baixa BC-31 e verificar a passagem de AT2-118 da prateleira B para a caixa R2 da RT-2091.",
+  "legacyQueue": [
+    "urbans-family",
+    "o-batuque-no-quarto-ao-lado",
+    "365-dias-diversos",
+    "diario-de-omega"
+  ],
+  "rules": {
+    "oneActiveBook": true,
+    "completeLegacyBeforeNew": true,
+    "publicContentOnly": true
+  }
 }

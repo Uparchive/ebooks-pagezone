@@ -1,10 +1,5 @@
 # Planejamento editorial — Urbans Family
 
-## Estado
-Capítulo 38 publicado. `MV-214` foi identificado como malote do `PROCESSO AC-47 / ANEXOS DE CONFORMIDADE`, recebido na Sala 2 às 16:42. Presença, acesso e responsabilidade de turno convergem para Fábio Lacerda como recebedor operacional. A segunda via registra o lacre de origem `AC47-06`, ausente do índice preservado da pasta 40.
+Capítulo 40: OC-12 autoriza conferência, não retirada. AT2-118 consta na prateleira B da Sala 2; a passagem documental para a caixa R2 na RT-2091 permanece sem baixa comprovada. A via 2 BC-31 é a próxima pista.
 
-## Movimento imediato
-Localizar o termo de conferência do processo `AC-47` e determinar se `AC47-06` foi preservado, rompido, substituído, reembalado ou apenas deixou de ser transcrito.
-
-## Restrições
-Não declarar Diego morto. Não atribuir a Fábio conhecimento do conteúdo ou participação consciente em fraude apenas pelo recebimento. Não tratar a ausência do lacre no índice como prova de violação. Não converter associação documental em culpa.
+Próximo movimento: localizar BC-31, identificar responsável e horário da baixa e cruzar com a separação da caixa R2. Preservar ambiguidades de Helena, Fábio, Valter e Andrade. Não declarar Diego morto.
