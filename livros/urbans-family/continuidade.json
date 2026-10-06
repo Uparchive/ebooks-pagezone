@@ -4,19 +4,20 @@
   "editorialState": "WRITING",
   "publishedRange": {
     "first": 0,
-    "last": 40
+    "last": 41
   },
   "lastChapter": {
-    "number": 40,
-    "title": "A Ordem"
+    "number": 41,
+    "title": "A Baixa"
   },
   "openThreads": [
-    "Localizar BC-31 e esclarecer baixa da prateleira B.",
+    "Confirmar SB-204 como origem da caixa R2 patrimônio 18-443.",
+    "Identificar a rubrica M.R. sem presumir autoria ou culpa.",
     "Explicar saída do conjunto sob RC-12 na RT-2091.",
     "Confirmar ou refutar ligação atual com Andrade.",
     "Estado definitivo de Diego não confirmado."
   ],
-  "nextAction": "Localizar BC-31 e confrontar a baixa da prateleira B com a separação da caixa R2.",
+  "nextAction": "Localizar o anexo de conferência de SB-204 na pasta de montagem 2091 e cruzar o patrimônio completo.",
   "chapterLedgerSource": "chapters.json",
   "spoilersInternal": true
 }

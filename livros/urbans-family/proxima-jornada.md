@@ -1,5 +1,5 @@
 # Próxima jornada — Urbans Family
 
-Capítulo 40, A Ordem: OC-12 foi localizada como autorização de conferência emitida em nome de Helena Duarte às 16:39, sem autorização de saída. AT2-118 aparece no inventário da Sala 2, prateleira B, mas a baixa dessa prateleira está ausente da via consultada. A etiqueta da caixa R2 na RT-2091 não registra o lacre. No verso de OC-12 aparece a referência BC-31, via 2 de custódia.
+Capítulo 41, **A Baixa**: BC-31 registra a saída de AT2-118 da prateleira B às 18:12 para triagem de transferência, sob a separação SB-204. O livro de separação associa SB-204 a `LOTE 6 / R2 — preparação externa`, mas ainda não comprova que seja a caixa R2 patrimônio 18-443. A baixa usa a matrícula de Fábio; a rubrica executora aparece como M.R., ainda não identificada.
 
-Próximo objetivo: localizar BC-31 e confrontar a baixa da prateleira B com a separação da caixa R2, sem atribuir fraude a Helena, Fábio ou Valter por associação documental.
+Próxima tarefa: localizar o anexo de conferência de SB-204 na pasta de montagem 2091 e confirmar o patrimônio completo, preservando a diferença entre responsabilidade administrativa, execução material e culpa.
