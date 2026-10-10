@@ -4,20 +4,20 @@
   "editorialState": "WRITING",
   "publishedRange": {
     "first": 0,
-    "last": 41
+    "last": 42
   },
   "lastChapter": {
-    "number": 41,
-    "title": "A Baixa"
+    "number": 42,
+    "title": "A Montagem"
   },
   "openThreads": [
-    "Confirmar SB-204 como origem da caixa R2 patrimônio 18-443.",
-    "Identificar a rubrica M.R. sem presumir autoria ou culpa.",
-    "Explicar saída do conjunto sob RC-12 na RT-2091.",
+    "Localizar a via de origem AD-47 e verificar competência e alcance.",
+    "Explicar a saída de pastas sob RC-12 na RT-2091.",
+    "Confirmar se AT2-118 permaneceu no conjunto após a triagem.",
     "Confirmar ou refutar ligação atual com Andrade.",
     "Estado definitivo de Diego não confirmado."
   ],
-  "nextAction": "Localizar o anexo de conferência de SB-204 na pasta de montagem 2091 e cruzar o patrimônio completo.",
+  "nextAction": "Obter AD-47 e norma de expedição vigente para distinguir autorização de destino de autorização de retirada.",
   "chapterLedgerSource": "chapters.json",
   "spoilersInternal": true
 }

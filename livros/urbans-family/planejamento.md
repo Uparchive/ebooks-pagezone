@@ -1,10 +1,10 @@
 # Planejamento editorial — Urbans Family
 
 ## Estado
-Capítulo 41: BC-31 fecha a passagem documental da prateleira B para SB-204. SB-204 aparece como `LOTE 6 / R2 — preparação externa`, mas ainda falta o anexo que confirme o patrimônio 18-443 e a entrada na RT-2091.
+Capítulo 42 fecha a ligação documental BC-31 → SB-204 → lote 6/R2 → patrimônio 18-443 → RT-2091. O conferente Marcelo Reis foi identificado por fontes convergentes, sem imputação de fraude. A AD-47 aparece como autorização de destino da expedição, ainda sem escopo comprovado.
 
 ## Movimento imediato
-Localizar o anexo de conferência de SB-204 na pasta de montagem 2091, recuperar o número patrimonial completo e só então fechar a continuidade física até a caixa R2.
+Obter via original de AD-47 e norma de expedição. Identificar emissor, horário, base legal e alcance; confrontar com a preservação RC-12. Evitar coincidências de código e acusações prematuras.
 
 ## Restrições
-Não atribuir a Fábio autoria material apenas pela matrícula de responsável. Não identificar M.R. sem fonte independente. Não converter sequência provável em prova. Não declarar Diego morto.
+Não declarar Diego morto. Não atribuir ciência de fraude a Fábio, Marcelo, Helena ou Valter sem evidência. Separar autorização de destino, baixa física e autorização de saída.
